@@ -44,8 +44,10 @@
 			</div>
 
 		</div>
+
 		<!-- Page content here -->
-		<slot />
+		<slot name="main"/>
+		<slot name="footer"/>
 	</div>
 	<div class="drawer-side z-50 grid lg:hidden">
 		<label for="menu-drawer" class="drawer-overlay" />

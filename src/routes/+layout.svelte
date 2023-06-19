@@ -7,11 +7,11 @@
 </script>
 
 <NavigationDrawer>
-	<div class="grow flex items-center">
+	<main slot="main" class="grow w-full">
 		<slot />
-	</div>
+	</main>
 
-	<footer class="footer footer-center p-4 bg-base-300 text-base-content">
+	<footer slot="footer" class="footer footer-center p-4 bg-base-300 text-base-content">
 		<div>
 			<p>Copyright © {year} - All right reserved by IIOT</p>
 		</div>
