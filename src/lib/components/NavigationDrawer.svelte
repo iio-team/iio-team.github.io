@@ -1,5 +1,6 @@
 <script>
 	import NavList from './NavList.svelte';
+	import ThemeSwitch from './ThemeSwitch.svelte';
 
 	let drawerOpened = false;
 </script>
@@ -37,8 +38,9 @@
 				</ul>
 			</div>
 
-			<div class="grow lg:grow-0 justify-end lg:justify-start gap-3">
+			<div class="grow lg:grow-0 justify-end lg:justify-start gap-5">
 				<a href="/participate" class="btn btn-ghost btn-outline ">Participate</a>
+				<ThemeSwitch />
 			</div>
 
 		</div>

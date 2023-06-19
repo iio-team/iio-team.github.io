@@ -8,7 +8,6 @@
 
 <NavigationDrawer>
 	<div class="grow flex items-center">
-		<span class="loading loading-infinity loading-lg"></span>
 		<slot />
 	</div>
 
