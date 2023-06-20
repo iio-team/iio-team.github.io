@@ -35,9 +35,9 @@
 						src="https://picsum.photos/1366/768?random={image.id}"
 						alt={image.name}
 					/>
-					<div class="modal-action m-2 lg:m-4 justify-center lg:justify-end">
+					<div class="hidden lg:flex modal-action m-4 justify-end">
 						<button class="btn">Close</button>
-					</div>
+					</div> 
 				</form>
 				<form method="dialog" class="modal-backdrop">
 					<button />
