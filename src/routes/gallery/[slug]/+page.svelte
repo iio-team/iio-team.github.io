@@ -20,15 +20,15 @@
 				onclick="{image.name}.showModal()"
 				class="card card-compact w-full lg:w-72 xl:w-96 bg-base-300 shadow-2xl overflow-hidden cursor-pointer"
 			>
-				<figure>
-					<img src="https://picsum.photos/1366/768?random={image.id}" alt={image.name} class="w-full object-cover transition-transform"/>
+				<figure class="w-full h-60 bg-red-neutral">
+					<img src="https://picsum.photos/1366/768?random={image.id}" alt={image.name} class="h-full"/>
 				</figure>
 			</button>
 
 			<dialog id={image.name} class="modal bg-black bg-opacity-60 backdrop-blur-sm">
 				<form method="dialog" class="modal-box p-0 w-11/12 sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl bg-base-300">
 					<img
-						class="w-full objcet-cover"
+						class="w-full"
 						src="https://picsum.photos/1366/768?random={image.id}"
 						alt={image.name}
 					/>
