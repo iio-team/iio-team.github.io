@@ -11,7 +11,7 @@
 
 <label class="btn btn-ghost btn-circle swap swap-rotate">
 	<!-- this hidden checkbox controls the state -->
-	<input type="checkbox" data-toggle-theme="dark,light" />
+	<input type="checkbox" checked data-toggle-theme="dark,light" />
 
 	<!-- sun icon -->
 	<svg class="swap-on fill-current w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"

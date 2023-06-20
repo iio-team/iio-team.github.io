@@ -39,15 +39,15 @@
 			</div>
 
 			<div class="grow lg:grow-0 justify-end lg:justify-start gap-5">
-				<a href="/participate" class="btn btn-ghost btn-outline ">Participate</a>
+				<a href="/participate" class="btn btn-ghost btn-outline">Participate</a>
 				<ThemeSwitch />
 			</div>
-
 		</div>
 
-		<!-- Page content here -->
-		<slot name="main"/>
-		<slot name="footer"/>
+		<!-- Page content -->
+		<slot name="main" />
+		<slot name="footer" />
+		<!-- Page content -->
 	</div>
 	<div class="drawer-side z-50 grid lg:hidden">
 		<label for="menu-drawer" class="drawer-overlay" />
