@@ -32,7 +32,7 @@
 			</div>
 
 			<div class="flex-none hidden lg:block">
-				<ul class="menu menu-horizontal gap-2">
+				<ul class="menu xl:menu-lg menu-horizontal gap-2">
 					<!-- Navbar menu content here -->
 					<NavList />
 				</ul>
@@ -51,7 +51,7 @@
 	</div>
 	<div class="drawer-side z-50 grid lg:hidden">
 		<label for="menu-drawer" class="drawer-overlay" />
-		<ul class="menu p-4 w-80 h-full bg-base-200">
+		<ul class="menu menu-lg p-4 w-80 h-full bg-base-200">
 			<!-- Sidebar content here -->
 			<NavList bind:drawerOpened />
 		</ul>
