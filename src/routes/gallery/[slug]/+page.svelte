@@ -18,13 +18,13 @@
 		</div>
 	</div>
 
-	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-8 py-12">
+	<div class="grid w-full lg:w-fit grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-8 py-12">
 		{#each data.images as image}
 			<button
 				onclick="{image.name}.showModal()"
 				class="card card-compact w-full lg:w-72 xl:w-96 bg-base-300 shadow-2xl overflow-hidden cursor-pointer"
 			>
-				<figure class="w-full h-60 bg-red-neutral">
+				<figure class="w-full h-60 bg-base-300">
 					<img src="https://picsum.photos/1366/768?random={image.id}" alt={image.name} class="h-full"/>
 				</figure>
 			</button>
