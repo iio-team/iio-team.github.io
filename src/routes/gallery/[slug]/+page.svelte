@@ -4,6 +4,10 @@
 	export let data;
 </script>
 
+<svelte:head>
+	<title>Some subgallery</title>
+</svelte:head>
+
 <div class="flex flex-col justify-start items-center bg-base-100">
 	<div class="hero h-80 bg-accent" style="background-image: url('https://picsum.photos/900/300')">
 		<div class="hero-overlay bg-opacity-60" />
