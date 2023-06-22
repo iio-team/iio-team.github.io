@@ -28,7 +28,7 @@
 				<figure class="w-full h-60 bg-base-300">
 					<img
 						src="https://picsum.photos/1366/768?random={gallery.id}"
-						class="h-full"
+						class="min-h-full object-cover"
 						alt=""
 					/>
 				</figure>

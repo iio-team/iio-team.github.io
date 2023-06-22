@@ -25,7 +25,7 @@
 				class="card card-compact w-full lg:w-72 xl:w-96 bg-base-300 shadow-2xl overflow-hidden cursor-pointer"
 			>
 				<figure class="w-full h-60 bg-base-300">
-					<img src="https://picsum.photos/1366/768?random={image.id}" alt={image.name} class="h-full"/>
+					<img src="https://picsum.photos/1366/768?random={image.id}" alt={image.name} class="min-h-full object-cover"/>
 				</figure>
 			</button>
 
