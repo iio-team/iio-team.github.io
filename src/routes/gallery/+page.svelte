@@ -8,7 +8,7 @@
 	<title>Gallery</title>
 </s-head>
 
-<div class="flex flex-col justify-start items-center bg-base-100">
+<div class="flex flex-col justify-start items-center">
 	<div class="hero h-80" style="background-image: url('https://picsum.photos/900/300')">
 		<div class="hero-overlay bg-opacity-60" />
 		<div class="hero-content text-center text-neutral-content">
