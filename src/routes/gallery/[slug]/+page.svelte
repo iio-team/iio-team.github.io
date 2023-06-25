@@ -8,7 +8,7 @@
 	<title>Some subgallery</title>
 </svelte:head>
 
-<div class="flex flex-col justify-start items-center bg-base-100">
+<div class="flex flex-col justify-start items-center">
 	<div class="hero h-80 bg-accent" style="background-image: url('https://picsum.photos/900/300')">
 		<div class="hero-overlay bg-opacity-60" />
 		<div class="hero-content text-center text-neutral-content">
@@ -29,7 +29,7 @@
 				</figure>
 			</button>
 
-			<dialog id={image.name} class="modal bg-black bg-opacity-60 backdrop-blur-sm">
+			<dialog id={image.name} class="modal bg-black bg-opacity-60 backdrop-blur-md">
 				<form method="dialog" class="modal-box p-0 w-11/12 sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl bg-base-300">
 					<img
 						class="w-full"
