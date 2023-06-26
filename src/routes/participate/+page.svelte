@@ -1,3 +1,3 @@
-<s-head>
+<svelte:head>
 	<title>Participate</title>
-</s-head>
+</svelte:head>

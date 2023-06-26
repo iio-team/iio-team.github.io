@@ -1,3 +1,3 @@
-<s-head>
+<svelte:head>
 	<title>Tasks</title>
-</s-head>
+</svelte:head>

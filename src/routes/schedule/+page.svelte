@@ -1,3 +1,3 @@
-<s-head>
+<svelte:head>
 	<title>Schedule</title>
-</s-head>
+</svelte:head>

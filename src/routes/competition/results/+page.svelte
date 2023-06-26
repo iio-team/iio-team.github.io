@@ -1,3 +1,3 @@
-<s-head>
+<svelte:head>
 	<title>Results</title>
-</s-head>
+</svelte:head>

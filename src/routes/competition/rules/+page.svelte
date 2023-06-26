@@ -1,3 +1,3 @@
-<s-head>
+<svelte:head>
 	<title>Rules</title>
-</s-head>
+</svelte:head>

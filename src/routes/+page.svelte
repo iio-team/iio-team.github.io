@@ -1,3 +1,3 @@
-<s-head>
+<svelte:head>
 	<title>Home</title>
-</s-head>
+</svelte:head>
