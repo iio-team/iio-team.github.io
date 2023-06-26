@@ -19,13 +19,13 @@
 
 <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full sm:w-fit py-12 px-8 gap-8">
 	{#each data.countries as country}
-		<div class="card w-full items-center sm:w-80 bg-base-300 shadow-xl">
-			<figure class="px-10 pt-10">
-				<div class="w-fit sm:w-60 sm:h-40">
+		<div class="card items-center w-full sm:w-80 bg-base-300 shadow-xl">
+			<figure class="px-10 pt-10 w-full h-fit">
+				<div class="w-full sm:h-40">
 					<img
 						src="/images/flags/{country.name}.svg"
 						alt="Flag"
-						class="rounded-xl w-full bg-center object-cover"
+						class="rounded-xl w-full max-h-fit sm:h-full bg-center object-cover"
 					/>
 				</div>
 			</figure>
