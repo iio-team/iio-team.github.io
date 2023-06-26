@@ -21,11 +21,11 @@
 	{#each data.countries as country}
 		<div class="card w-full items-center sm:w-80 bg-base-300 shadow-xl">
 			<figure class="px-10 pt-10">
-				<div class="min-w-min sm:w-60 sm:h-40">
+				<div class="w-fit sm:w-60 sm:h-40">
 					<img
 						src="/images/flags/{country.name}.svg"
 						alt="Flag"
-						class="rounded-xl h-full bg-center object-cover"
+						class="rounded-xl w-full bg-center object-cover"
 					/>
 				</div>
 			</figure>
