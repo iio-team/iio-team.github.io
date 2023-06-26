@@ -9,7 +9,7 @@
 	<input id="menu-drawer" bind:checked={drawerOpened} type="checkbox" class="drawer-toggle" />
 	<div class="drawer-content w-full min-h-screen flex flex-col items-center">
 		<!-- Navbar -->
-		<div class="w-full navbar sticky top-0 z-40 bg-base-300 px-5 py-3">
+		<div class="w-full navbar sticky top-0 z-40 bg-base-300 px-2 lg:px-5 py-3">
 			<div class="flex-none lg:hidden">
 				<label for="menu-drawer" class="btn btn-square btn-ghost">
 					<svg
@@ -28,7 +28,7 @@
 			</div>
 
 			<div class="grow">
-				<a href="/" class="btn btn-ghost font-bold text-2xl">IIOT</a>
+				<a href="/" class="btn btn-ghost font-bold text-2xl"><p><span class="text-primary">IIO</span><span class="text-secondary">T</span></p></a>
 			</div>
 
 			<div class="flex-none hidden lg:block">
@@ -38,7 +38,7 @@
 				</ul>
 			</div>
 
-			<div class="grow lg:grow-0 justify-end lg:justify-start gap-5">
+			<div class="grow lg:grow-0 justify-end lg:justify-start gap-2 lg:gap-5">
 				<a href="/participate" class="btn btn-ghost btn-outline">Participate</a>
 				<ThemeSwitch />
 			</div>
