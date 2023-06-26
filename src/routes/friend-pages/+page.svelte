@@ -25,7 +25,7 @@
 					<img
 						src="/images/flags/{country.name}.svg"
 						alt="Flag"
-						class="rounded-xl w-full max-h-fit sm:h-full bg-center object-cover"
+						class="rounded-xl w-full sm:h-full bg-center object-cover"
 					/>
 				</div>
 			</figure>
