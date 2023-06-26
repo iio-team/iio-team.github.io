@@ -1,8 +1,9 @@
 // @ts-nocheck
 export async function load() {
     let images = [];
-	for (let i = 1; i <= 12; i++) {
-		images.push({id: i*12, name: "Image_".concat(i.toString())});
+	let count = 5 + Math.floor(Math.random() * 13);
+	for (let i = 1; i <= count; i++) {
+		images.push({id: i*count, name: "Image_".concat(i.toString())});
 	}
     return {images};
 };
