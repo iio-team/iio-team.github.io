@@ -13,8 +13,7 @@
 <Hero>Gallery</Hero>
 
 <RoundedContent>
-	<div class="grid w-full lg:w-fit grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-8 ">
-		<!-- TODO: create paths with slugs for all the sub-galleries, like: /gallery/eventID -->
+	<div class="grid w-full lg:w-fit grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
 		{#each data.galleries as gallery}
 			<a
 				href="/gallery/{gallery.id}"
