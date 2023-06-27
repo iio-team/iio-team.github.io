@@ -33,7 +33,7 @@
 		<div class="card md:card-side min-w-fit w-full justify-center gap-8 bg-base-200 shadow-xl border border-neutral">
 			<figure class="flex-col min-w-fit justify-center items-center gap-4 p-8 pb-0 md:pb-8 md:pr-0">
 				<img
-					class="w-24 sm:w-28 rounded-lg "
+					class="w-28 rounded-lg "
 					src="/images/flags/{country.name}.svg"
 					alt="flag of {country.name}"
 				/>
