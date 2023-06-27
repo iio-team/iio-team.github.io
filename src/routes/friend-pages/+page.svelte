@@ -30,10 +30,12 @@
 
 <div class="flex flex-col items-center w-full md:max-w-3xl py-12 px-8 gap-8">
 	{#each data.countries as country}
-		<div class="card md:card-side min-w-fit w-full justify-center gap-8 bg-base-200 shadow-xl border border-neutral">
+		<div
+			class="card md:card-side min-w-fit w-full justify-center gap-8 bg-base-200 shadow-xl border border-neutral"
+		>
 			<figure class="flex-col min-w-fit justify-center items-center gap-4 p-8 pb-0 md:pb-8 md:pr-0">
 				<img
-					class="w-28 rounded-lg "
+					class="w-28 rounded-lg"
 					src="/images/flags/{country.name}.svg"
 					alt="flag of {country.name}"
 				/>
@@ -45,15 +47,19 @@
 						<div class="join-item badge text-lg box-border p-4 badge-outline">Leader School</div>
 						<a
 							class="rounded-tl-none h-auto py-2 box-border btn btn-outline border-2 btn-primary text-xl w-full normal-case"
-							href={country.school.url}>{country.school.name}</a
-						>
+							href={country.school.url}
+							target="_blank"
+							>{country.school.name}
+						</a>
 					</div>
 				{/if}
 				{#if country.iiot}
 					<a
 						class="h-auto py-2 btn btn-outline border-2 btn-accent text-xl w-full"
-						href={country.iiot}>IIOT website</a
-					>
+						href={country.iiot}
+						target="_blank"
+						>IIOT website
+					</a>
 				{/if}
 			</div>
 		</div>
