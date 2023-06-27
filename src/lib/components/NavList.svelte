@@ -20,6 +20,7 @@
 			<li><a href="/competition/rules" on:click={closeDrawer}>Rules</a></li>
 			<li><a href="/competition/tasks" on:click={closeDrawer}>Tasks</a></li>
 			<li><a href="/competition/results" on:click={closeDrawer}>Results</a></li>
+			<li><a href="#" on:click={closeDrawer}>Syllabus</a></li>
 		</ul>
 	</details>
 </li>
