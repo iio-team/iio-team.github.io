@@ -30,16 +30,16 @@
 
 <div class="flex flex-col items-center w-full md:max-w-3xl py-12 px-8 gap-8">
 	{#each data.countries as country}
-		<div class="card md:card-side w-full justify-center p-8 gap-8 bg-base-200 shadow-xl border border-neutral">
-			<figure class="md:flex-col-reverse min-w-fit justify-center items-center gap-8">
-				<h1 class="card-title h-fit justify-center text-3xl">{country.name}</h1>
+		<div class="card md:card-side min-w-fit w-full justify-center gap-8 bg-base-200 shadow-xl border border-neutral">
+			<figure class="flex-col min-w-fit justify-center items-center gap-4 p-8 pb-0 md:pb-8 md:pr-0">
 				<img
-					class="w-28 md:w-32 rounded-xl"
+					class="w-24 sm:w-28 rounded-lg "
 					src="/images/flags/{country.name}.svg"
 					alt="flag of {country.name}"
 				/>
+				<h1 class="card-title h-fit justify-center text-3xl">{country.name}</h1>
 			</figure>
-			<div class="card-body items-center md:items-start gap-4 p-0">
+			<div class="card-body w-full items-center md:items-start gap-4 p-8 pt-0 md:pt-8 md:pl-0">
 				{#if country.school}
 					<div class="join join-vertical w-full">
 						<!-- <p class="join-item btn btn-ghost btn-disabled border-2 normal-case w-fit btn-outline text-lg">Leader School: </p> -->
@@ -58,8 +58,8 @@
 				{/if}
 				{#if country.email}
 					<a
-						class="h-auto py-2 btn btn-primary btn-outline border-2 text-xl w-full lowercase"
-						href="mailto:{country.email}">{country.email}</a
+						class="h-auto py-2 btn btn-primary btn-outline border-2 text-xl w-full"
+						href="mailto:{country.email}"><p>Email</p></a
 					>
 				{/if}
 			</div>
