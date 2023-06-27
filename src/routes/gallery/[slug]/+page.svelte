@@ -14,7 +14,7 @@
 </svelte:head>
 
 <div
-	class="hero h-80 bg-base-100 bg-fixed bg-center bg-cover"
+	class="hero h-72 bg-base-100 bg-fixed bg-center bg-cover"
 	style="background-image: url('https://picsum.photos/900/300')"
 >
 	<div class="hero-overlay bg-opacity-60" />

@@ -3,39 +3,47 @@ export async function load() {
     let countries = [
         {
             name: "Italy",
-            school: "http://avbo.it/",
+            school: {
+                url: "http://avbo.it/",
+                name: "I.I.S. Aldeni Valeriani"
+            },
             iiot: "https://sites.google.com/aldini.istruzioneer.it/olimpiadi-informatica-squadre",
             email: "nadia.amaroli@avbo.it",
         },
         {
             name: "Romania",
-            school: "http://cni.nt.edu.ro/new/",
+            school: { 
+                url: "http://cni.nt.edu.ro/new/",
+                name: "Colegiul Național de Informatică"
+            },
             iiot: "http://cni.nt.edu.ro/ioit/",
             email: "blagagabriela@yahoo.com",
         },
         {
             name: "Hungary",
-            school: "https://fazekas.hu/",
+            school: {
+                url: "https://fazekas.hu/",
+                name: "Budapesti Fazekas Mihály Gyakorló Általános Iskola és Gimnázium"
+            },
             iiot: "http://kodkupa.hu/",
             email: "laszlo.nikhazy@gmail.com",
         },
         {
             name: "Egypt",
-            school: "https://aast.edu/en/",
+            school: {
+                url: "https://aast.edu/en/",
+                name: "AAST Regional Informatics Center"
+            },
             email: "eslam@aast.edu",
         },
         {
             name: "Syria",
-            school: "https://dca-net.org/",
+            school: {
+                url: "https://dca-net.org/",
+                name: "Distinction and Creativity Agency"
+            },
             iiot: "https://dca-net.org/",
             email: "ubai.sandouk@damascusuniversity.edu.sy",
-        },
-        {
-            name: "Russia",
-            iiot: "http://1905975.mya5.ru/",
-        },
-        {
-            name: "Sweden",
         },
     ];
 
