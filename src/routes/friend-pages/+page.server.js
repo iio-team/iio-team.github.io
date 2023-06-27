@@ -5,7 +5,7 @@ export async function load() {
             name: "Italy",
             school: {
                 url: "http://avbo.it/",
-                name: "I.I.S. Aldeni Valeriani"
+                name: "Istituti di Istruzione Superiore Aldini Valeriani"
             },
             iiot: "https://sites.google.com/aldini.istruzioneer.it/olimpiadi-informatica-squadre",
             email: "nadia.amaroli@avbo.it",
@@ -32,7 +32,7 @@ export async function load() {
             name: "Egypt",
             school: {
                 url: "https://aast.edu/en/",
-                name: "AAST Regional Informatics Center"
+                name: "Arab Academy for Science and Technology Regional Informatics Center"
             },
             email: "eslam@aast.edu",
         },

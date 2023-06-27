@@ -42,24 +42,17 @@
 			<div class="card-body w-full items-center md:items-start gap-4 p-8 pt-0 md:pt-8 md:pl-0">
 				{#if country.school}
 					<div class="join join-vertical w-full">
-						<!-- <p class="join-item btn btn-ghost btn-disabled border-2 normal-case w-fit btn-outline text-lg">Leader School: </p> -->
 						<div class="join-item badge text-lg box-border p-4 badge-outline">Leader School</div>
 						<a
-							class="rounded-tl-none h-auto py-2 box-border btn btn-outline border-2 btn-secondary text-xl w-full normal-case"
+							class="rounded-tl-none h-auto py-2 box-border btn btn-outline border-2 btn-primary text-xl w-full normal-case"
 							href={country.school.url}>{country.school.name}</a
 						>
 					</div>
 				{/if}
 				{#if country.iiot}
 					<a
-						class="h-auto py-2 btn btn-outline border-2 btn-info text-xl w-full"
+						class="h-auto py-2 btn btn-outline border-2 btn-accent text-xl w-full"
 						href={country.iiot}>IIOT website</a
-					>
-				{/if}
-				{#if country.email}
-					<a
-						class="h-auto py-2 btn btn-primary btn-outline border-2 text-xl w-full"
-						href="mailto:{country.email}"><p>Email</p></a
 					>
 				{/if}
 			</div>
