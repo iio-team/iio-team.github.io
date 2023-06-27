@@ -7,16 +7,12 @@
 </script>
 
 <NavigationDrawer>
-	<main slot="main" class="grow min-w-full flex flex-col items-center bg-base-100">
+	<main slot="main" class="grow min-w-full flex flex-col items-center bg-neutral">
 		<slot />
 	</main>
 
-	<footer slot="footer" class="footer footer-center h-28 p-4 bg-base-300 text-base-content">
-		<div>
-			<p>Copyright © {year} - All right reserved by IIOT</p>
-		</div>
+	<footer slot="footer" class="footer footer-center h-fit p-8 gap-6 bg-base-300">
+		<img class="w-96 opacity-75 " src="/images/IIOT.png" alt="IIOT logo" />
+		<p class="text-base-content">Copyright © 2023 - All right reserved</p>
 	</footer>
 </NavigationDrawer>
-
-
-
