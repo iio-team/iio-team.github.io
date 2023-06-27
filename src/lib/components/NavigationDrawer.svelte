@@ -16,7 +16,7 @@
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
 						viewBox="0 0 24 24"
-						class="inline-block w-6 h-6 stroke-current"
+						class="inline-block w-7 h-7 stroke-current"
 						><path
 							stroke-linecap="round"
 							stroke-linejoin="round"
@@ -28,7 +28,7 @@
 			</div>
 
 			<div class="grow">
-				<a href="/" class="btn btn-ghost font-bold text-2xl lg:text-3xl"
+				<a href="/" class="btn btn-ghost font-bold text-3xl"
 					><p><span class="text-accent">IIO</span><span class="text-primary">T</span></p></a
 				>
 			</div>
