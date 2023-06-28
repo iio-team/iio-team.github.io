@@ -17,7 +17,7 @@
 			<thead>
 				<tr>
 					{#each data.headers as th}
-						<th>{th}</th>
+						<th class="whitespace-pre">{th}</th>
 					{/each}
 				</tr>
 			</thead>
@@ -25,17 +25,17 @@
 				{#each data.rows as row}
 					<tr>
 						<th>{row.Rank}</th>
-						<td >
+						<td>
 							{#if row.rating != ''}
-								<div class="tooltip w-full h-7" data-tip="{row.rating}">
-									<span class="inline-flex">
-										<img class="w-7 h-7" src="/images/medals/{row.rating}.png" alt={row.rating} />
-									</span>
+								<div class="tooltip h-7" data-tip="{row.rating}">
+									<img class="w-7 h-7" src="/images/medals/{row.rating}.png" alt={row.rating} />
 								</div>
 							{/if}
 						</td>
-						<td>{row.Team}</td>
-						<td>{row.Country}</td>
+						<td class="left">{row.Team}</td>
+						<td class="left"> 
+							{row.Country}
+						</td>
 						<td>{row.abc}</td>
 						<td>{row.binge}</td>
 						<td>{row.cipher}</td>
@@ -56,6 +56,12 @@
 <style>
 	tr {
 		border: none;
+	}
+	td {
+		text-align: center;
+	}
+	.left {
+		text-align: left !important;
 	}
 	td,
 	th {
