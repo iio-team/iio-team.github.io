@@ -33,7 +33,7 @@
 	</div>
 
 	<div class="flex-none hidden lg:block">
-		<ul class="menu menu-horizontal gap-2">
+		<ul class="menu xl:menu-lg menu-horizontal gap-2">
 			<NavList />
 		</ul>
 	</div>
