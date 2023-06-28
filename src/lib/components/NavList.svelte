@@ -26,5 +26,6 @@
 </li>
 <li><a href="/schedule" on:click={closeDrawer}>Schedule</a></li>
 <li><a href="/friend-pages" on:click={closeDrawer}>Friend pages</a></li>
+<li><a href="/archive" on:click={closeDrawer}>Archive</a></li>
 <li><a href="/gallery" on:click={closeDrawer}>Gallery</a></li>
 <li><a href="/contact" on:click={closeDrawer}>Contact</a></li>
