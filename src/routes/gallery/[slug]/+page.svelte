@@ -23,7 +23,7 @@
 		{#each data.images as image}
 			<button
 				on:click={openModal(image)}
-				class="card card-compact w-full lg:w-72 xl:w-96 shadow-2xl overflow-hidden cursor-pointer border border-neutral"
+				class="sm:btn-active card card-compact w-full lg:w-72 xl:w-96 shadow-2xl overflow-hidden cursor-pointer border border-neutral"
 			>
 				<figure class="w-full h-60 bg-base-200">
 					<img
@@ -35,10 +35,10 @@
 			</button>
 		{/each}
 
-		<dialog id="imageModal" class="modal bg-black bg-opacity-60 backdrop-blur-md">
+		<dialog id="imageModal" class="modal px-4 bg-black bg-opacity-60 backdrop-blur-md">
 			<form
 				method="dialog"
-				class="modal-box p-0 w-11/12 sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl bg-base-300"
+				class="modal-box p-0 w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl bg-base-300"
 			>
 				<img
 					class="w-full"
