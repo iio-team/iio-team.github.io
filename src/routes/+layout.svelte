@@ -13,6 +13,6 @@
 </main>
 
 <footer class="footer footer-center h-fit p-8 gap-6 bg-base-300">
-	<img class="max-w-sm opacity-60" src="/images/IIOT.png" alt="IIOT logo" />
+	<img class="max-w-xs opacity-60" src="/images/IIOT.png" alt="IIOT logo" />
 	<p class="text-base-content">Copyright © 2023 - All right reserved</p>
 </footer>
