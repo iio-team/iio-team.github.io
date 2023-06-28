@@ -12,7 +12,7 @@
 
 <Hero>Friend pages</Hero>
 <RoundedContent>
-	<p class="px-2 text-xl max-w-4xl">
+	<p class="px-2 text-lg max-w-4xl">
 		Here's the list of the participating countries and their contact details, such as the website of
 		their Leader School, their IIOT qualifying competition and their email.
 	</p>
@@ -29,7 +29,7 @@
 						src="/images/flags/{country.name}.svg"
 						alt="flag of {country.name}"
 					/>
-					<h1 class="card-title h-fit justify-center text-3xl">{country.name}</h1>
+					<h1 class="card-title h-fit justify-center text-2xl">{country.name}</h1>
 				</figure>
 				<div class="card-body w-full items-center md:items-start gap-4 p-8 pt-0 md:pt-8 md:pl-0">
 					{#if country.school}
@@ -38,7 +38,7 @@
 								Leader School / Organization
 							</p>
 							<a 
-								class="rounded-tl-none rounded-tr-none sm:rounded-tr-lg h-auto py-2 box-border btn btn-outline no-animation border-2 btn-primary text-xl w-full normal-case"
+								class="rounded-tl-none rounded-tr-none sm:rounded-tr-lg h-auto py-2 box-border btn btn-outline no-animation border-2 btn-primary text-lg w-full normal-case"
 								href="{country.school.url}"
 								target="_blank"
 								>{country.school.name}
@@ -47,7 +47,7 @@
 					{/if}
 					{#if country.iiot}
 						<a
-							class="h-auto py-2 btn btn-outline border-2 btn-accent text-xl w-full"
+							class="h-auto py-2 btn btn-outline border-2 btn-accent text-lg w-full"
 							href={country.iiot}
 							target="_blank"
 							>IIOT website

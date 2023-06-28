@@ -19,15 +19,15 @@
 				href="/gallery/{gallery.id}"
 				class="card card-compact w-full lg:w-72 xl:w-96 bg-base-300 shadow-xl overflow-hidden border border-neutral"
 			>
-				<figure class="w-full h-60 bg-base-200">
+				<figure class="w-full h-56 bg-base-200">
 					<img
 						src="https://picsum.photos/1366/768?random={gallery.id}"
 						class="min-h-full object-cover"
 						alt=""
 					/>
 				</figure>
-				<div class="card-body bg-base-300 w-full h-14 transition-all">
-					<h2 class="card-title text-base-content">{gallery.name}</h2>
+				<div class="card-body bg-base-300 w-full h-16 transition-all">
+					<h2 class="card-title text-lg text-base-content">{gallery.name}</h2>
 				</div>
 			</a>
 		{/each}
@@ -38,6 +38,6 @@
 
 <style>
 	.card:hover .card-body {
-		transform: translateY(-1.5rem);
+		transform: translateY(-1rem);
 	}
 </style>
