@@ -49,7 +49,7 @@
 	<input id="menu-drawer" bind:checked={drawerOpened} type="checkbox" class="drawer-toggle" />
 	<div class="drawer-side z-50 grid lg:hidden">
 		<label for="menu-drawer" class="drawer-overlay" />
-		<ul class="menu menu-lg p-4 w-80 h-full bg-base-200">
+		<ul class="menu menu-lg p-4 w-80 h-full bg-base-300">
 			<!-- Sidebar content here -->
 			<NavList bind:drawerOpened />
 		</ul>
