@@ -19,8 +19,8 @@
 		<ul class="p-2">
 			<li><a href="/competition/tasks" on:click={closeDrawer}>Tasks</a></li>
 			<li><a href="/competition/results" on:click={closeDrawer}>Results</a></li>
-			<li><a href="/pdf/Regulations.pdf" target="_blank" on:click={closeDrawer}>Rules <span class="badge badge-info">PDF</span></a></li>
-			<li><a href="/pdf/Syllabus.pdf" target="_blank" on:click={closeDrawer}>Syllabus <span class="badge badge-info ml-4">PDF</span></a></li>
+			<li><a href="/pdf/Regulations.pdf" target="_blank" on:click={closeDrawer}>Rules <span class="badge badge-info lg:ml-4 badge-outline">PDF</span></a></li>
+			<li><a href="/pdf/Syllabus.pdf" target="_blank" on:click={closeDrawer}>Syllabus <span class="badge badge-info lg:ml-4 badge-outline">PDF</span></a></li>
 		</ul>
 	</details>
 </li>
