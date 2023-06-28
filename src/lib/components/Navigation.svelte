@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	import NavList from './NavList.svelte';
 	import ThemeSwitch from './ThemeSwitch.svelte';
 
@@ -6,10 +7,10 @@
 </script>
 
 <!-- Navbar -->
-<div class="w-full navbar sticky top-0 z-40 bg-base-300 px-2 lg:px-6 py-3">
+<div class="w-full navbar sticky top-0 z-40 bg-base-300 px-4 py-3">
 	<!-- Hamburger icon -->
 	<div class="flex-none lg:hidden">
-		<label for="menu-drawer" class="btn btn-square btn-ghost">
+		<label for="menu-drawer" class="btn btn-sm btn-square btn-ghost">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
@@ -27,7 +28,7 @@
 
 	<!-- Logo -->
 	<div class="grow">
-		<a href="/" class="btn btn-ghost font-bold text-3xl"
+		<a href="/" class="btn btn-ghost font-bold text-2xl lg:text-3xl"
 			><p><span class="text-accent">IIO</span><span class="text-primary">T</span></p></a
 		>
 	</div>
