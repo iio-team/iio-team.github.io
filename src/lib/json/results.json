@@ -1,7 +1,7 @@
 ﻿{
     "headers": [
         "Rank",
-        "Rating",
+        "Award",
         "Team",
         "Country",
         "abc",
@@ -30,7 +30,7 @@
             "tetris": 100,
             "tour de tree": 100,
             "Total": 900,
-            "rating": "gold"
+            "Award": "gold"
         },
         {
             "Rank": 2,
@@ -46,7 +46,7 @@
             "tetris": 100,
             "tour de tree": 100,
             "Total": 801,
-            "rating": "silver"
+            "Award": "silver"
         },
         {
             "Rank": 3,
@@ -62,7 +62,7 @@
             "tetris": 100,
             "tour de tree": 100,
             "Total": 703,
-            "rating": "silver"
+            "Award": "silver"
         },
         {
             "Rank": 4,
@@ -78,7 +78,7 @@
             "tetris": 100,
             "tour de tree": 100,
             "Total": 687,
-            "rating": "bronze"
+            "Award": "bronze"
         },
         {
             "Rank": 5,
@@ -94,7 +94,7 @@
             "tetris": 100,
             "tour de tree": 100,
             "Total": 634,
-            "rating": "bronze"
+            "Award": "bronze"
         },
         {
             "Rank": 6,
@@ -110,7 +110,7 @@
             "tetris": 100,
             "tour de tree": 100,
             "Total": 605,
-            "rating": "bronze"
+            "Award": "bronze"
         },
         {
             "Rank": 7,
@@ -126,7 +126,7 @@
             "tetris": 100,
             "tour de tree": 100,
             "Total": 592,
-            "rating": "bronze"
+            "Award": "bronze"
         },
         {
             "Rank": 8,
@@ -142,7 +142,7 @@
             "tetris": 100,
             "tour de tree": 100,
             "Total": 576,
-            "rating": ""
+            "Award": ""
         },
         {
             "Rank": 9,
@@ -158,7 +158,7 @@
             "tetris": 100,
             "tour de tree": 100,
             "Total": 547,
-            "rating": ""
+            "Award": ""
         },
         {
             "Rank": 10,
@@ -174,7 +174,7 @@
             "tetris": 100,
             "tour de tree": 100,
             "Total": 510,
-            "rating": ""
+            "Award": ""
         },
         {
             "Rank": 11,
@@ -190,7 +190,7 @@
             "tetris": 100,
             "tour de tree": 100,
             "Total": 475,
-            "rating": ""
+            "Award": ""
         },
         {
             "Rank": 12,
@@ -206,7 +206,7 @@
             "tetris": 100,
             "tour de tree": 100,
             "Total": 396,
-            "rating": ""
+            "Award": ""
         },
         {
             "Rank": 13,
@@ -222,7 +222,7 @@
             "tetris": 100,
             "tour de tree": 0,
             "Total": 160,
-            "rating": ""
+            "Award": ""
         }
     ]
 }

@@ -26,9 +26,9 @@
 					<tr>
 						<th>{row.Rank}</th>
 						<td>
-							{#if row.rating != ''}
-								<div class="tooltip h-7" data-tip="{row.rating}">
-									<img class="w-7 h-7" src="/images/medals/{row.rating}.png" alt={row.rating} />
+							{#if row.Award != ''}
+								<div class="tooltip h-7" data-tip="{row.Award}">
+									<img class="w-7 h-7" src="/images/medals/{row.Award}.png" alt={row.Award} />
 								</div>
 							{/if}
 						</td>
