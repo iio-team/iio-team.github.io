@@ -9,9 +9,35 @@
 
 <Hero>Results</Hero>
 
+<style>
+	tr {
+		border: none;
+	}
+	td, th {
+		color: hsl(var(--bc));
+		border: 1px solid hsl(var(--b3));
+	}
+	thead th {
+		border-top-width: 0;
+		text-align: right;
+	}
+	tbody tr:last-child th, 
+	tbody tr:last-child td {
+		border-bottom: 0;
+	} 
+	tbody tr th, 
+	thead tr th:first-child {
+		border-left: 0;
+	} 
+	tbody tr td:last-child, 
+	thead tr th:last-child {
+		border-right: 0;
+	} 
+</style>
+
 <RoundedContent>
-	<div class="overflow-auto w-full">
-		<table class="table w-fit mx-auto table-sm lg:table-md">
+	<div class="overflow-auto w-full rounded-xl">
+		<table class="table w-fit mx-auto table-sm lg:table-md rounded-xl bg-base-200 shadow-lg">
 			<thead>
 				<tr>
 					<th>Rank</th>
