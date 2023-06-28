@@ -13,7 +13,7 @@
 	});
 </script>
 
-<label class="btn btn-sm md:btn-md btn-ghost btn-circle swap swap-rotate">
+<label class="btn btn-ghost btn-circle swap swap-rotate">
 	<!-- this hidden checkbox controls the state -->
 	<input type="checkbox" checked={darkMode} data-toggle-theme="dark,light" />
 
