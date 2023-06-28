@@ -13,8 +13,8 @@
 <Hero>Friend pages</Hero>
 <RoundedContent>
 	<p class="px-2 text-xl max-w-4xl">
-		Here's the list of the participating countries and their contact details, such as the
-		website of their Leader School, their IIOT qualifying competition and their email.
+		Here's the list of the participating countries and their contact details, such as the website of
+		their Leader School, their IIOT qualifying competition and their email.
 	</p>
 	<div class="flex flex-col items-center w-full md:max-w-3xl gap-8">
 		{#each data.countries as country}
@@ -34,10 +34,12 @@
 				<div class="card-body w-full items-center md:items-start gap-4 p-8 pt-0 md:pt-8 md:pl-0">
 					{#if country.school}
 						<div class="join join-vertical w-full">
-							<div class="join-item badge text-lg box-border p-4 badge-outline">Leader School</div>
-							<a
-								class="rounded-tl-none h-auto py-2 box-border btn no-animation btn-outline border-2 btn-primary text-xl w-full normal-case"
-								href={country.school.url}
+							<p id="{country.name}" class="join-item badge leading-relaxed text-lg text-center w-full sm:w-fit h-auto box-border normal-case badge-outline">
+								Leader School / Organization
+							</p>
+							<a 
+								class="rounded-tl-none rounded-tr-none sm:rounded-tr-lg h-auto py-2 box-border btn btn-outline no-animation border-2 btn-primary text-xl w-full normal-case"
+								href="{country.school.url}"
 								target="_blank"
 								>{country.school.name}
 							</a>
