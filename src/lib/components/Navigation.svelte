@@ -7,7 +7,7 @@
 </script>
 
 <!-- Navbar -->
-<div class="w-full navbar sticky top-0 z-40 bg-base-300 px-4 py-3">
+<div class="w-full navbar sticky top-0 z-40 bg-base-300 px-2 md:px-4 py-3">
 	<!-- Hamburger icon -->
 	<div class="flex-none lg:hidden">
 		<label for="menu-drawer" class="btn btn-sm btn-square btn-ghost">
