@@ -17,9 +17,11 @@
 		color: hsl(var(--bc));
 		border: 1px solid hsl(var(--b3));
 	}
+	tbody th {
+		text-align: right;
+	}
 	thead th {
 		border-top-width: 0;
-		text-align: right;
 	}
 	tbody tr:last-child th, 
 	tbody tr:last-child td {
@@ -36,8 +38,8 @@
 </style>
 
 <RoundedContent>
-	<div class="overflow-auto w-full rounded-xl">
-		<table class="table w-fit mx-auto table-sm lg:table-md rounded-xl bg-base-200 shadow-lg">
+	<div class="overflow-auto w-full rounded-lg">
+		<table class="table w-fit mx-auto table-sm lg:table-md rounded-lg bg-base-200 shadow-lg">
 			<thead>
 				<tr>
 					<th>Rank</th>
