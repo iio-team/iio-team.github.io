@@ -13,8 +13,7 @@
 		<slot />
 	</main>
 
-	<footer class="footer footer-center h-fit p-8 gap-6 bg-base-300">
-		<img class="max-w-xs opacity-60" src="/images/IIOT.png" alt="IIOT logo" />
+	<footer class="footer footer-center h-fit py-16 bg-base-300">
 		<p class="text-base-content">Copyright © 2023 - All right reserved</p>
 	</footer>
 </div>
