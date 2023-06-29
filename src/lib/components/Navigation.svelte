@@ -1,5 +1,4 @@
 <script>
-	import { onMount } from 'svelte';
 	import NavList from './NavList.svelte';
 	import ThemeSwitch from './ThemeSwitch.svelte';
 
@@ -13,10 +12,14 @@
 	function handleDrawerToggle() {
 		if (drawerOpened) {
 			if (typeof window != 'undefined' && window.document) {
+				document.body.style.setProperty('overflowY', 'hidden', 'important');
+
 				document.documentElement.style.overscrollBehavior = 'none';
 			}
 		} else {
 			if (typeof window != 'undefined' && window.document) {
+				document.body.style.setProperty('overflowY', 'scroll', 'important');
+
 				document.documentElement.style.overscrollBehavior = 'unset';
 			}
 		}
@@ -62,22 +65,20 @@
 </div>
 
 <!-- Drawer -->
-<div class="drawer overflow-hidden h-full focus">
-	<input
-		id="menu-drawer"
-		bind:checked={drawerOpened}
-		on:change={handleDrawerToggle}
-		type="checkbox"
-		class="drawer-toggle"
-	/>
+<input
+	id="menu-drawer"
+	bind:checked={drawerOpened}
+	on:change={handleDrawerToggle}
+	type="checkbox"
+	class="drawer-toggle"
+/>
 
-	<div class="drawer-side z-50 lg:hidden">
-		<label for="menu-drawer" class="drawer-overlay overflow-hidden" />
-		<div class="w-4/5 fixed overflow-scroll h-full bg-base-300">
-			<ul class="menu menu-lg p-4 w-full min-h-full gap-2">
-				<!-- Sidebar content here -->
-				<NavList on:closeDrawer={closeDrawer} />
-			</ul>
-		</div>
+<div class="drawer-side z-50 lg:hidden">
+	<label for="menu-drawer" class="drawer-overlay overflow-hidden" />
+	<div class="w-4/5 fixed overflow-scroll h-full bg-base-300">
+		<ul class="menu menu-lg p-4 w-full min-h-full gap-2">
+			<!-- Sidebar content here -->
+			<NavList on:closeDrawer={closeDrawer} />
+		</ul>
 	</div>
 </div>
