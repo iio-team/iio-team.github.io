@@ -15,10 +15,14 @@
 			if (typeof window != 'undefined' && window.document) {
 				document.body.style.overflow = 'hidden';
 				document.body.style.overscrollBehavior = 'none';
+				document.documentElement.style.overscrollBehavior = 'none';
 			}
 		} else {
-			document.body.style.overflow = 'unset';
-			document.body.style.overscrollBehavior = 'unset';
+			if (typeof window != 'undefined' && window.document) {
+				document.body.style.overflow = 'unset';
+				document.body.style.overscrollBehavior = 'unset';
+				document.documentElement.style.overscrollBehavior = 'unset';
+			}
 		}
 	}
 </script>
@@ -72,7 +76,7 @@
 	/>
 
 	<div class="drawer-side z-50 lg:hidden fixed">
-		<label for="menu-drawer" class="drawer-overlay" />
+		<label for="menu-drawer" class="drawer-overlay fixed overflow-hidden" />
 		<ul class="menu menu-lg p-4 w-4/5 min-h-full gap-2 bg-base-300">
 			<!-- Sidebar content here -->
 			<NavList on:closeDrawer={closeDrawer} />
