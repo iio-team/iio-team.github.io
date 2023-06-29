@@ -13,13 +13,12 @@
 <Hero>Friend pages</Hero>
 <RoundedContent>
 	<p class="px-2 text-lg max-w-4xl">
-		Here's the list of the participating countries and their contact details, such as the website of
-		their Leader School, their IIOT qualifying competition and their email.
+		Here's the list of the participating countries and their websites.
 	</p>
 	<div class="flex flex-col items-center w-full md:max-w-3xl gap-8">
 		{#each data.countries as country}
 			<div
-				class="card md:card-side min-w-fit w-full justify-center gap-4 md:gap-8 bg-base-200 shadow-xl border border-neutral"
+				class="card md:card-side min-w-fit w-full justify-center gap-8 bg-base-200 shadow-xl border border-neutral"
 			>
 				<figure
 					class="flex-col min-w-fit justify-center items-center gap-2 md:gap-4 p-8 pb-0 md:pb-8 md:pr-0"
