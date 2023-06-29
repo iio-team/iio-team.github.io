@@ -8,7 +8,7 @@
 
 <Navigation />
 
-<main class="w-full min-h-full flex flex-col items-center bg-neutral">
+<main class="w-full flex flex-col items-center bg-neutral">
 	<slot />
 </main>
 

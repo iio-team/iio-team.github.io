@@ -6,28 +6,21 @@
 
 	function closeDrawer() {
 		drawerOpened = false;
-		handleDrawerToggle();
 	}
 
-	function handleDrawerToggle() {
+	function drawerToggle() {
 		if (drawerOpened) {
-			if (typeof window != 'undefined' && window.document) {
-				document.body.style.setProperty('overflowY', 'hidden', 'important');
-
-				document.documentElement.style.overscrollBehavior = 'none';
-			}
+			document.body.style.position = "fixed";
+			document.body.style.overflow = "hidden";
 		} else {
-			if (typeof window != 'undefined' && window.document) {
-				document.body.style.setProperty('overflowY', 'scroll', 'important');
-
-				document.documentElement.style.overscrollBehavior = 'unset';
-			}
+			document.body.style.position = "unset";
+			document.body.style.overflow = "unset";
 		}
 	}
 </script>
 
 <!-- Navbar -->
-<div class="w-full navbar sticky top-0 z-40 bg-base-300 px-2 md:px-4 py-3">
+<div class="w-full navbar lg:sticky top-0 z-40 bg-base-300 px-2 md:px-4 py-3">
 	<!-- Hamburger icon -->
 	<div class="flex-none lg:hidden">
 		<label for="menu-drawer" class="btn btn-square btn-ghost">
@@ -68,17 +61,16 @@
 <input
 	id="menu-drawer"
 	bind:checked={drawerOpened}
-	on:change={handleDrawerToggle}
+	on:change={drawerToggle}
 	type="checkbox"
 	class="drawer-toggle"
 />
 
 <div class="drawer-side z-50 lg:hidden">
-	<label for="menu-drawer" class="drawer-overlay overflow-hidden" />
-	<div class="w-4/5 fixed overflow-scroll h-full bg-base-300">
-		<ul class="menu menu-lg p-4 w-full min-h-full gap-2">
-			<!-- Sidebar content here -->
-			<NavList on:closeDrawer={closeDrawer} />
-		</ul>
-	</div>
+	<label for="menu-drawer" class="drawer-overlay" />
+
+	<ul class="w-4/5 min-h-full bg-base-300 menu menu-lg p-4 gap-2">
+		<!-- Sidebar content here -->
+		<NavList on:closeDrawer={closeDrawer} />
+	</ul>
 </div>
