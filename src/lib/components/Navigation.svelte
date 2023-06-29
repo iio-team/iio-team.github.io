@@ -5,19 +5,20 @@
 
 	let drawerOpened = false;
 
-	const closeDrawer = () => {
+	function closeDrawer() {
 		drawerOpened = false;
+		handleDrawerToggle();
+	}
 
-		// Unsets Background Scrolling to use when SideDrawer/Modal is closed
-		document.body.style.overflow = 'unset';
-	};
-
-	const disableScroll = () => {
-		// Disables Background Scrolling whilst the SideDrawer/Modal is open
-		if (typeof window != 'undefined' && window.document) {
-			document.body.style.overflow = 'hidden';
+	function handleDrawerToggle() {
+		if (drawerOpened) {
+			if (typeof window != 'undefined' && window.document) {
+				document.body.style.overflow = 'hidden';
+			}
+		} else {
+			document.body.style.overflow = 'unset';
 		}
-	};
+	}
 </script>
 
 <!-- Navbar -->
@@ -63,14 +64,12 @@
 	<input
 		id="menu-drawer"
 		bind:checked={drawerOpened}
-		on:change={() => {
-			if (drawerOpened) disableScroll();
-		}}
+		on:change={handleDrawerToggle}
 		type="checkbox"
 		class="drawer-toggle"
 	/>
 
-	<div class="drawer-side bg-opacity-25 z-50 lg:hidden fixed">
+	<div class="drawer-side z-50 lg:hidden fixed">
 		<label for="menu-drawer" class="drawer-overlay" />
 		<ul class="menu menu-lg p-4 w-4/5 min-h-full gap-2 bg-base-300 overscroll-none">
 			<!-- Sidebar content here -->
