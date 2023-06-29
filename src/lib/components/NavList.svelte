@@ -16,6 +16,7 @@
 </script>
 
 <li><a href="/" on:click={closeDrawer}>Home</a></li>
+<li><a class="xs:hidden" href="/participate" on:click={closeDrawer}>Participate</a></li>
 <li>
 	<details bind:open={dropdownOpened} use:clickOutside on:outsideclick={closeDropdown}>
 		<summary>Competition</summary>
@@ -30,9 +31,7 @@
 </li>
 <li><a href="/schedule" on:click={closeDrawer}>Schedule</a></li>
 <li><a href="/friend-pages" on:click={closeDrawer}>Friend pages</a></li>
-<li><a class="lg:hidden" href="/participate" on:click={closeDrawer}>Participate</a></li>
 <li><a href="/archive" on:click={closeDrawer}>Archive</a></li>
 <li><a href="/gallery" on:click={closeDrawer}>Gallery</a></li>
 <li><a href="/contact" on:click={closeDrawer}>Contact</a></li>
-<li><a class="hidden lg:flex border border-base-content" href="/participate" on:click={closeDrawer}>Participate</a></li>
 

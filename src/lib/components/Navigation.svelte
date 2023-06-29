@@ -11,11 +11,11 @@
 
 	function drawerToggle() {
 		if (drawerOpened) {
-			document.body.style.position = "fixed";
-			document.body.style.overflow = "hidden";
+			document.body.style.position = 'fixed';
+			document.body.style.overflow = 'hidden';
 		} else {
-			document.body.style.position = "unset";
-			document.body.style.overflow = "unset";
+			document.body.style.position = 'unset';
+			document.body.style.overflow = 'unset';
 		}
 	}
 </script>
@@ -47,15 +47,18 @@
 		>
 	</div>
 
-	<div class="flex-none hidden lg:block">
+	<div class="no-flex hidden lg:block">
 		<ul class="menu xl:menu-lg menu-horizontal gap-2">
 			<NavList />
 		</ul>
 	</div>
 
-	<div class="grow lg:grow-0 justify-end lg:justify-start">
-		<ThemeSwitch />
-	</div>
+	<ul class="menu xl:menu-lg pl-0">
+		<li>
+			<a class="hidden xs:flex border border-base-content" href="/participate">Participate</a>
+		</li>
+	</ul>
+	<ThemeSwitch />
 </div>
 
 <!-- Drawer -->
