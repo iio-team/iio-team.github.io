@@ -39,18 +39,17 @@
 		</ul>
 	</div>
 
-	<div class="grow lg:grow-0 justify-end lg:justify-start gap-2">
-		<a href="/participate" class="btn btn-outline ">Participate</a>
+	<div class="grow lg:grow-0 justify-end lg:justify-start">
 		<ThemeSwitch />
 	</div>
 </div>
 
 <!-- Drawer -->
-<div class="drawer">
-	<input id="menu-drawer" bind:checked={drawerOpened} type="checkbox" class="drawer-toggle" />
-	<div class="drawer-side z-50 grid lg:hidden">
-		<label for="menu-drawer" class="drawer-overlay" />
-		<ul class="menu menu-lg p-4 w-80 h-full bg-base-300">
+<input id="menu-drawer" bind:checked={drawerOpened} type="checkbox" class="drawer-toggle" />
+<div class="drawer-side overflow-x-hidden z-50 lg:hidden">
+	<label for="menu-drawer" class="drawer-overlay" />
+	<div class="w-4/5 h-full bg-base-300">
+		<ul class="menu menu-lg p-4 w-full h-fit gap-2 bg-base-300">
 			<!-- Sidebar content here -->
 			<NavList bind:drawerOpened />
 		</ul>
