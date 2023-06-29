@@ -27,7 +27,7 @@
 						<th>{row.Rank}</th>
 						<td>
 							{#if row.Award != ''}
-								<div class="tooltip h-7" data-tip="{row.Award}">
+								<div class="tooltip h-7 cursor-help" data-tip="{row.Award}">
 									<img class="w-7 h-7" src="/images/medals/{row.Award}.png" alt={row.Award} />
 								</div>
 							{/if}
