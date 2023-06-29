@@ -13,16 +13,10 @@
 	function handleDrawerToggle() {
 		if (drawerOpened) {
 			if (typeof window != 'undefined' && window.document) {
-				document.body.style.overflow = 'hidden';
-				document.body.style.height = '100vh';
-
 				document.documentElement.style.overscrollBehavior = 'none';
 			}
 		} else {
 			if (typeof window != 'undefined' && window.document) {
-				document.body.style.overflow = 'unset';
-				document.body.style.height = 'auto';
-
 				document.documentElement.style.overscrollBehavior = 'unset';
 			}
 		}
@@ -77,8 +71,8 @@
 		class="drawer-toggle"
 	/>
 
-	<div class="drawer-side z-50 lg:hidden fixed">
-		<label for="menu-drawer" class="drawer-overlay fixed overflow-hidden" />
+	<div class="drawer-side z-50 lg:hidden">
+		<label for="menu-drawer" class="drawer-overlay overflow-hidden" />
 		<div class="w-4/5 fixed overflow-scroll h-full bg-base-300">
 			<ul class="menu menu-lg p-4 w-full min-h-full gap-2">
 				<!-- Sidebar content here -->
