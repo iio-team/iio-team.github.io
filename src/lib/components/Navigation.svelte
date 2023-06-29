@@ -4,6 +4,20 @@
 	import ThemeSwitch from './ThemeSwitch.svelte';
 
 	let drawerOpened = false;
+
+	const closeDrawer = () => {
+		drawerOpened = false;
+
+		// Unsets Background Scrolling to use when SideDrawer/Modal is closed
+		document.body.style.overflow = 'unset';
+	};
+
+	const disableScroll = () => {
+		// Disables Background Scrolling whilst the SideDrawer/Modal is open
+		if (typeof window != 'undefined' && window.document) {
+			document.body.style.overflow = 'hidden';
+		}
+	};
 </script>
 
 <!-- Navbar -->
@@ -45,13 +59,22 @@
 </div>
 
 <!-- Drawer -->
-<input id="menu-drawer" bind:checked={drawerOpened} type="checkbox" class="drawer-toggle" />
-<div class="drawer-side overflow-x-hidden z-50 lg:hidden">
-	<label for="menu-drawer" class="drawer-overlay" />
-	<div class="w-4/5 h-full bg-base-300">
-		<ul class="menu menu-lg p-4 w-full h-fit gap-2 bg-base-300">
+<div class="drawer overflow-hidden h-full overscroll-y-none">
+	<input
+		id="menu-drawer"
+		bind:checked={drawerOpened}
+		on:change={() => {
+			if (drawerOpened) disableScroll();
+		}}
+		type="checkbox"
+		class="drawer-toggle"
+	/>
+
+	<div class="drawer-side bg-opacity-25 z-50 lg:hidden fixed">
+		<label for="menu-drawer" class="drawer-overlay border" />
+		<ul class="menu menu-lg p-4 w-4/5 min-h-full gap-2 bg-base-300">
 			<!-- Sidebar content here -->
-			<NavList bind:drawerOpened />
+			<NavList on:closeDrawer={closeDrawer} />
 		</ul>
 	</div>
 </div>

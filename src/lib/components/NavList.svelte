@@ -1,14 +1,17 @@
 <script>
 	import { clickOutside } from '$lib/scripts/clickOutside';
+	import { createEventDispatcher } from 'svelte';
 
-	export let drawerOpened = false;
+	const dispatch = createEventDispatcher();
+
 	let dropdownOpened = false;
 	function closeDropdown() {
 		dropdownOpened = false;
 	}
+
 	function closeDrawer() {
-		drawerOpened = false;
 		dropdownOpened = false;
+		dispatch('closeDrawer');
 	}
 </script>
 
