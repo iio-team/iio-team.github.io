@@ -66,7 +66,7 @@
 	td,
 	th {
 		color: hsl(var(--bc));
-		border: 1px solid hsl(var(--b3));
+		border: 2px solid hsl(var(--b3));
 	}
 	tbody th {
 		text-align: right;
