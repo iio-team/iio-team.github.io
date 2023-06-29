@@ -35,3 +35,8 @@
 <li><a href="/gallery" on:click={closeDrawer}>Gallery</a></li>
 <li><a href="/contact" on:click={closeDrawer}>Contact</a></li>
 
+<style>
+	summary::after {
+		color: hsl(var(--bc)) !important;
+	}
+</style>
