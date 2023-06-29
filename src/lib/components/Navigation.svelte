@@ -14,13 +14,15 @@
 		if (drawerOpened) {
 			if (typeof window != 'undefined' && window.document) {
 				document.body.style.overflow = 'hidden';
-				document.body.style.overscrollBehavior = 'none';
+				document.body.style.height = '100vh';
+
 				document.documentElement.style.overscrollBehavior = 'none';
 			}
 		} else {
 			if (typeof window != 'undefined' && window.document) {
 				document.body.style.overflow = 'unset';
-				document.body.style.overscrollBehavior = 'unset';
+				document.body.style.height = 'auto';
+
 				document.documentElement.style.overscrollBehavior = 'unset';
 			}
 		}
@@ -66,7 +68,7 @@
 </div>
 
 <!-- Drawer -->
-<div class="drawer overflow-hidden h-full">
+<div class="drawer overflow-hidden h-full focus">
 	<input
 		id="menu-drawer"
 		bind:checked={drawerOpened}
