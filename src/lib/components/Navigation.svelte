@@ -53,7 +53,7 @@
 		</ul>
 	</div>
 
-	<ul class="menu xl:menu-lg pl-0">
+	<ul class="menu menu-lg lg:menu-md xl:menu-lg pl-0">
 		<li>
 			<a class="hidden xs:flex border border-base-content" href="/participate">Participate</a>
 		</li>
