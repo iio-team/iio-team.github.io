@@ -59,7 +59,7 @@
 </div>
 
 <!-- Drawer -->
-<div class="drawer overflow-hidden h-full overscroll-y-none">
+<div class="drawer overflow-hidden h-full">
 	<input
 		id="menu-drawer"
 		bind:checked={drawerOpened}
@@ -71,8 +71,8 @@
 	/>
 
 	<div class="drawer-side bg-opacity-25 z-50 lg:hidden fixed">
-		<label for="menu-drawer" class="drawer-overlay border" />
-		<ul class="menu menu-lg p-4 w-4/5 min-h-full gap-2 bg-base-300">
+		<label for="menu-drawer" class="drawer-overlay" />
+		<ul class="menu menu-lg p-4 w-4/5 min-h-full gap-2 bg-base-300 overscroll-none">
 			<!-- Sidebar content here -->
 			<NavList on:closeDrawer={closeDrawer} />
 		</ul>
