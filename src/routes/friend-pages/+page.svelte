@@ -37,9 +37,9 @@
 							href={country.school.url}
 							target="_blank"
 							>
-							<p id="{country.name}" class="badge max-w-fit badge-info badge-lg transition-none h-auto">
+							<span id="{country.name}" class="badge max-w-fit badge-info transition-none h-auto">
 								Leader School / Organization
-							</p>
+							</span>
 							{country.school.name}
 						</a>
 					{/if}
