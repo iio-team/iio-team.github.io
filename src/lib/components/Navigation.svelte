@@ -69,8 +69,8 @@
 
 <div class="drawer-side z-50 lg:hidden">
 	<label for="menu-drawer" class="drawer-overlay" />
-	<div class="w-4/5 h-screen fixed overflow-y-scroll bg-base-300">
-		<ul class="menu menu-lg min-h-full p-4 gap-2">
+	<div class="w-4/5 h-full fixed overflow-y-scroll bg-base-300">
+		<ul class="menu menu-lg p-4 gap-2">
 			<!-- Sidebar content here -->
 			<NavList on:closeDrawer={closeDrawer} />
 		</ul>
