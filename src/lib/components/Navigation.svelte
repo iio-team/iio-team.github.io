@@ -77,9 +77,11 @@
 
 	<div class="drawer-side z-50 lg:hidden fixed">
 		<label for="menu-drawer" class="drawer-overlay fixed overflow-hidden" />
-		<ul class="menu menu-lg p-4 w-4/5 min-h-full gap-2 bg-base-300">
-			<!-- Sidebar content here -->
-			<NavList on:closeDrawer={closeDrawer} />
-		</ul>
+		<div class="w-4/5 fixed overflow-scroll h-full bg-base-300">
+			<ul class="menu menu-lg p-4 w-full min-h-full gap-2">
+				<!-- Sidebar content here -->
+				<NavList on:closeDrawer={closeDrawer} />
+			</ul>
+		</div>
 	</div>
 </div>
