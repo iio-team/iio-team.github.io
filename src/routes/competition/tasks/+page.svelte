@@ -11,7 +11,7 @@
 	<title>Tasks</title>
 </svelte:head>
 
-<Hero>2023 final tasks</Hero>
+<Hero>IIOT International Final 2023 Tasks</Hero>
 
 <RoundedContent>
 	<div class="grid w-full lg:w-fit grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
@@ -19,16 +19,16 @@
 			<div class="card bg-base-200 shadow-xl border border-neutral">
 				<div class="card-body gap-4 p-8">
 					<h2 class="card-title">{task.name} ({task.id})</h2>
-					<div class="card-actions  gap-4">
+					<div class="card-actions items-stretch gap-4">
 						<a class="text-lg normal-case h-auto px-4 py-2 btn btn-outline grow w-fit"
 							href="/tasks/2023/{task.id}/english.pdf"
 							target="_blank"
-							>Statement <div class="badge badge-sm badge-info">PDF</div></a
+							><p>Statement <span class="badge badge-sm badge-info">PDF</span></p></a
 						>
 						<a class="text-lg normal-case h-auto px-4 py-2 btn btn-outline grow w-fit"
-							href="/tasks/2023/{task.id}/{task.id}.zip"
+							href="https://github.com/TkcsHnr/IIOT/raw/main/static/tasks/2023/{task.id}/{task.id}.zip"
 							download
-							>Test data <div class="badge badge-sm badge-warning">ZIP</div></a
+							><p>Solutions and <br> test data <span class="badge badge-sm badge-warning">ZIP</span></p></a
 						>
 					</div>
 				</div>
