@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 421.4 119.86">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #1a1a1a;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        font-family: SegoeUI-Bold, 'Segoe UI';
+        font-size: 28px;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #6d69c1;
+      }
+
+      .cls-7 {
+        fill: #a3a3a3;
+      }
+
+      .cls-5, .cls-8 {
+        fill: #60c9ca;
+      }
+    </style>
+  </defs>
+  <g id="Tiles">
+    <g id="I">
+      <rect class="cls-8" y=".4" width="50" height="50" rx="2.5" ry="2.5"/>
+      <g id="I-2">
+        <path class="cls-1" d="m27.84,38h-5.68V12.8h5.68v25.21h0Z"/>
+      </g>
+    </g>
+    <g id="I2">
+      <rect class="cls-8" x="60" y="60.4" width="50" height="50" rx="2.5" ry="2.5"/>
+      <g id="I-3">
+        <path class="cls-1" d="m87.84,98h-5.68v-25.21h5.68v25.21Z"/>
+      </g>
+    </g>
+    <g id="O">
+      <rect class="cls-8" x="120" y=".4" width="50" height="50" rx="2.5" ry="2.5"/>
+      <g id="O-2">
+        <path class="cls-1" d="m144.89,38.43c-3.61,0-6.55-1.17-8.82-3.52s-3.41-5.41-3.41-9.18c0-3.98,1.15-7.21,3.46-9.67s5.37-3.69,9.18-3.69c3.6,0,6.51,1.18,8.73,3.53s3.33,5.46,3.33,9.32-1.15,7.15-3.45,9.58c-2.3,2.43-5.31,3.64-9.01,3.64h-.01Zm.25-21.18c-1.99,0-3.57.75-4.75,2.24s-1.76,3.47-1.76,5.93.59,4.47,1.76,5.92,2.71,2.18,4.61,2.18,3.51-.71,4.66-2.12,1.72-3.37,1.72-5.88-.56-4.65-1.67-6.1-2.64-2.18-4.57-2.18h0Z"/>
+      </g>
+    </g>
+    <g id="T">
+      <rect class="cls-6" x="180" y=".4" width="50" height="50" rx="2.5" ry="2.5"/>
+      <path class="cls-1" d="m215.02,17.42h-7.19v20.58h-5.7v-20.58h-7.15v-4.62h20.04v4.62h0Z"/>
+    </g>
+    <g id="_" data-name=" ">
+      <rect class="cls-7" y="60.4" width="50" height="50" rx="2.5" ry="2.5"/>
+      <path class="cls-1" d="m36.41,87.8h-9.02v9.02h-4.73v-9.02h-9.07v-4.76h9.07v-9.07h4.73v9.07h9.02v4.76Z"/>
+    </g>
+    <g id="_-2" data-name=" -2">
+      <rect class="cls-7" x="60" y=".4" width="50" height="50" rx="2.5" ry="2.5"/>
+      <path class="cls-1" d="m90.11,40.87h-4.54c-3.79-4.17-5.68-9.3-5.68-15.38s1.89-11.06,5.68-15.56h4.5c-3.55,4.71-5.33,9.9-5.33,15.56s1.79,10.79,5.36,15.38h.01Z"/>
+    </g>
+    <g id="_-3" data-name=" -3">
+      <rect class="cls-7" x="120" y="60.4" width="50" height="50" rx="2.5" ry="2.5"/>
+      <path class="cls-1" d="m144.38,100.87h-4.5c3.59-4.57,5.38-9.7,5.38-15.38s-1.79-10.82-5.38-15.56h4.54c3.8,4.51,5.7,9.7,5.7,15.56s-1.91,11.16-5.73,15.38h0Z"/>
+    </g>
+    <g id="semicolon">
+      <rect class="cls-7" x="180" y="60.4" width="50" height="50" rx="2.5" ry="2.5"/>
+      <path class="cls-1" d="m208.15,87.84l-2.58,8.89h-4.32l1.79-8.89h5.12,0Zm-2.65-8c-.93,0-1.69-.28-2.3-.84s-.91-1.25-.91-2.06c0-.86.31-1.55.92-2.08s1.39-.8,2.33-.8,1.73.27,2.33.82.91,1.23.91,2.07-.3,1.55-.9,2.09-1.39.81-2.37.81h-.01Z"/>
+    </g>
+  </g>
+  <g id="IIOT_text" data-name="IIOT text" class="cls-3">
+    <text class="cls-5" transform="translate(250.49 23.8)"><tspan x="0" y="0">I</tspan></text>
+    <text class="cls-2" transform="translate(259.36 23.8)"><tspan x="0" y="0">n</tspan></text>
+    <text class="cls-2" transform="translate(276.3 23.8)"><tspan x="0" y="0">t</tspan></text>
+    <text class="cls-2" transform="translate(287.09 23.8)"><tspan x="0" y="0">e</tspan></text>
+    <text class="cls-2" transform="translate(302.24 23.8)"><tspan x="0" y="0">r</tspan></text>
+    <text class="cls-2" transform="translate(313.46 23.8)"><tspan x="0" y="0">national</tspan></text>
+    <text class="cls-5" transform="translate(250.49 51.8)"><tspan x="0" y="0">I</tspan></text>
+    <text class="cls-2" transform="translate(259.36 51.8)"><tspan x="0" y="0">nfo</tspan></text>
+    <text class="cls-2" transform="translate(304.15 51.8)"><tspan x="0" y="0">r</tspan></text>
+    <text class="cls-2" transform="translate(315.38 51.8)"><tspan x="0" y="0">matics</tspan></text>
+    <text class="cls-5" transform="translate(245.29 79.8)"><tspan x="0" y="0">O</tspan></text>
+    <text class="cls-2" transform="translate(266.52 79.8)"><tspan x="0" y="0">lympiad in</tspan></text>
+    <text class="cls-4" transform="translate(247.29 107.8)"><tspan x="0" y="0">T</tspan></text>
+    <text class="cls-2" transform="translate(261.18 107.8)"><tspan x="0" y="0">eams</tspan></text>
+  </g>
+</svg>
