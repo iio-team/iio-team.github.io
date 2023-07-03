@@ -9,7 +9,7 @@
 	<title>Results</title>
 </svelte:head>
 
-<Hero>Results</Hero>
+<Hero>IIOT International Final 2023 Results</Hero>
 
 <RoundedContent>
 	<div class="overflow-auto w-full rounded-lg">
