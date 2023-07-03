@@ -42,9 +42,9 @@
 
 	<!-- Logo -->
 	<div class="grow">
-		<a href="/" class="btn btn-ghost font-bold text-3xl"
-			><p><span class="text-accent">IIO</span><span class="text-primary">T</span></p></a
-		>
+		<a href="/" class="btn btn-ghost font-bold text-3xl">
+			<p><span class="text-primary">IIO</span><span class="text-secondary">T</span></p>
+		</a>
 	</div>
 
 	<div class="no-flex hidden lg:block">

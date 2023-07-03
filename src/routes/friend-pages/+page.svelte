@@ -33,11 +33,11 @@
 				<div class="card-body w-full items-center md:items-start gap-4 p-8 pt-0 md:pt-8 md:pl-0">
 					{#if country.school}
 						<a
-							class="h-auto pt-3 pb-2 box-border btn btn-outline text-lg w-full normal-case"
+							class="h-auto pt-3 pb-2 box-border btn btn-outline text-lg w-full normal-case flex-col"
 							href={country.school.url}
 							target="_blank"
 							>
-							<span id="{country.name}" class="badge max-w-fit badge-info transition-none h-auto">
+							<span id="{country.name}" class="badge badge-sm lg:badge-md max-w-fit badge-info transition-none h-auto">
 								Leader School / Organization
 							</span>
 							{country.school.name}
