@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!-- PASTE THE SVG HERE -->
 <svg id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 410 112">
   <defs>
     <style>
@@ -187,3 +187,9 @@
     <path class="cls-12" d="m309.3,104.4c.8.5,2.5,1.1,3.8,1.1s1.9-.4,1.9-1.2-.5-1.1-2.1-1.6c-3-1-4.1-2.6-4-4.2,0-2.7,2.2-4.7,5.8-4.7s3.1.4,4,.8l-.8,3c-.6-.3-1.9-.8-3.1-.8s-1.7.4-1.7,1.1.6,1,2.3,1.6c2.7.9,3.8,2.3,3.8,4.4,0,2.6-2.1,4.6-6.1,4.6s-3.5-.4-4.6-1l.8-3.2Z"/>
   </g>
 </svg>
+
+<style>
+	#IIOT_text path.cls-12 {
+		fill: hsl(var(--bc)) !important;
+	}
+</style>

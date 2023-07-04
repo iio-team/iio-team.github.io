@@ -3,9 +3,8 @@
 @tailwind utilities;
 
 :root {
-    --iiot-turquoise: #60c9ca;
-    --iiot-purple: #6d69c1;
+    --iiot-turquoise: #6dc1c3;
+    --iiot-purple: #595bb4;
     --iiot-gray: #a3a3a3;
-    --iiot-logo-font: #1a1a1a;
 }
 
