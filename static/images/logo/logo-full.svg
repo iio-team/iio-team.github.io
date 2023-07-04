@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 410 111.9">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill: #1a1a1a;
+      }
+
+      .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10, .cls-11 {
+        fill: #6dc1c3;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12, .cls-13 {
+        fill: #595bb4;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        font-family: MyriadConceptRoman-Bold, 'Myriad Variable Concept';
+        font-size: 29px;
+        font-variation-settings: 'wght' 700, 'wdth' 100;
+        font-weight: 700;
+      }
+
+      .cls-15 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-16 {
+        fill: #a3a3a3;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="2"/>
+      <feGaussianBlur result="blur" stdDeviation="0"/>
+      <feFlood flood-color="#000" flood-opacity=".6"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Tiles" class="cls-15">
+    <g id="I">
+      <rect class="cls-11" width="50" height="50" rx="2.5" ry="2.5"/>
+      <path class="cls-9" d="m18.8,38.9h1.4c1.3,0,2.1-.3,2.4-1,.3-.6.4-3.7.4-9.3v-7.3c0-5.7-.1-8.9-.3-9.5-.2-.6-.9-.9-2.1-.9h-1.7v-1.4c2.4.1,4.7.2,7.1.2s3.7,0,5.3-.2v1.4h-1.7c-1,0-1.7.1-1.9.4-.3.2-.4.9-.5,1.8,0,1.5-.1,4.3-.1,8.2v7.4c0,5.6.1,8.6.4,9.2.2.6,1,.8,2.4.8h1.4v1.4c-1.8-.1-3.7-.2-5.8-.2s-4.6,0-6.6.2v-1.4Z"/>
+    </g>
+    <g id="I2">
+      <rect class="cls-11" x="58" y="60" width="50" height="50" rx="2.5" ry="2.5"/>
+      <path class="cls-9" d="m76.8,98.9h1.4c1.3,0,2.1-.3,2.4-1,.3-.6.4-3.7.4-9.3v-7.3c0-5.7-.1-8.9-.3-9.5-.2-.6-.9-.9-2.1-.9h-1.7v-1.4c2.4.1,4.7.2,7.1.2s3.7,0,5.3-.2v1.4h-1.7c-1,0-1.7.1-1.9.4-.3.2-.4.9-.5,1.8,0,1.5-.1,4.3-.1,8.2v7.4c0,5.6.1,8.6.4,9.2.2.6,1,.8,2.4.8h1.4v1.4c-1.8-.1-3.7-.2-5.8-.2s-4.6,0-6.6.2v-1.4Z"/>
+    </g>
+    <g id="O">
+      <rect class="cls-11" x="116" width="50" height="50" rx="2.5" ry="2.5"/>
+      <path class="cls-9" d="m124.7,25c0-4.7,1.5-8.5,4.6-11.4s7.1-4.3,12.1-4.3,8.8,1.3,11.7,4c2.8,2.7,4.2,6.2,4.2,10.6s-1.6,8.8-4.9,12c-3.3,3.2-7.4,4.8-12.4,4.8s-5.8-.6-8-1.9c-2.3-1.3-4-3.1-5.3-5.5-1.3-2.4-2-5.2-2-8.3Zm4.4-1.8c0,3.2.6,6.1,1.7,8.5,1.1,2.4,2.6,4.2,4.5,5.4,1.9,1.2,4,1.8,6.4,1.8s4.2-.5,5.8-1.5c1.7-1,3-2.5,3.9-4.6,1-2,1.4-4.5,1.4-7.4s-.5-5.6-1.6-7.8c-1.1-2.2-2.5-3.8-4.3-4.9-1.8-1.1-4-1.6-6.5-1.6s-4.3.5-5.9,1.4c-1.7,1-3,2.4-3.9,4.2-.9,1.9-1.4,4-1.4,6.4Z"/>
+    </g>
+    <g id="T">
+      <rect class="cls-13" x="174" width="50" height="50" rx="2.5" ry="2.5"/>
+      <path class="cls-9" d="m201.3,11.7c-.2,2.1-.2,4.4-.2,6.8v12.2c0,4.6.1,7.1.3,7.5.2.5,1,.7,2.4.7h1.6v1.4c-2.5-.1-4.7-.2-6.4-.2s-3.9,0-6.4.2v-1.4h1.8c.9,0,1.6-.1,1.8-.4.3-.3.5-.7.5-1.5.1-1.7.2-3.8.2-6.5v-12.3c0-2.4,0-4.6-.2-6.7h-2.2c-3.5,0-5.5,0-5.8.2-.4.2-.6.8-.7,1.9l-.3,2.9h-1.4v-2.6c0-1,0-2.5-.2-4.4,7.7.1,12.3.2,13.6.2l11.9-.2c-.3,2.4-.4,4.8-.5,7h-1.4l-.2-2.8c0-1-.2-1.6-.4-1.7-.2-.2-.5-.3-1.1-.3-1.6-.1-3.4-.2-5.4-.2h-1.7Z"/>
+    </g>
+    <g id="_" data-name="+">
+      <rect class="cls-16" y="60" width="50" height="50" rx="2.5" ry="2.5"/>
+      <path class="cls-9" d="m14.2,86.5v-3h9.3v-9.3h3v9.3h9.3v3h-9.3v9.3h-3v-9.3h-9.3Z"/>
+    </g>
+    <g id="_-2" data-name="(">
+      <rect class="cls-16" x="58" width="50" height="50" rx="2.5" ry="2.5"/>
+      <path class="cls-9" d="m87.8,44l-1,1c-2.2-2.2-3.9-4.2-5-6.2-1.2-1.9-2-4.1-2.7-6.4-.6-2.4-.9-4.8-.9-7.4s.4-5.8,1.2-8.3c.8-2.5,1.9-4.7,3.1-6.5,1.2-1.8,2.7-3.4,4.4-5l.8,1.1c-1.5,1.8-2.7,3.6-3.6,5.3-.9,1.8-1.5,3.7-2,5.8-.4,2.1-.7,4.5-.7,7.2s.2,5.4.6,7.6c.4,2.2,1,4.2,1.8,5.8.8,1.7,2,3.7,3.8,6.1Z"/>
+    </g>
+    <g id="_-3" data-name=")">
+      <rect class="cls-16" x="116" y="60" width="50" height="50" rx="2.5" ry="2.5"/>
+      <path class="cls-9" d="m136.2,66l1-1c2.2,2.2,3.8,4.2,5,6.2,1.2,1.9,2.1,4.1,2.7,6.4.6,2.4.9,4.8.9,7.4s-.4,5.8-1.2,8.3-1.9,4.7-3.1,6.5-2.7,3.4-4.4,5l-.8-1.1c1.5-1.8,2.7-3.6,3.6-5.3s1.5-3.7,2-5.8c.5-2.1.7-4.5.7-7.2s-.2-5.4-.6-7.6c-.4-2.2-1-4.2-1.8-5.9-.8-1.7-2-3.7-3.8-6.1Z"/>
+    </g>
+    <g id="semicolon">
+      <rect class="cls-16" x="174" y="60" width="50" height="50" rx="2.5" ry="2.5"/>
+      <path class="cls-9" d="m202.8,86l.6.6c-.8,2-1.7,3.8-2.7,5.4-1,1.6-2.2,3.4-3.8,5.4l-1.8.9-.6-.5c1.4-2.4,2.4-4.3,2.9-5.7.5-1.4.9-3,1-4.7,1.7-.4,3.1-.9,4.4-1.4Zm-2.3-14.3c.7,0,1.3.2,1.8.7.5.5.7,1.1.7,1.8s-.2,1.3-.7,1.8-1.1.7-1.8.7-1.3-.2-1.8-.7-.7-1.1-.7-1.8.2-1.3.7-1.8c.5-.5,1.1-.7,1.8-.7Z"/>
+    </g>
+  </g>
+  <text id="IIOT_text" class="cls-14" transform="translate(242 23.3)"><tspan class="cls-10" x="0" y="0">I</tspan><tspan class="cls-4" x="8.4" y="0">n</tspan><tspan class="cls-1" x="25.2" y="0">t</tspan><tspan class="cls-8" x="35.7" y="0">e</tspan><tspan class="cls-2" x="51" y="0">r</tspan><tspan class="cls-7" x="61.9" y="0">n</tspan><tspan class="cls-3" x="78.9" y="0">a</tspan><tspan class="cls-7" x="94" y="0">tional</tspan><tspan class="cls-10" x="0" y="29">I</tspan><tspan class="cls-7" x="8.4" y="29">n</tspan><tspan class="cls-6" x="25.3" y="29">f</tspan><tspan class="cls-7" x="34.9" y="29">o</tspan><tspan class="cls-2" x="51.7" y="29">r</tspan><tspan class="cls-7" x="62.6" y="29">m</tspan><tspan class="cls-3" x="87.6" y="29">a</tspan><tspan class="cls-7" x="102.7" y="29">tics</tspan><tspan class="cls-10" x="-6" y="58">O</tspan><tspan class="cls-5" x="14.9" y="58">l</tspan><tspan class="cls-7" x="22.9" y="58">ympiad in</tspan><tspan class="cls-12" x="-3.6" y="87">T</tspan><tspan class="cls-7" x="9.9" y="87">eams</tspan></text>
+</svg>
