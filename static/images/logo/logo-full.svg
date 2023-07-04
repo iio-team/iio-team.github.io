@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 410 111.9">
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 409.9 112">
   <defs>
     <style>
       .cls-1 {
@@ -70,7 +70,7 @@
       }
     </style>
     <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
-      <feOffset dx="3" dy="2"/>
+      <feOffset dx="2" dy="2"/>
       <feGaussianBlur result="blur" stdDeviation="0"/>
       <feFlood flood-color="#000" flood-opacity=".6"/>
       <feComposite in2="blur" operator="in"/>
