@@ -34,5 +34,6 @@
 				</div>
 			</div>
 		{/each}
+
 	</div>
 </RoundedContent>

@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
 	import Hero from '$lib/components/page/Hero.svelte';
 	import RoundedContent from '$lib/components/page/RoundedContent.svelte';
 
@@ -17,7 +19,7 @@
 			<thead>
 				<tr>
 					{#each data.headers as th}
-						<th class="whitespace-pre">{th}</th>
+						<th class="whitespace-break-spaces">{th}</th>
 					{/each}
 				</tr>
 			</thead>
@@ -27,24 +29,18 @@
 						<th>{row.Rank}</th>
 						<td>
 							{#if row.Award != ''}
-								<div class="tooltip h-7 cursor-help" data-tip="{row.Award}">
-									<img class="w-7 h-7" src="/images/medals/{row.Award}.png" alt={row.Award} />
-								</div>
+							<div class="tooltip h-7 cursor-help" data-tip="{row.Award}">
+								<img class="w-7 h-7" src="/images/medals/{row.Award}.png" alt={row.Award} />
+							</div>
 							{/if}
 						</td>
 						<td class="left">{row.Team}</td>
-						<td class="left"> 
-							{row.Country}
-						</td>
-						<td>{row.abc}</td>
-						<td>{row.binge}</td>
-						<td>{row.cipher}</td>
-						<td>{row.fence}</td>
-						<td>{row.ktree}</td>
-						<td>{row.matgame}</td>
-						<td>{row['public transport']}</td>
-						<td>{row.tetris}</td>
-						<td>{row['tour de tree']}</td>
+						<td class="left">{row.Country}</td>
+
+						{#each data.tasks as task}
+							<td>{row[`${task}`]}</td>
+						{/each}
+						
 						<td>{row.Total}</td>
 					</tr>
 				{/each}
