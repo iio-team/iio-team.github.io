@@ -26,7 +26,7 @@
 							><p>Statement <span class="badge badge-sm badge-info">PDF</span></p></a
 						>
 						<a class="text-lg normal-case h-auto px-4 py-2 btn btn-outline grow w-fit"
-							href="https://github.com/TkcsHnr/IIOT/raw/main/static/tasks/2023/{task.id}/{task.id}.zip"
+							href="/tasks/2023/{task.id}/{task.id}.zip"
 							download
 							><p>Solutions and <br class="hidden lg:block"> test data <span class="badge badge-sm badge-warning">ZIP</span></p></a
 						>
