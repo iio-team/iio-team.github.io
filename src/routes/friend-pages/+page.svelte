@@ -35,7 +35,6 @@
 						<a
 							class="h-auto pt-3 pb-2 box-border btn btn-outline text-lg w-full normal-case flex-col"
 							href={country.school.url}
-							target="_blank"
 							>
 							<span id="{country.name}" class="badge badge-sm lg:badge-md max-w-fit badge-info transition-none h-auto">
 								Leader School / Organization
@@ -47,7 +46,6 @@
 						<a
 							class="h-auto py-2 btn btn-outline text-lg w-full"
 							href={country.iiot}
-							target="_blank"
 							>IIOT website
 						</a>
 					{/if}
