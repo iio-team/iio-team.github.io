@@ -14,7 +14,7 @@
 <Hero>IIOT International Final 2023 Results</Hero>
 
 <Content>
-	<div class="overflow-auto w-full rounded-2xl ">
+	<div class="overflow-auto w-full pb-4 -mb-4 rounded-2xl">
 		<table class="table w-fit mx-auto table-sm lg:table-md rounded-2xl bg-base-200 shadow-lg">
 			<thead>
 				<tr>
