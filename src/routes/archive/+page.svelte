@@ -1,16 +1,9 @@
 <script>
 	// @ts-nocheck
-	import { clickOutside } from '$lib/scripts/clickOutside.js';
 	import Hero from '$lib/components/page/Hero.svelte';
 	import Content from '$lib/components/page/Content.svelte';
 
 	export let data;
-
-	function closeRadio() {
-		document.getElementsByName('archiveRadio').forEach((r) => {
-			r.checked = false;
-		});
-	}
 
 	function closeOthers(id) {
 		document.getElementsByName('archiveRadio').forEach((r) => {
@@ -29,8 +22,6 @@
 
 <Content>
 	<div
-		use:clickOutside
-		on:outsideclick={closeRadio}
 		class="join join-vertical w-full max-w-2xl shadow-lg rounded-2xl"
 		id="accordion"
 	>
