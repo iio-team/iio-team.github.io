@@ -22,7 +22,7 @@
 
 <Content>
 	<div
-		class="join join-vertical w-full max-w-2xl shadow-lg rounded-2xl"
+		class="join join-vertical w-full max-w-2xl shadow-simple rounded-2xl"
 		id="accordion"
 	>
 		{#each data.years as year}
