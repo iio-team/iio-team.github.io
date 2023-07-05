@@ -18,7 +18,7 @@
 		{#each data.tasks as task}
 			<div class="card bg-base-200 shadow-lg border border-base-300">
 				<div class="card-body gap-4 p-8">
-					<h2 class="card-title">{task.name} ({task.id})</h2>
+					<h2 class="card-title text-xl">{task.name} ({task.id})</h2>
 					<div class="card-actions items-stretch gap-4">
 						<a class="text-lg normal-case h-auto px-4 py-2 btn btn-outline grow w-fit"
 							href="/tasks/2023/{task.id}/english.pdf"
@@ -28,7 +28,7 @@
 						<a class="text-lg normal-case h-auto px-4 py-2 btn btn-outline grow w-fit"
 							href="https://github.com/TkcsHnr/IIOT/raw/main/static/tasks/2023/{task.id}/{task.id}.zip"
 							download
-							><p>Solutions and <br class="hidden lg:block"> test data <span class="badge badge-sm badge-warning">ZIP</span></p></a
+							><p>Solutions and test data <span class="badge badge-sm badge-warning">ZIP</span></p></a
 						>
 					</div>
 				</div>

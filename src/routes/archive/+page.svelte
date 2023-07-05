@@ -42,7 +42,7 @@
 					name="archiveRadio"
 					id="radio{year}"
 				/>
-				<div class="collapse-title text-2xl font-semibold">
+				<div class="collapse-title text-xl font-semibold">
 					{year}
 				</div>
 				<div class="collapse-content">

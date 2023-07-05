@@ -18,13 +18,13 @@
 	<div class="flex flex-col items-center w-full max-w-2xl gap-8">
 		{#each data.countries as country}
 			<div
-				class="card md:card-side min-w-fit w-full justify-center gap-8 bg-base-200 shadow-xl border border-base-300"
+				class="card md:card-side min-w-fit w-full justify-center gap-4 md:gap-8 bg-base-200 shadow-xl border border-base-300"
 			>
 				<figure
-					class="flex-col min-w-fit justify-center items-center gap-2 md:gap-4 p-8 pb-0 md:pb-8 md:pr-0"
+					class="flex-col min-w-fit justify-center items-center gap-4 p-8 pb-0 md:pb-8 md:pr-0"
 				>
 					<img
-						class="w-32 rounded-lg"
+						class="w-36 rounded-lg"
 						src="/images/flags/{country.name}.svg"
 						alt="flag of {country.name}"
 					/>

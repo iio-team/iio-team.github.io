@@ -27,7 +27,7 @@
 					/>
 				</figure>
 				<div class="card-body bg-base-300 w-full h-16 transition-all">
-					<h2 class="card-title text-lg text-base-content">{gallery.name}</h2>
+					<h2 class="card-title text-xl text-base-content">{gallery.name}</h2>
 				</div>
 			</a>
 		{/each}
