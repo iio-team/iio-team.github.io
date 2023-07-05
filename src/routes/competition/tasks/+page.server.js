@@ -1,4 +1,4 @@
-import tasks from '$lib/json/tasks.json';
+import tasks from '$lib/tasks/2023/tasks.json';
 
 export async function load() {
 
