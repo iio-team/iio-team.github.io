@@ -1,2 +1,64 @@
 <script>
+	// @ts-nocheck
+	import { clickOutside } from '$lib/scripts/clickOutside.js';
+	import Hero from '$lib/components/page/Hero.svelte';
+	import RoundedContent from '$lib/components/page/RoundedContent.svelte';
+
+	export let data;
+
+	function closeRadio() {
+		document.getElementsByName('archiveRadio').forEach((r) => {
+			r.checked = false;
+		});
+	}
+
+	function closeOthers(id) {
+		document.getElementsByName('archiveRadio').forEach((r) => {
+			if (r.id != id) {
+				r.checked = false;
+			}
+		});
+	}
 </script>
+
+<svelte:head>
+	<title>Archive</title>
+</svelte:head>
+
+<Hero>Archive of IIOT tasks and results</Hero>
+
+<RoundedContent>
+	<div
+		use:clickOutside
+		on:outsideclick={closeRadio}
+		class="join join-vertical w-full max-w-3xl shadow-lg"
+	>
+		{#each data.years as year}
+			<div class="join-item collapse collapse-arrow bg-base-200 border border-base-300">
+				<input
+					type="checkbox"
+					on:change={(e) => closeOthers(`radio${year}`)}
+					name="archiveRadio"
+					id="radio{year}"
+				/>
+				<div class="collapse-title text-xl font-medium">
+					IIOT {year}
+				</div>
+				<div class="collapse-content">
+					<div class="flex gap-2 flex-col sm:flex-row">
+						{#if data.competitions[`${year}`].tasks}
+							<a class="grow btn btn-outline text-lg rounded-lg" href="/competition/tasks/2023"
+								>Tasks</a
+							>
+						{/if}
+						{#if data.competitions[`${year}`].results}
+							<a class="grow btn btn-outline text-lg rounded-lg" href="/competition/results/2023"
+								>Results</a
+							>
+						{/if}
+					</div>
+				</div>
+			</div>
+		{/each}
+	</div>
+</RoundedContent>
