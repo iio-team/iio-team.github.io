@@ -2,7 +2,7 @@
 	// @ts-nocheck
 
 	import Hero from '$lib/components/page/Hero.svelte';
-	import RoundedContent from '$lib/components/page/RoundedContent.svelte';
+	import Content from '$lib/components/page/Content.svelte';
 
 	export let data;
 </script>
@@ -13,7 +13,7 @@
 
 <Hero>IIOT International Final 2023 Tasks</Hero>
 
-<RoundedContent>
+<Content>
 	<div class="grid w-fit grid-cols-1 md:grid-cols-2 gap-8">
 		{#each data.tasks as task}
 			<div class="card bg-base-200 shadow-lg border border-base-300">
@@ -36,4 +36,4 @@
 		{/each}
 
 	</div>
-</RoundedContent>
+</Content>

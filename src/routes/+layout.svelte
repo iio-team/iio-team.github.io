@@ -9,7 +9,7 @@
 <div class="min-h-screen w-full flex flex-col items-center">
 	<Navigation />
 
-	<main class="w-full grow flex flex-col items-center bg-neutral">
+	<main class="w-full grow flex flex-col items-center bg-base-100">
 		<slot />
 	</main>
 

@@ -2,7 +2,7 @@
 	// @ts-nocheck
 	import { clickOutside } from '$lib/scripts/clickOutside.js';
 	import Hero from '$lib/components/page/Hero.svelte';
-	import RoundedContent from '$lib/components/page/RoundedContent.svelte';
+	import Content from '$lib/components/page/Content.svelte';
 
 	export let data;
 
@@ -27,11 +27,11 @@
 
 <Hero>Archive of IIOT tasks and results</Hero>
 
-<RoundedContent>
+<Content>
 	<div
 		use:clickOutside
 		on:outsideclick={closeRadio}
-		class="join join-vertical w-full max-w-2xl shadow-lg"
+		class="join join-vertical w-full max-w-2xl shadow-lg rounded-2xl"
 		id="accordion"
 	>
 		{#each data.years as year}
@@ -62,4 +62,4 @@
 			</div>
 		{/each}
 	</div>
-</RoundedContent>
+</Content>

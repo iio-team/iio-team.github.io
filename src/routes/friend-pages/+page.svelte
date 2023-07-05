@@ -1,7 +1,7 @@
 <script>
 	// @ts-nocheck
 	import Hero from '$lib/components/page/Hero.svelte';
-	import RoundedContent from '$lib/components/page/RoundedContent.svelte';
+	import Content from '$lib/components/page/Content.svelte';
 
 	export let data;
 </script>
@@ -11,7 +11,7 @@
 </svelte:head>
 
 <Hero>Friend pages</Hero>
-<RoundedContent>
+<Content>
 	<p class="px-2 text-lg max-w-4xl">
 		Here's the list of the participating countries and their websites.
 	</p>
@@ -55,4 +55,4 @@
 			</div>
 		{/each}
 	</div>
-</RoundedContent>
+</Content>

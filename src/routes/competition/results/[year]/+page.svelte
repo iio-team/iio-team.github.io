@@ -2,7 +2,7 @@
 // @ts-nocheck
 
 	import Hero from '$lib/components/page/Hero.svelte';
-	import RoundedContent from '$lib/components/page/RoundedContent.svelte';
+	import Content from '$lib/components/page/Content.svelte';
 
 	export let data;
 </script>
@@ -13,9 +13,9 @@
 
 <Hero>IIOT International Final 2023 Results</Hero>
 
-<RoundedContent>
+<Content>
 	<div class="overflow-auto w-full">
-		<table class="table w-fit mx-auto table-sm lg:table-md rounded-lg bg-base-200 shadow-lg">
+		<table class="table w-fit mx-auto table-sm lg:table-md rounded-2xl bg-base-200 shadow-lg">
 			<thead>
 				<tr>
 					{#each data.headers as th}
@@ -47,7 +47,7 @@
 			</tbody>
 		</table>
 	</div>
-</RoundedContent>
+</Content>
 
 <style>
 	tr {

@@ -1,7 +1,7 @@
 <script>
 	// @ts-nocheck
 	import Hero from '$lib/components/page/Hero.svelte';
-	import RoundedContent from '$lib/components/page/RoundedContent.svelte';
+	import Content from '$lib/components/page/Content.svelte';
 
 	export let data;
 </script>
@@ -12,7 +12,7 @@
 
 <Hero>Gallery</Hero>
 
-<RoundedContent>
+<Content>
 	<div class="grid w-full lg:w-fit grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
 		{#each data.galleries as gallery}
 			<a
@@ -32,7 +32,7 @@
 			</a>
 		{/each}
 	</div>
-</RoundedContent>
+</Content>
 
 
 

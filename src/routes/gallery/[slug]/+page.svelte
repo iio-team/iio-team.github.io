@@ -3,7 +3,7 @@
 	export let data;
 
 	import Hero from '$lib/components/page/Hero.svelte';
-	import RoundedContent from '$lib/components/page/RoundedContent.svelte';
+	import Content from '$lib/components/page/Content.svelte';
 
 	let currentImage = {};
 	function openModal(image) {
@@ -18,7 +18,7 @@
 
 <Hero>Subgallery</Hero>
 
-<RoundedContent>
+<Content>
 	<div class="grid w-full lg:w-fit grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 		{#each data.images as image}
 			<button
@@ -51,4 +51,4 @@
 			</form>
 		</dialog>
 	</div>
-</RoundedContent>
+</Content>
