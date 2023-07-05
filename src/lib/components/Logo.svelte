@@ -188,6 +188,7 @@
   </g>
 </svg>
 
+<!-- Font color changes with theme -->
 <style>
 	#IIOT_text path.cls-12 {
 		fill: hsl(var(--bc)) !important;
