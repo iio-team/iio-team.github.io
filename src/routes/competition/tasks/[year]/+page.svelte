@@ -16,7 +16,7 @@
 <RoundedContent>
 	<div class="grid w-fit grid-cols-1 md:grid-cols-2 gap-8">
 		{#each data.tasks as task}
-			<div class="card bg-base-200 shadow-xl border border-neutral">
+			<div class="card bg-base-200 shadow-lg border border-base-300">
 				<div class="card-body gap-4 p-8">
 					<h2 class="card-title">{task.name} ({task.id})</h2>
 					<div class="card-actions items-stretch gap-4">

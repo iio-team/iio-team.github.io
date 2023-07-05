@@ -14,7 +14,7 @@
 <Hero>IIOT International Final 2023 Results</Hero>
 
 <RoundedContent>
-	<div class="overflow-auto w-full rounded-lg">
+	<div class="overflow-auto w-full">
 		<table class="table w-fit mx-auto table-sm lg:table-md rounded-lg bg-base-200 shadow-lg">
 			<thead>
 				<tr>
@@ -62,7 +62,7 @@
 	td,
 	th {
 		color: hsl(var(--bc));
-		border: 2px solid hsl(var(--b3));
+		border: 1px solid hsl(var(--b3));
 	}
 	tbody th {
 		text-align: right;

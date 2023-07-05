@@ -23,7 +23,7 @@
 		{#each data.images as image}
 			<button
 				on:click={openModal(image)}
-				class="sm:btn-active card card-compact w-full lg:w-72 xl:w-96 shadow-2xl overflow-hidden cursor-pointer border border-neutral"
+				class="sm:btn-active card card-compact w-full lg:w-72 xl:w-96 shadow-2xl overflow-hidden cursor-pointer border border-base-300"
 			>
 				<figure class="w-full h-60 bg-base-200">
 					<img
