@@ -1,6 +1,4 @@
 <script>
-	export const prerender = true;
-
 	import '../app.css';
 	import Navigation from '$lib/components/Navigation.svelte';
 
