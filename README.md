@@ -1,38 +1,48 @@
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# iio-team.github.io
 
-## Creating a project
+This is the official website of the International Informatics Olympiad in Teams.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Deployment
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+To deploy this project on github pages run
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+  npm run deploy
 ```
 
-## Building
 
-To create a production version of your app:
+## Run Locally
+
+To run the project locally, run:
 
 ```bash
-npm run build
+  git clone https://github.com/iio-team/iio-team.github.io
 ```
 
-You can preview the production build with `npm run preview`.
+```bash
+  cd iio-team.github.io
+```
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+```bash
+  npm install
+```
+
+```bash
+  npm run dev
+```
+
+
+## Authors
+
+- [@TkcsHnr](https://www.github.com/TkcsHnr)
+- [@niklaci](https://www.github.com/niklaci)
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| IIOT logo turquoise | ![#6dc1c3](https://via.placeholder.com/10/6dc1c3?text=+) #6dc1c3 |
+| IIOT logo purple | ![#f8f8f8](https://via.placeholder.com/10/595bb4?text=+) #595bb4 |
+| IIOT logo grey | ![#00b48a](https://via.placeholder.com/10/a3a3a3?text=+) #a3a3a3 |
+
