@@ -6,7 +6,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-            base: process.env.NODE_ENV === 'production' ? '/iiot-demo' : '',
+            base: process.env.NODE_ENV === 'production' ? '/iio-team.github.io' : '',
         }
 	},
 	preprocess: vitePreprocess()
