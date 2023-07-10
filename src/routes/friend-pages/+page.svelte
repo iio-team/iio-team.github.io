@@ -3,6 +3,8 @@
 	import Hero from '$lib/components/page/Hero.svelte';
 	import Content from '$lib/components/page/Content.svelte';
 
+	import { base } from '$app/paths';
+
 	export let data;
 </script>
 
@@ -25,7 +27,7 @@
 				>
 					<img
 						class="w-36 rounded-lg"
-						src="/images/flags/{country.name}.svg"
+						src="{base}/images/flags/{country.name}.svg"
 						alt="flag of {country.name}"
 					/>
 					<h1 class="card-title h-fit justify-center text-2xl">{country.name}</h1>

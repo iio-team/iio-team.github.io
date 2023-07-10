@@ -3,6 +3,8 @@
 	import Hero from '$lib/components/page/Hero.svelte';
 	import Content from '$lib/components/page/Content.svelte';
 
+	import { base } from '$app/paths';
+
 	export let data;
 
 	function closeOthers(id) {
@@ -39,12 +41,12 @@
 				<div class="collapse-content">
 					<div class="flex gap-4 flex-col sm:flex-row">
 						{#if data.competitions[`${year}`].tasks}
-							<a class="grow btn btn-outline text-lg rounded-lg" href="/competition/tasks/2023"
+							<a class="grow btn btn-outline text-lg rounded-lg" href="{base}/competition/tasks/2023"
 								>Tasks</a
 							>
 						{/if}
 						{#if data.competitions[`${year}`].results}
-							<a class="grow btn btn-outline text-lg rounded-lg" href="/competition/results/2023"
+							<a class="grow btn btn-outline text-lg rounded-lg" href="{base}/competition/results/2023"
 								>Results</a
 							>
 						{/if}

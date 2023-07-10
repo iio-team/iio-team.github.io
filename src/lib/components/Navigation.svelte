@@ -2,6 +2,8 @@
 	import NavList from './NavList.svelte';
 	import ThemeSwitch from './ThemeSwitch.svelte';
 
+	import { base } from '$app/paths';
+
 	let drawerOpened = false;
 
 	function closeDrawer() {
@@ -42,7 +44,7 @@
 
 	<!-- Logo -->
 	<div class="grow">
-		<a href="/" class="btn btn-ghost font-bold text-3xl">
+		<a href="{base}/" class="btn btn-ghost font-bold text-3xl">
 			<p><span class="text-primary">IIO</span><span class="text-secondary">T</span></p>
 		</a>
 	</div>
@@ -55,7 +57,7 @@
 
 	<ul class="menu menu-lg lg:menu-md xl:menu-lg pl-0">
 		<li>
-			<a class="hidden xs:flex border border-base-content" href="/participate">Participate</a>
+			<a class="hidden xs:flex border border-base-content" href="{base}/participate">Participate</a>
 		</li>
 	</ul>
 	<ThemeSwitch />

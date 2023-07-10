@@ -4,6 +4,8 @@
 	import Hero from '$lib/components/page/Hero.svelte';
 	import Content from '$lib/components/page/Content.svelte';
 
+	import { base } from '$app/paths';
+
 	export let data;
 </script>
 
@@ -30,7 +32,7 @@
 						<td>
 							{#if row.Award != ''}
 							<div class="tooltip h-7 cursor-help" data-tip="{row.Award}">
-								<img class="w-7 h-7" src="/images/medals/{row.Award}.png" alt={row.Award} />
+								<img class="w-7 h-7" src="{base}/images/medals/{row.Award}.png" alt={row.Award} />
 							</div>
 							{/if}
 						</td>

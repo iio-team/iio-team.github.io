@@ -3,6 +3,8 @@
 	import Hero from '$lib/components/page/Hero.svelte';
 	import Content from '$lib/components/page/Content.svelte';
 
+	import { base } from '$app/paths';
+
 	export let data;
 </script>
 
@@ -16,7 +18,7 @@
 	<div class="grid w-full lg:w-fit grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
 		{#each data.galleries as gallery}
 			<a
-				href="/gallery/{gallery.id}"
+				href="{base}/gallery/{gallery.id}"
 				class="card card-compact w-full lg:w-72 xl:w-96 bg-base-300 shadow-lg overflow-hidden border border-base-300"
 			>
 				<figure class="w-full h-56 bg-base-200">
