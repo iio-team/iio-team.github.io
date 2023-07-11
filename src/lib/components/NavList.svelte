@@ -25,7 +25,7 @@
 			<li><a href="{base}/competition/tasks/2023" on:click={closeDrawer}>Tasks</a></li>
 			<li><a href="{base}/competition/results/2023" on:click={closeDrawer}>Results</a></li>
 			<li></li>
-			<li><a href="{base}/pdf/Regulations.pdf" target="_blank" on:click={closeDrawer} class="gap-8">Rules <span class="badge badge-info badge-sm">PDF</span></a></li>
+			<li><a href="{base}/pdf/Regulations.pdf" target="_blank" on:click={closeDrawer} class="gap-8">Rules <img class="w-6 h-6 ml-auto" src="{base}/images/pdf.png" alt="pdf"/></a></li>
 			<li><a href="{base}/competition/syllabus" on:click={closeDrawer} class="gap-8">Syllabus</a></li>
 		</ul>
 	</details>
