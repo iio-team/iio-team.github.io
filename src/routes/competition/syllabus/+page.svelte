@@ -90,6 +90,7 @@
 	ul li span {
 		color: hsl(var(--er));
 		font-family: monospace;
+		font-size: 17px;
 	}
 
 	li::marker {
