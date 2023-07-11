@@ -13,7 +13,7 @@
 		<slot />
 	</main>
 
-	<footer class="footer footer-center h-16 md:h-24 lg:h-32 bg-base-300">
+	<footer class="footer footer-center p-10 bg-base-300 text-base-content gap-4">
 		<p class="text-base-content">Copyright © {year} - All right reserved</p>
 	</footer>
 </div>
