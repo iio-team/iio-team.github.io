@@ -22,20 +22,25 @@
 				<div class="card-body gap-4 p-8">
 					<h2 class="card-title text-xl">{task.name} ({task.id})</h2>
 					<div class="card-actions items-stretch gap-4">
-						<a class="text-lg normal-case h-auto px-4 py-2 btn btn-outline grow w-fit"
+						<a
+							class="text-lg normal-case h-auto px-4 py-2 btn btn-outline grow w-fit"
 							href="{base}/tasks/2023/{task.id}/english.pdf"
 							target="_blank"
-							><p>Statement <span class="badge badge-sm badge-info">PDF</span></p></a
 						>
-						<a class="btn-disabled text-lg normal-case h-auto px-4 py-2 btn btn-outline grow w-fit"
+							Statement
+							<img class="w-6" src="{base}/images/pdf.png" alt="pdf" /> 
+						</a>
+						<a
+							class="btn-disabled text-lg normal-case h-auto px-4 py-2 btn btn-outline grow w-fit"
 							href="#"
 							download
-							><p>Solutions and test data <span class="badge badge-sm badge-warning">ZIP</span></p></a
 						>
+							Solutions and test data
+							<img class="w-6" src="{base}/images/zip.png" alt="zip" /> 
+						</a>
 					</div>
 				</div>
 			</div>
 		{/each}
-
 	</div>
 </Content>
