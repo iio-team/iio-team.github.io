@@ -1,5 +1,6 @@
 <script>
 	import Content from '$lib/components/page/Content.svelte';
+	import Hero from '$lib/components/page/Hero.svelte';
 
 	import { base } from '$app/paths';
 </script>
@@ -8,6 +9,8 @@
 	<title>Syllabus</title>
 </svelte:head>
 
+<Hero>Syllabus</Hero>
+
 <Content>
 	<div
 		class="max-w-3xl w-full px-2 sm:px-12 sm:py-12 sm:mt-12 flex flex-col gap-4 relative rounded-xl sm:shadow-lg sm:bg-base-200 box-border sm:border border-base-300"
@@ -15,17 +18,13 @@
 		<a
 			href="{base}/pdf/Syllabus.pdf"
 			download
-			class="btn btn-info sm:rounded-b-none w-full sm:w-fit sm:absolute sm:top-0 sm:-mt-12 mb-4"
+			class="btn btn-info border-none sm:rounded-b-none w-full sm:w-fit sm:absolute sm:top-0 sm:-mt-12"
 		>
 			<img class="w-6 h-6" src="{base}/images/pdf.png" alt="pdf"/>
 			Download PDF
 		</a>
-		<div class="flex flex-col text-center">
-			<h2 class="text-3xl mb-2">Syllabus</h2>
-			<h3 class="text-xl">International Informatics Olympiad in Teams</h3>
-		</div>
 
-		<div class="divider">Version 2 - May 19th, 2019</div>
+		<div class="divider sm:mt-0">IIOT Syllabus, Version 2</div>
 
 		<div class="flex flex-col gap-4">
 			<h3 class="text-xl font-medium">Level 1.</h3>
