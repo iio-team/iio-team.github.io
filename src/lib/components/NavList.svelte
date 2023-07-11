@@ -18,7 +18,6 @@
 </script>
 
 <li><a href="{base}/" on:click={closeDrawer}>Home</a></li>
-<li><a class="xs:hidden" href="{base}/participate" on:click={closeDrawer}>Participate</a></li>
 <li>
 	<details bind:open={dropdownOpened} use:clickOutside on:outsideclick={closeDropdown}>
 		<summary>Competition</summary>
@@ -36,6 +35,7 @@
 <li><a href="{base}/archive" on:click={closeDrawer}>Archive</a></li>
 <li><a href="{base}/gallery" on:click={closeDrawer}>Gallery</a></li>
 <li><a href="{base}/contact" on:click={closeDrawer}>Contact</a></li>
+<li><a class="lg:border lg:border-base-content" href="{base}/participate" on:click={closeDrawer}>Participate</a></li>
 
 <style>
 	summary::after {

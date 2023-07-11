@@ -23,7 +23,7 @@
 </script>
 
 <!-- Navbar -->
-<div class="w-full navbar lg:sticky top-0 z-40 bg-base-300 px-2 md:px-4 py-3">
+<div class="w-full navbar h-24 lg:sticky top-0 z-40 bg-base-300 px-2 md:px-4 py-3">
 	<!-- Hamburger icon -->
 	<div class="flex-none lg:hidden">
 		<label for="menu-drawer" class="btn btn-square btn-ghost">
@@ -41,25 +41,21 @@
 			>
 		</label>
 	</div>
-
+	
 	<!-- Logo -->
-	<div class="grow">
-		<a href="{base}/" class="btn btn-ghost font-bold text-3xl">
-			<p><span class="text-primary">IIO</span><span class="text-secondary">T</span></p>
+	<div class="grow px-4 lg:pr-0 justify-center lg:justify-start">
+		<a href="{base}/" class="btn h-full px-0 rounded-none btn-ghost bg-transparent hover:bg-transparent">
+			<!-- <p><span class="text-primary">IIO</span><span class="text-secondary">T</span></p> -->
+			<img src="{base}/images/logo/logo-simple.svg" alt="logo" class="h-12">
 		</a>
 	</div>
-
+	
 	<div class="no-flex hidden lg:block">
 		<ul class="menu xl:menu-lg menu-horizontal gap-2">
 			<NavList />
 		</ul>
 	</div>
-
-	<ul class="menu menu-lg lg:menu-md xl:menu-lg pl-0">
-		<li>
-			<a class="hidden xs:flex border border-base-content" href="{base}/participate">Participate</a>
-		</li>
-	</ul>
+	
 	<ThemeSwitch />
 </div>
 
