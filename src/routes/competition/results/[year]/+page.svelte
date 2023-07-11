@@ -2,7 +2,6 @@
 // @ts-nocheck
 
 	import Hero from '$lib/components/page/Hero.svelte';
-	import Content from '$lib/components/page/Content.svelte';
 
 	import { base } from '$app/paths';
 
@@ -14,10 +13,10 @@
 </svelte:head>
 
 <Hero>IIOT International Final 2023 Results</Hero>
+<div class="w-full grow md:px-4 md:py-12 flex flex-col items-center bg-base-100">
 
-<Content>
-	<div class="overflow-auto w-full pb-4 -mb-4 rounded-2xl">
-		<table class="table w-fit mx-auto table-sm lg:table-md rounded-2xl bg-base-200 shadow-lg">
+	<div class="overflow-auto w-full pb-4 -mb-4 rounded-none md:rounded-xl">
+		<table class="table w-fit mx-auto table-sm lg:table-md rounded-none md:rounded-xl bg-base-200 md:shadow-lg">
 			<thead>
 				<tr>
 					{#each data.headers as th}
@@ -49,8 +48,7 @@
 			</tbody>
 		</table>
 	</div>
-</Content>
-
+</div>
 <style>
 	tr {
 		border: none;
