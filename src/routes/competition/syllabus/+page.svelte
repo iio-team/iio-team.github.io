@@ -18,7 +18,7 @@
 		<a
 			href="{base}/pdf/Syllabus.pdf"
 			download
-			class="origin-bottom btn btn-info border-none sm:rounded-b-none w-full sm:w-fit sm:absolute sm:top-0 sm:-mt-12"
+			class="sm:origin-bottom btn btn-info border-none sm:rounded-b-none w-full sm:w-fit sm:absolute sm:top-0 sm:-mt-12"
 		>
 			<img class="w-6 h-6" src="{base}/images/pdf.png" alt="pdf"/>
 			Download PDF
