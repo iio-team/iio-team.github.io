@@ -24,9 +24,8 @@
 		<ul class="p-2">
 			<li><a href="{base}/competition/tasks/2023" on:click={closeDrawer}>Tasks</a></li>
 			<li><a href="{base}/competition/results/2023" on:click={closeDrawer}>Results</a></li>
-			<li></li>
 			<li><a href="{base}/pdf/Regulations.pdf" target="_blank" on:click={closeDrawer} class="gap-8">Rules <span class="badge badge-info badge-sm">PDF</span></a></li>
-			<li><a href="{base}/pdf/Syllabus.pdf" target="_blank" on:click={closeDrawer} class="gap-8">Syllabus <span class="badge badge-info badge-sm">PDF</span></a></li>
+			<li><a href="{base}/competition/syllabus" on:click={closeDrawer} class="gap-8">Syllabus</a></li>
 		</ul>
 	</details>
 </li>
