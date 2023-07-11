@@ -32,7 +32,7 @@
 </li>
 <li><a href="{base}/schedule" on:click={closeDrawer}>Schedule</a></li>
 <li><a href="{base}/friend-pages" on:click={closeDrawer}>Friend pages</a></li>
-<li><a href="{base}/archive" on:click={closeDrawer}>Archive</a></li>
+<li><a href="{base}/editions" on:click={closeDrawer}>Editions</a></li>
 <li><a href="{base}/gallery" on:click={closeDrawer}>Gallery</a></li>
 <li><a href="{base}/contact" on:click={closeDrawer}>Contact</a></li>
 <li><a class="lg:border lg:border-base-content" href="{base}/participate" on:click={closeDrawer}>Participate</a></li>
