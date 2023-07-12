@@ -4,9 +4,9 @@
 	import { base } from '$app/paths';
 
 	export let year;
-	export let country;
-	export let tasks;
-	export let results;
+	export let country = null;
+	export let tasks = null;
+	export let results = null;
 </script>
 
 <div class="join join-vertical w-full max-w-2xl shadow-lg rounded-2xl">
