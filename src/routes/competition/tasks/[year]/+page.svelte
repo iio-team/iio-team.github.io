@@ -27,16 +27,16 @@
 							href="{base}/tasks/2023/{task.id}/english.pdf"
 							target="_blank"
 						>
+							<img class="w-6" src="{base}/images/pdf.png" alt="pdf" />
 							Statement
-							<img class="w-6" src="{base}/images/pdf.png" alt="pdf" /> 
 						</a>
 						<a
 							class="btn-disabled text-lg normal-case h-auto px-4 py-2 btn btn-outline grow w-fit"
 							href="#"
 							download
 						>
+							<img class="w-6" src="{base}/images/zip.png" alt="zip" />
 							Solutions and test data
-							<img class="w-6" src="{base}/images/zip.png" alt="zip" /> 
 						</a>
 					</div>
 				</div>
