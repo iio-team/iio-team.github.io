@@ -1,7 +1,8 @@
 <script>
-// @ts-nocheck
+	// @ts-nocheck
 
 	import Hero from '$lib/components/page/Hero.svelte';
+	import Content from '$lib/components/page/Content.svelte';
 
 	import { base } from '$app/paths';
 
@@ -13,10 +14,10 @@
 </svelte:head>
 
 <Hero>IIOT International Final 2023 Results</Hero>
-<div class="w-full grow md:px-4 md:py-12 flex flex-col items-center bg-base-100">
 
-	<div class="overflow-auto w-full pb-4 -mb-4 rounded-none md:rounded-xl">
-		<table class="table w-fit mx-auto table-sm lg:table-md rounded-none md:rounded-xl bg-base-200 md:shadow-lg">
+<Content>
+	<div class="overflow-x-auto w-full rounded-2xl">
+		<table class="table w-fit mx-auto table-sm lg:table-md rounded-2xl bg-base-200 ">
 			<thead>
 				<tr>
 					{#each data.headers as th}
@@ -27,28 +28,28 @@
 			<tbody>
 				{#each data.rows as row}
 					<tr>
-						<th>{row.Rank}</th>
-						<td>
-							{#if row.Award != ''}
-							<div class="tooltip h-7 cursor-help" data-tip="{row.Award}">
-								<img class="w-7 h-7" src="{base}/images/medals/{row.Award}.png" alt={row.Award} />
-							</div>
-							{/if}
-						</td>
-						<td class="left">{row.Team}</td>
-						<td class="left">{row.Country}</td>
-
-						{#each data.tasks as task}
-							<td>{row[`${task}`]}</td>
+						{#each data.headers as header}
+							<td class:left={header == 'Team' || header == 'Country'}>
+								{#if header == 'Award' && row.Award && row.Award != ''}
+									<div class="tooltip h-7 cursor-help" data-tip={row.Award}>
+										<img
+											class="w-7 h-7"
+											src="{base}/images/medals/{row.Award}.png"
+											alt={row.Award}
+										/>
+									</div>
+								{:else}
+									{row[`${header}`]}
+								{/if}
+							</td>
 						{/each}
-						
-						<td>{row.Total}</td>
 					</tr>
 				{/each}
 			</tbody>
 		</table>
 	</div>
-</div>
+</Content>
+
 <style>
 	tr {
 		border: none;
@@ -64,17 +65,17 @@
 		color: hsl(var(--bc));
 		border: 1px solid hsl(var(--b3));
 	}
-	tbody th {
-		text-align: right;
-	}
 	thead th {
 		border-top-width: 0;
+	}
+	tbody tr td:first-child {
+		font-weight: bold;
 	}
 	tbody tr:last-child th,
 	tbody tr:last-child td {
 		border-bottom: 0;
 	}
-	tbody tr th,
+	tbody tr td:first-child,
 	thead tr th:first-child {
 		border-left: 0;
 	}
