@@ -32,21 +32,21 @@
 				<slot name="description" />
 			</div>
 			{#if tasks || results || gallery}
-				<div class="flex flex-col sm:flex-row gap-4">
+				<div class="flex flex-wrap gap-4">
 					{#if tasks}
-						<a class="grow btn btn-outline text-lg rounded-lg" href="{base}/competition/tasks/{year}"
+						<a class="grow px-8 btn btn-outline text-lg rounded-lg" href="{base}/competition/tasks/{year}"
 							>Tasks</a
 						>
 					{/if}
 					{#if results}
 						<a
-							class="grow btn btn-outline text-lg rounded-lg"
+							class="grow px-8 btn btn-outline text-lg rounded-lg"
 							href="{base}/competition/results/{year}">Results</a
 						>
 					{/if}
 					{#if gallery}
 						<a
-							class="grow btn btn-outline text-lg rounded-lg"
+							class="grow px-8 btn btn-neutral border text-lg rounded-lg"
 							href="{base}/gallery/{year}">Photos</a
 						>
 					{/if}
