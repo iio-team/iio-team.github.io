@@ -32,5 +32,5 @@ export async function load({ params }) {
 
     let zipMap = zipDownloadLinks(FOLDER_ID);
 
-    return { tasks, zipMap }
+    return { tasks, zipMap, year }
 };

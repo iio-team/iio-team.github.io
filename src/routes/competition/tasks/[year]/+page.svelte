@@ -10,10 +10,10 @@
 </script>
 
 <svelte:head>
-	<title>Tasks</title>
+	<title>{data.year} Tasks</title>
 </svelte:head>
 
-<Hero>IIOT International Final 2023 Tasks</Hero>
+<Hero>IIOT International Final {data.year} Tasks</Hero>
 
 <Content>
 	<div class="grid w-fit grid-cols-1 md:grid-cols-2 gap-8">
