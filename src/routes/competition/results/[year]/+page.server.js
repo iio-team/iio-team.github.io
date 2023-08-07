@@ -1,5 +1,5 @@
 // @ts-nocheck
-import results from '$lib/competition-data/results.json';
+import results from '$lib/json-data/results.json';
 
 export async function load({ params }) {
     const year = params.year;

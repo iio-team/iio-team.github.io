@@ -1,7 +1,7 @@
 <script context="module">
-	import tasks_file from '$lib/competition-data/tasks.json';
-	import results_file from '$lib/competition-data/results.json';
-	import gallery_file from '$lib/competition-data/gallery.json';
+	import tasks_file from '$lib/json-data/tasks.json';
+	import results_file from '$lib/json-data/results.json';
+	import gallery_file from '$lib/json-data/gallery.json';
 </script>
 
 <script>
@@ -23,7 +23,9 @@
 			{#if flag}
 				<img src="{base}/images/flags/{flag}.svg" alt="" class="h-6 rounded-sm" />
 			{/if}
-			<slot name="location"></slot>
+			<div class="contents text-lg">
+				<slot name="location"></slot>
+			</div>
 		</div>
 		<div class="collapse-content flex flex-col gap-4">
 			<div class="contents text-lg">

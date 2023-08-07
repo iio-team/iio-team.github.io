@@ -1,5 +1,5 @@
 // @ts-nocheck
-import tasks_json from '$lib/competition-data/tasks.json';
+import tasks_json from '$lib/json-data/tasks.json';
 import axios from 'axios';
 
 // Google Drive API key

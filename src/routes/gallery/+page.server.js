@@ -1,5 +1,5 @@
 // @ts-nocheck
-import gallery from '$lib/competition-data/gallery.json';
+import gallery from '$lib/json-data/gallery.json';
 
 export async function load() {
     let years = Object.keys(gallery);
