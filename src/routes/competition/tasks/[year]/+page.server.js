@@ -1,9 +1,7 @@
 // @ts-nocheck
 import tasks_json from '$lib/json-data/tasks.json';
 import axios from 'axios';
-
-// Google Drive API key
-const API_KEY = 'AIzaSyCHlNRwQjcCceW-2FeB7d90mPbMmLruEJE'; 
+import { API_KEY } from '$env/static/private';
 
 // Creating download links for all the zip files in the google drive folder
 // The FOLDER_ID should be specified in the 'tasks.json' file for each year
