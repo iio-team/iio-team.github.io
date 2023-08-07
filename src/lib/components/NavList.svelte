@@ -34,7 +34,6 @@
 <li><a href="{base}/countries" on:click={closeDrawer}>Countries</a></li>
 <li><a href="{base}/editions" on:click={closeDrawer}>Editions</a></li>
 <li><a href="{base}/gallery" on:click={closeDrawer}>Gallery</a></li>
-<li><a href="{base}/contact" on:click={closeDrawer}>Contact</a></li>
 <li><a class="lg:border lg:border-base-content" href="{base}/participate" on:click={closeDrawer}>Participate</a></li>
 
 <style>
