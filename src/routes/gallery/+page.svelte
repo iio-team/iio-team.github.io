@@ -29,7 +29,7 @@
 						loading="lazy"
 					/>
 				</figure>
-				<div class="card-body bg-base-300 w-full h-16 transition-all">
+				<div class="card-body bg-base-300 w-full h-14 transition-all justify-center">
 					<h2 class="card-title text-xl text-base-content">{gallery.title}</h2>
 				</div>
 			</a>
@@ -41,6 +41,6 @@
 
 <style>
 	.card:hover .card-body {
-		transform: translateY(-1rem);
+		transform: translateY(-0.5rem);
 	}
 </style>
