@@ -54,11 +54,11 @@
 					<div class="divider m-2">Contacts</div>
 					<div class="w-full flex flex-wrap justify-betwee">
 						<p class="grow-0 mr-2">National referent:</p>
-						<a href="mailto:" class="btn-link link-secondary">national-referent@gmail.com</a>
+						<a href="mailto:" class="btn-link link-secondary font-semibold">national-referent@gmail.com</a>
 					</div>
 					<div class="w-full flex flex-wrap justify-betwee">
 						<p class="grow-0 mr-2">Scientific coordinator:</p>
-						<a href="mailto:" class="btn-link link-secondary">scientific-coordinator@gmail.com</a>
+						<a href="mailto:" class="btn-link link-secondary font-semibold">scientific-coordinator@gmail.com</a>
 					</div>
 				</div>
 			</div>
