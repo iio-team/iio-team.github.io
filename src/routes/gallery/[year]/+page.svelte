@@ -5,7 +5,7 @@
 	import Hero from '$lib/components/page/Hero.svelte';
 	import Content from '$lib/components/page/Content.svelte';
 
-	let currentImageName = '';
+	let currentImageName = data.imageNames[0];
 	function openModal(imageName) {
 		currentImageName = imageName;
 		document.getElementById('imageModal').showModal();
