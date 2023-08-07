@@ -40,7 +40,7 @@
 		<dialog id="imageModal" class="modal p-4 bg-black bg-opacity-60 backdrop-blur-md">
 			<form
 				method="dialog"
-				class="modal-box p-0 w-full h-fit md:w-fit md:h-full max-w-4xl max-h-[90%] bg-base-300"
+				class="modal-box p-0 w-full h-fit md:w-fit md:h-full max-w-full max-h-[90%] bg-base-300"
 			>
 				<img
 					class="w-full h-auto md:w-auto md:h-full"
