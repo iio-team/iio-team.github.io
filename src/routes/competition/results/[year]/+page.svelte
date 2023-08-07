@@ -21,7 +21,7 @@
 			<thead>
 				<tr>
 					{#each data.headers as th}
-						<th class="whitespace-break-spaces ">{th}</th>
+						<th class="whitespace-break-spaces text-sm">{th}</th>
 					{/each}
 				</tr>
 			</thead>
@@ -29,7 +29,8 @@
 				{#each data.rows as row}
 					<tr>
 						{#each data.headers as header}
-							<td class:left={['Team','Country','School'].includes(header)}>
+							<td class:left={['Team','Country','School'].includes(header)}
+								class:font-bold={header == 'Total'}>
 								{#if header == 'Award' && row.Award && row.Award != ''}
 									<div class="tooltip h-7 cursor-help" data-tip={row.Award}>
 										<img
@@ -82,6 +83,5 @@
 	tbody tr td:last-child,
 	thead tr th:last-child {
 		border-right: 0;
-		font-weight: bold;
 	}
 </style>
