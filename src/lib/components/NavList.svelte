@@ -35,7 +35,7 @@
 <li><a href="{base}/countries" class:font-bold={$page.route.id === `${base}/countries`} on:click={closeDrawer}>Countries</a></li>
 <li><a href="{base}/editions" class:font-bold={$page.route.id === `${base}/editions`} on:click={closeDrawer}>Editions</a></li>
 <li><a href="{base}/gallery" class:font-bold={$page.route.id?.includes(`${base}/gallery`)} on:click={closeDrawer}>Gallery</a></li>
-<li><a class="lg:border lg:border-base-content"  class:font-bold={$page.route.id === `${base}/participate`} href="{base}/participate" on:click={closeDrawer}>Participate</a></li>
+<li><a href="{base}/participate" class:font-bold={$page.route.id === `${base}/participate`} on:click={closeDrawer}>Participate</a></li>
 
 <style>
 	summary::after {
