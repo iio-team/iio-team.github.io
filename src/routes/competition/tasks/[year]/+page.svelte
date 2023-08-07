@@ -31,8 +31,8 @@
 							Statement
 						</a>
 						<a
-							class="btn-disabled text-lg normal-case h-auto px-4 py-2 btn btn-outline grow w-fit"
-							href="#"
+							class="text-lg normal-case h-auto px-4 py-2 btn btn-outline grow w-fit"
+							href="{data.zipMap[`${task.id}`]}"
 							download
 						>
 							<img class="w-6" src="{base}/images/zip.png" alt="zip" />

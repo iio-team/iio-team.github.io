@@ -1,0 +1,43 @@
+{
+    "2023": {
+        "FOLDER_ID": "1anVVBbDhGiP6jsmyegA3-S_28KffsLzd",
+        "tasks": [
+            {
+                "id": "abc",
+                "name": "Distributing Hat"
+            },
+            {
+                "id": "binge",
+                "name": "Binge Watching"
+            },
+            {
+                "id": "cipher",
+                "name": "Cyclic Vigenere Cipher"
+            },
+            {
+                "id": "fence",
+                "name": "Problem Fence"
+            },
+            {
+                "id": "ktree",
+                "name": "Rank Queries on a Tree"
+            },
+            {
+                "id": "matgame",
+                "name": "Game on a Matrix"
+            },
+            {
+                "id": "publictransport",
+                "name": "Public Transport"
+            },
+            {
+                "id": "tetris",
+                "name": "Winning Tetris"
+            },
+            {
+                "id": "tourdetree",
+                "name": "Tour de Treeland"
+            }
+        ]
+    }
+}
