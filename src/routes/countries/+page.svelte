@@ -38,7 +38,7 @@
 							class="relative h-auto py-2 box-border btn btn-outline text-lg w-full normal-case flex-col"
 							href={country.school.url}
 							>
-							<span id="{country.name}" class="badge badge-sm xs:badge-md absolute -top-px -translate-y-full rounded-b-none rounded-t-lg badge-info transition-none h-auto">
+							<span id="{country.name}" class="badge badge-sm xs:badge-md absolute -top-px -translate-y-full rounded-b-none rounded-t-lg badge-info  transition-none h-auto">
 								Leader School / Organization
 							</span>
 							{country.school.name}
@@ -46,7 +46,7 @@
 					{/if}
 					{#if country.iiot}
 						<a
-							class="h-auto py-2 btn btn-outline text-lg w-full normal-case"
+							class="h-auto py-2 btn btn-outline  text-lg w-full normal-case bg-base-content text-base-200 border-base-content hover:translate-x-2"
 							href={country.iiot}
 							>Competition website
 						</a>
