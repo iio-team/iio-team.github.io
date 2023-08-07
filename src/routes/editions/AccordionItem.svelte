@@ -1,6 +1,7 @@
 <script context="module">
 	import tasks_file from '$lib/competition-data/tasks.json';
 	import results_file from '$lib/competition-data/results.json';
+	import gallery_file from '$lib/competition-data/gallery.json';
 </script>
 
 <script>
@@ -11,10 +12,11 @@
 	export let flag = null;
 	let tasks = tasks_file[`${year}`];
 	let results = results_file[`${year}`];
+	let gallery = gallery_file[`${year}`];
 </script>
 
 <div class="join join-vertical w-full max-w-2xl shadow-lg rounded-2xl">
-	<div class:collapse-arrow="{tasks || results}" class="collapse join-item bg-base-200 border border-base-300">
+	<div class:collapse-arrow="{tasks || results || gallery}" class="collapse join-item bg-base-200 border border-base-300">
 		<input type="radio" name="my-accordion-4" />
 		<div class="collapse-title text-xl font-medium flex gap-6 items-center h-fit">
 			{year}
@@ -27,7 +29,7 @@
 			<div class="contents text-lg">
 				<slot name="description" />
 			</div>
-			{#if tasks || results}
+			{#if tasks || results || gallery}
 				<div class="flex flex-col sm:flex-row gap-4">
 					{#if tasks}
 						<a class="grow btn btn-outline text-lg rounded-lg" href="{base}/competition/tasks/{year}"
@@ -38,6 +40,12 @@
 						<a
 							class="grow btn btn-outline text-lg rounded-lg"
 							href="{base}/competition/results/{year}">Results</a
+						>
+					{/if}
+					{#if gallery}
+						<a
+							class="grow btn btn-outline text-lg rounded-lg"
+							href="{base}/gallery/{year}">Photos</a
 						>
 					{/if}
 				</div>
