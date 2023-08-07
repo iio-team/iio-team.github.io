@@ -21,7 +21,7 @@
 			<thead>
 				<tr>
 					{#each data.headers as th}
-						<th class="whitespace-break-spaces">{th}</th>
+						<th class="whitespace-break-spaces ">{th}</th>
 					{/each}
 				</tr>
 			</thead>
@@ -82,5 +82,6 @@
 	tbody tr td:last-child,
 	thead tr th:last-child {
 		border-right: 0;
+		font-weight: bold;
 	}
 </style>
