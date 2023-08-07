@@ -5,6 +5,8 @@
 	import Hero from '$lib/components/page/Hero.svelte';
 	import Content from '$lib/components/page/Content.svelte';
 
+	import { base } from '$app/paths';
+
 	let currentImageName = data.imageNames[0];
 	function openModal(imageName) {
 		currentImageName = imageName;
@@ -27,7 +29,7 @@
 			>
 				<figure class="w-full h-60 bg-base-200">
 					<img
-						src="/images/gallery/{data.year}/{imageName}"
+						src="{base}/images/gallery/{data.year}/{imageName}"
 						alt={imageName}
 						class="min-h-full object-cover"
 					/>
@@ -42,7 +44,7 @@
 			>
 				<img
 					class="w-full h-auto md:w-auto md:h-full"
-					src="/images/gallery/{data.year}/{currentImageName}"
+					src="{base}/images/gallery/{data.year}/{currentImageName}"
 					alt={currentImageName}
 					loading="lazy"
 				/>

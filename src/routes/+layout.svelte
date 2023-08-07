@@ -2,7 +2,8 @@
 	import '../app.css';
 
 	import Navigation from '$lib/components/Navigation.svelte';
-	import ThemeSwitch from '$lib/components/ThemeSwitch.svelte';
+
+	import { base } from '$app/paths';
 
 	let year = new Date().getFullYear();
 </script>
@@ -16,7 +17,7 @@
 
 	<footer class="footer gap-6 footer-center p-10 bg-base-300 text-base-content">
 		<div class="flex gap-6">
-			<a href="/images/logo-pack.zip" download class="link link-hover text-base-content">Logo pack</a>
+			<a href="{base}/images/logo-pack.zip" download class="link link-hover text-base-content">Logo pack</a>
 			
 			<a class="link link-hover" href="mailto:iio.team@iio.team">iio.team@iio.team</a>
 			
