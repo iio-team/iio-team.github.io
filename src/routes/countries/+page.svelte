@@ -9,10 +9,10 @@
 </script>
 
 <svelte:head>
-	<title>Friend pages</title>
+	<title>Countries</title>
 </svelte:head>
 
-<Hero>Friend pages</Hero>
+<Hero>Countries</Hero>
 <Content>
 	<p class="px-2 text-lg max-w-4xl">
 		Here's the list of the participating countries and their websites.
