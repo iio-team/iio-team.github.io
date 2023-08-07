@@ -46,7 +46,7 @@
 					{/if}
 					{#if gallery}
 						<a
-							class="grow px-8 btn btn-neutral border text-lg rounded-lg"
+							class="grow px-8 btn btn-outline bg-base-content text-base-200 border-base-content hover:scale-95 border text-lg rounded-lg"
 							href="{base}/gallery/{year}">Photos</a
 						>
 					{/if}
