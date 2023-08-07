@@ -14,7 +14,7 @@
 
 <Hero>Countries</Hero>
 <Content>
-	<p class="px-2 text-lg max-w-4xl">
+	<p class="px-2 text-lg text-center max-w-4xl">
 		Here's the list of the participating countries and their websites.
 	</p>
 	<div class="flex flex-col items-center w-full max-w-2xl gap-8">
@@ -38,7 +38,7 @@
 							class="relative h-auto py-2 box-border btn btn-outline text-lg w-full normal-case flex-col"
 							href={country.school.url}
 							>
-							<span id="{country.name}" class="badge badge-sm xs:badge-md absolute top-0 -translate-y-full rounded-b-none rounded-t-lg badge-info transition-none h-auto">
+							<span id="{country.name}" class="badge badge-sm xs:badge-md absolute -top-px -translate-y-full rounded-b-none rounded-t-lg badge-info transition-none h-auto">
 								Leader School / Organization
 							</span>
 							{country.school.name}
@@ -46,11 +46,20 @@
 					{/if}
 					{#if country.iiot}
 						<a
-							class="h-auto py-2 btn btn-outline text-lg w-full"
+							class="h-auto py-2 btn btn-outline text-lg w-full normal-case"
 							href={country.iiot}
-							>IIOT website
+							>Competition website
 						</a>
 					{/if}
+					<div class="divider m-2">Contacts</div>
+					<div class="w-full flex flex-wrap justify-betwee">
+						<p class="grow-0 mr-2">National referent:</p>
+						<a href="mailto:" class="btn-link link-secondary">national-referent@gmail.com</a>
+					</div>
+					<div class="w-full flex flex-wrap justify-betwee">
+						<p class="grow-0 mr-2">Scientific coordinator:</p>
+						<a href="mailto:" class="btn-link link-secondary">scientific-coordinator@gmail.com</a>
+					</div>
 				</div>
 			</div>
 		{/each}

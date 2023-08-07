@@ -6,7 +6,8 @@
             "name": "Istituti di Istruzione Superiore Aldini Valeriani"
         },
         "iiot": "https://sites.google.com/aldini.istruzioneer.it/olimpiadi-informatica-squadre",
-        "email": "nadia.amaroli@avbo.it"
+        "national_referent": "",
+        "scientific_coordinator": ""
     },
     {
         "name": "Romania",
@@ -15,7 +16,8 @@
             "name": "Colegiul Național de Informatică"
         },
         "iiot": "http://cni.nt.edu.ro/ioit/",
-        "email": "blagagabriela@yahoo.com"
+        "national_referent": "",
+        "scientific_coordinator": ""
     },
     {
         "name": "Hungary",
@@ -24,7 +26,8 @@
             "name": "Budapesti Fazekas Mihály Gyakorló Általános Iskola és Gimnázium"
         },
         "iiot": "http://kodkupa.hu/",
-        "email": "laszlo.nikhazy@gmail.com"
+        "national_referent": "",
+        "scientific_coordinator": ""
     },
     {
         "name": "Egypt",
@@ -32,7 +35,8 @@
             "url": "https://aast.edu/en/",
             "name": "Arab Academy for Science and Technology Regional Informatics Center"
         },
-        "email": "eslam@aast.edu"
+        "national_referent": "",
+        "scientific_coordinator": ""
     },
     {
         "name": "Syria",
@@ -41,6 +45,7 @@
             "name": "Distinction and Creativity Agency"
         },
         "iiot": "https://dca-net.org/",
-        "email": "ubai.sandouk@damascusuniversity.edu.sy"
+        "national_referent": "",
+        "scientific_coordinator": ""
     }
 ]
