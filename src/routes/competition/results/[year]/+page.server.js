@@ -7,5 +7,5 @@ export async function load({ params }) {
     const rows = results[`${year}`];
     const headers = Object.keys(rows[0]);
 
-    return { headers, rows };
+    return { headers, rows, year };
 };

@@ -10,13 +10,13 @@
 </script>
 
 <svelte:head>
-	<title>Results</title>
+	<title>{data.year} Results</title>
 </svelte:head>
 
-<Hero>IIOT International Final 2023 Results</Hero>
+<Hero>IIOT International Final {data.year} Results</Hero>
 
 <Content>
-	<div class="overflow-x-auto w-full rounded-2xl">
+	<div class="overflow-x-auto w-full lg:max-w-[80%] rounded-2xl">
 		<table class="table w-fit mx-auto table-sm lg:table-md rounded-2xl bg-base-200 ">
 			<thead>
 				<tr>
@@ -29,7 +29,7 @@
 				{#each data.rows as row}
 					<tr>
 						{#each data.headers as header}
-							<td class:left={header == 'Team' || header == 'Country'}>
+							<td class:left={['Team','Country','School'].includes(header)}>
 								{#if header == 'Award' && row.Award && row.Award != ''}
 									<div class="tooltip h-7 cursor-help" data-tip={row.Award}>
 										<img
