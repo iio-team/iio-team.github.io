@@ -1,10 +1,10 @@
 // @ts-nocheck
-import competitions from '$lib/json/competitions.json';
+import results from '$lib/competition-data/results.json';
 
 export async function load({ params }) {
     const year = params.year;
 
-    const rows = competitions[`${year}`].results;
+    const rows = results[`${year}`];
     const headers = Object.keys(rows[0]);
 
     return { headers, rows };
