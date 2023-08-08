@@ -15,7 +15,7 @@
 	let gallery = gallery_file[`${year}`];
 </script>
 
-<div class="join join-vertical w-full max-w-2xl shadow-lg rounded-2xl">
+<div class="join join-vertical w-full max-w-2xl rounded-2xl">
 	<div class:collapse-arrow="{tasks || results || gallery}" class="collapse join-item bg-base-200 border border-base-300">
 		<input type="radio" name="my-accordion-4" />
 		<div class="collapse-title text-xl font-medium flex gap-6 items-center h-fit">
@@ -46,7 +46,7 @@
 					{/if}
 					{#if gallery}
 						<a
-							class="grow px-8 btn btn-outline bg-base-content text-base-200 border-base-content hover:scale-95 border text-lg rounded-lg"
+							class="grow px-8 btn btn-neutral text-lg rounded-lg"
 							href="{base}/gallery/{year}">Photos</a
 						>
 					{/if}

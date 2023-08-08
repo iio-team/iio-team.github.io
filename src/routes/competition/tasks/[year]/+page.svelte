@@ -23,7 +23,7 @@
 					<h2 class="card-title text-xl">{task.name} ({task.id})</h2>
 					<div class="card-actions items-stretch gap-4">
 						<a
-							class="text-lg normal-case h-auto px-4 py-2 btn btn-outline grow w-fit"
+							class="text-lg normal-case h-auto px-4 py-2 btn btn-neutral grow w-fit"
 							href="{base}/tasks/2023/{task.id}/english.pdf"
 							target="_blank"
 						>
@@ -31,7 +31,7 @@
 							Statement
 						</a>
 						<a
-							class="text-lg normal-case h-auto px-4 py-2 btn btn-neutral grow w-fit"
+							class="text-lg normal-case h-auto px-4 py-2 btn btn-neutral btn-outline grow w-fit"
 							href="{data.zipMap[`${task.id}`]}"
 							download
 						>

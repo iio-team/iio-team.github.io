@@ -46,7 +46,7 @@
 					{/if}
 					{#if country.iiot}
 						<a
-							class="h-auto py-2 btn btn-outline text-lg w-full normal-case bg-base-content text-base-200 border-base-content hover:translate-x-2"
+							class="h-auto py-2 btn btn-neutral text-lg w-full normal-case"
 							href={country.iiot}
 							>Competition website
 						</a>
