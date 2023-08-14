@@ -35,10 +35,10 @@
 				<div class="card-body w-full md:items-start gap-4 p-8 pt-0 md:pt-8 md:pl-0">
 					{#if country.school}
 						<a
-							class="relative h-auto py-2 box-border btn btn-outline text-lg w-full normal-case flex-col"
+							class="group relative h-auto py-2 box-border btn btn-neutral text-lg w-full normal-case flex-col"
 							href={country.school.url}
 							>
-							<span id="{country.name}" class="badge badge-sm xs:badge-md absolute -top-px -translate-y-full rounded-b-none rounded-t-lg badge-info  transition-none h-auto">
+							<span id="{country.name}" class="group-hover:bg-[#2e97c4] badge badge-sm xs:badge-md absolute -top-px -translate-y-full rounded-b-none rounded-t-lg badge-info  transition-none h-auto">
 								Leader School / Organization
 							</span>
 							{country.school.name}
@@ -46,7 +46,7 @@
 					{/if}
 					{#if country.iiot}
 						<a
-							class="h-auto py-2 btn btn-neutral text-lg w-full normal-case"
+							class="h-auto py-2 btn btn-outline text-lg w-full normal-case"
 							href={country.iiot}
 							>Competition website
 						</a>
