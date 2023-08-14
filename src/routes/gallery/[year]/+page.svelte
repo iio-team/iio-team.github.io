@@ -40,8 +40,23 @@
 		<dialog id="imageModal" class="modal p-4 bg-black bg-opacity-60 backdrop-blur-md">
 			<form
 				method="dialog"
-				class="modal-box p-0 w-full h-fit md:w-fit md:h-full max-w-full max-h-[90%] bg-base-300"
+				class="modal-box p-0 w-full h-fit md:w-fit md:h-full max-w-full max-h-[90%] bg-base-300 relative"
 			>
+				<button class="btn btn-square btn-sm bg-[#e24c4b] hover:bg-[#af3a3a] border-none rounded-2xl rounded-tl-none rounded-br-none absolute top-0 right-0 origin-top-right">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="h-5 w-5 stroke-white"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke="currentColor"
+						><path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="3"
+							d="M6 18L18 6M6 6l12 12"
+						/>
+					</svg>
+				</button>
 				<img
 					class="w-full h-auto md:w-auto md:h-full"
 					src="{base}/images/gallery/{data.year}/{currentImageName}"
