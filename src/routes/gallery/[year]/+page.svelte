@@ -7,9 +7,9 @@
 
 	import { base } from '$app/paths';
 
-	let currentImageName = data.imageNames[0];
-	function openModal(imageName) {
-		currentImageName = imageName;
+	let modalImage = data.images[0];
+	function openModal(image) {
+		modalImage = image;
 		document.getElementById('imageModal').showModal();
 	}
 </script>
@@ -22,15 +22,15 @@
 
 <Content>
 	<div class="grid w-full lg:w-fit grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-		{#each data.imageNames as imageName}
+		{#each data.images as image}
 			<button
-				on:click={openModal(imageName)}
-				class="sm:btn-active card card-compact w-full lg:w-72 xl:w-96 shadow-lg overflow-hidden cursor-pointer border border-base-300"
+				on:click={openModal(image)}
+				class="card card-compact w-full lg:w-72 xl:w-96 shadow-lg overflow-hidden cursor-pointer border border-base-300"
 			>
 				<figure class="w-full h-60 bg-base-200">
 					<img
-						src="{base}/images/gallery/{data.year}/{imageName}"
-						alt={imageName}
+						src="{base}/{image.url}"
+						alt={image.name}
 						class="min-h-full object-cover"
 					/>
 				</figure>
@@ -59,8 +59,8 @@
 				</button>
 				<img
 					class="w-full h-auto md:w-auto md:h-full"
-					src="{base}/images/gallery/{data.year}/{currentImageName}"
-					alt={currentImageName}
+					src="{base}/{modalImage.url}"
+					alt="{modalImage.name}"
 					loading="lazy"
 				/>
 			</form>

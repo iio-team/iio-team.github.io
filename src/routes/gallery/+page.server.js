@@ -1,14 +1,20 @@
 // @ts-nocheck
-import gallery from '$lib/json-data/gallery.json';
+import fs from 'fs';
+import path from 'path';
 
 export async function load() {
-    let years = Object.keys(gallery);
+	const directory = path.join(process.cwd(), `static/images/gallery`);
+	const folders = fs.readdirSync(directory);
+
 	let galleries = [];
-	years.forEach((y) => {
+
+	folders.forEach(folder => {
+		const imagesDirectory = path.join(process.cwd(), `static/images/gallery/${folder}`)
+		const image = fs.readdirSync(imagesDirectory)[0];
 		galleries.push({
-			year: y,
-			firstImage: gallery[`${y}`][0],
-			title: y
+			year: folder,
+			coverUrl: `images/gallery/${folder}/${image}`,
+			title: folder
 		})
 	})
 	galleries = galleries.sort().reverse();

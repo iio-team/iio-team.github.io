@@ -23,7 +23,7 @@
 			>
 				<figure class="w-full h-56 bg-base-200">
 					<img
-						src="{base}/images/gallery/{gallery.year}/{gallery.firstImage}"
+						src="{base}/{gallery.coverUrl}"
 						class="min-h-full object-cover"
 						alt=""
 						loading="lazy"
