@@ -41,7 +41,7 @@
 						>
 							<span
 								id={country.name}
-								class="group-hover:bg-[#2e97c4] transition-colors badge badge-sm xs:badge-md absolute -top-px -translate-y-full rounded-b-none rounded-t-lg badge-info transition-none h-auto"
+								class="group-hover:bg-[#2e97c4] transition-colors badge badge-sm xs:badge-md absolute -top-px -translate-y-full rounded-b-none rounded-t-lg badge-info h-auto"
 							>
 								Leader School / Organization
 							</span>
