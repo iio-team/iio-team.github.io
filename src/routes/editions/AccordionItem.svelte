@@ -1,7 +1,8 @@
 <script context="module">
 	import tasks_file from '$lib/json-data/tasks.json';
 	import results_file from '$lib/json-data/results.json';
-	import gallery_file from '$lib/json-data/gallery.json';
+
+	import { galleries } from '$lib/stores';
 </script>
 
 <script>
@@ -10,9 +11,10 @@
 
 	export let year;
 	export let flag = null;
+
 	let tasks = tasks_file[`${year}`];
 	let results = results_file[`${year}`];
-	let gallery = gallery_file[`${year}`];
+	let gallery = $galleries.includes(year);
 </script>
 
 <div class="join join-vertical w-full max-w-2xl rounded-2xl">
@@ -21,10 +23,10 @@
 		<div class="collapse-title text-xl font-medium flex gap-6 items-center h-fit">
 			{year}
 			{#if flag}
-				<img src="{base}/images/flags/{flag}.svg" alt="" class="h-6 rounded-sm" />
+				<img src="{base}/images/flags/{flag}.svg" alt="{flag} flag" class="h-6 rounded-sm" />
 			{/if}
 			<div class="contents text-lg">
-				<slot name="location"></slot>
+				<slot name="title"></slot>
 			</div>
 		</div>
 		<div class="collapse-content flex flex-col gap-4">
