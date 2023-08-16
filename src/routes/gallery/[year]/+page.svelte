@@ -42,7 +42,7 @@
 				method="dialog"
 				class="modal-box p-0 w-full h-fit md:w-fit md:h-full max-w-full max-h-[90%] bg-base-300 relative"
 			>
-				<button class="btn btn-square btn-sm h-10 w-10 bg-[#e24c4b] hover:bg-[#af3a3a] border-none rounded-2xl rounded-tl-none rounded-br-none absolute top-0 right-0 origin-top-right">
+				<button class="btn btn-square glass btn-sm h-10 w-10 bg-[#e24c4b] hover:bg-[#af3a3a] border-none rounded-2xl rounded-tl-none rounded-br-none absolute top-0 right-0 origin-top-right">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-6 w-6 stroke-white"
