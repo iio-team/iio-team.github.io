@@ -18,12 +18,12 @@
 		<div class="flex flex-col gap-2">
 			<p>
 				The IIOT is a young project which aims to be just like the
-				<a href="https://ioinformatics.org/" class="link">International Olympiad in Informatics</a>,
+				<a href="https://ioinformatics.org/" class="btn-link link-secondary">International Olympiad in Informatics</a>,
 				but the problems are meant to be solved in a team.
 			</p>
 			<p>
 				The participants are teams of 4 high school students who represent a school (like in
-				<a href="https://icpc.global/" class="link">ICPC</a>).
+				<a href="https://icpc.global/" class="btn-link link-secondary">ICPC</a>).
 			</p>
 		</div>
 		<h2 class="text-2xl sm:divider">Why in teams?</h2>
