@@ -68,7 +68,7 @@
 
 <style>
 	h2 {
-		font-weight: bold;
+		font-weight: 500;
 		padding-top: 2rem;
 		padding-bottom: 1rem;
 	}
