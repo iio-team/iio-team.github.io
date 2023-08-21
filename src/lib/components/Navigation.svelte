@@ -45,8 +45,11 @@
 	<!-- Logo -->
 	<div class="grow px-4 lg:pr-0 justify-center lg:justify-start">
 		<a href="{base}/" class="btn h-full px-0 rounded-none btn-ghost bg-transparent hover:bg-transparent">
-			<!-- <p><span class="text-primary">IIO</span><span class="text-secondary">T</span></p> -->
-			<img src="{base}/images/logo/logo-simple.svg" alt="logo" class="h-12">
+			
+			<picture>
+				<source media="(min-width: 1024px)" srcset="{base}/images/logo/logo-simple.svg">
+				<img src="{base}/images/logo/logo-letters.svg" alt="logo" class="h-10 lg:h-14">
+			</picture>
 		</a>
 	</div>
 	
