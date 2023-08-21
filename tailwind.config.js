@@ -21,7 +21,7 @@ export default {
           "primary": "#6dc1c3",
           "secondary": "#595bb4",
           "primary-content": colors.stone[`900`],
-          "secondary-content": colors.stone[`100`]
+          "secondary-content": colors.stone[`200`]
         },
         dark: {
           ...require("daisyui/src/theming/themes")["[data-theme=dark]"],
