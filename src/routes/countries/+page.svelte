@@ -36,12 +36,12 @@
 				<div class="card-body w-full md:items-start gap-4 p-8 pt-0 md:pt-8 md:pl-0">
 					{#if country.school}
 						<a
-							class="group relative h-auto py-2 box-border btn btn-neutral text-lg w-full normal-case flex-col"
+							class="relative h-auto py-2 box-border btn btn-neutral text-lg w-full normal-case flex-col"
 							href={country.school.url}
 						>
 							<span
 								id={country.name}
-								class="group-hover:bg-[#2e97c4] rounded-t-md rounded-b-none transition-all badge badge-sm xs:badge-md absolute -top-px -translate-y-full badge-info h-auto"
+								class="rounded-t-md rounded-b-none badge badge-primary text-neutral-focus badge-sm xs:badge-md absolute -top-px -translate-y-full h-auto"
 							>
 								Leader School / Organization
 							</span>
