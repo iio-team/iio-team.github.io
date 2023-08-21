@@ -26,8 +26,8 @@
 			<li><a href="{base}/competition/tasks/2023" class:font-bold={$page.route.id === `${base}/competition/tasks/[year]`} on:click={closeDrawer}>Tasks</a></li>
 			<li><a href="{base}/competition/results/2023" class:font-bold={$page.route.id === `${base}/competition/results/[year]`} on:click={closeDrawer}>Results</a></li>
 			<li></li>
-			<li><a href="{base}/pdf/Regulations.pdf" target="_blank" on:click={closeDrawer} class="gap-8 min-w-max">Rules <img class="w-6 ml-auto" src="{base}/images/pdf.png" alt="pdf"/></a></li>
-			<li><a href="{base}/pdf/Syllabus.pdf" target="_blank" on:click={closeDrawer} class="gap-8 min-w-max">Syllabus <img class=" w-6 ml-auto" src="{base}/images/pdf.png" alt="pdf"/></a></li>
+			<li><a href="{base}/documents/Regulations.pdf" target="_blank" on:click={closeDrawer} class="gap-8 min-w-max">Rules <img class="w-6 ml-auto" src="{base}/images/pdf.png" alt="pdf"/></a></li>
+			<li><a href="{base}/documents/Syllabus.pdf" target="_blank" on:click={closeDrawer} class="gap-8 min-w-max">Syllabus <img class=" w-6 ml-auto" src="{base}/images/pdf.png" alt="pdf"/></a></li>
 		</ul>
 	</details>
 </li>
