@@ -13,7 +13,7 @@
 <Content>
 	<div class="w-full max-w-3xl px-2 text-lg flex flex-col">
 		<div class="chat chat-start">
-			<div class="chat-bubble chat-bubble-primary text-primary-content">Joining the IIOT is really simple.</div>
+			<div class="chat-bubble chat-bubble-primary">Joining the IIOT is really simple.</div>
 		</div>
 
 		<h2 class="text-2xl sm:divider">Regular member country</h2>

@@ -59,7 +59,7 @@
 
 		<a
 			href="{base}/participate"
-			class="btn btn-block sm:btn-wide btn-lg btn-primary text-primary-content mt-10 self-center"
+			class="btn btn-block sm:btn-wide btn-lg btn-primary mt-10 self-center"
 		>
 			Participate!
 		</a>

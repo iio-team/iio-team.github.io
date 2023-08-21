@@ -16,7 +16,7 @@
 <Content>
 	<p class="px-2 text-lg text-center max-w-4xl">
 		Here's the list of the participating countries and their websites.
-	</p>
+	</p>	
 	<div class="flex flex-col items-center w-full max-w-2xl gap-8">
 		{#each data.countries as country}
 			<div
@@ -26,7 +26,9 @@
 					class="md:flex-col-reverse min-w-fit justify-start items-start md:gap-4 p-8 pb-4 md:pb-8 md:pr-0"
 				>
 					<h1 class="card-title h-fit justify-center text-2xl">{country.name}</h1>
-					<div class="divider divider-horizontal before:rounded-t-full after:rounded-b-full md:hidden"></div>
+					<div
+						class="divider divider-horizontal before:rounded-t-full after:rounded-b-full md:hidden"
+					/>
 					<img
 						class="w-20 md:w-32 rounded-md md:rounded-lg"
 						src="{base}/images/flags/{country.name}.svg"
@@ -41,7 +43,7 @@
 						>
 							<span
 								id={country.name}
-								class="rounded-t-md rounded-b-none badge badge-primary text-primary-content badge-sm xs:badge-md absolute -top-px -translate-y-full h-auto"
+								class="rounded-t-md rounded-b-none badge badge-primary badge-sm xs:badge-md absolute -top-px -translate-y-full h-auto"
 							>
 								Leader School / Organization
 							</span>
@@ -57,9 +59,9 @@
 					<div class="divider m-0 mt-2 font-bold">National referent</div>
 					<div class="w-full flex flex-wrap">
 						<p class="text-lg text-center">
-							{country.national_referent.name || "Referent Name"},
-							<a href="mailto:" class="btn-link link-secondary font-semibold"> 
-								{country.national_referent.email || "referent-email@gmail.com"}
+							{country.national_referent.name || 'Referent Name'},
+							<a href="mailto:" class="btn-link link-secondary font-semibold">
+								{country.national_referent.email || 'referent-email@gmail.com'}
 							</a>
 						</p>
 					</div>
@@ -67,9 +69,9 @@
 					<div class="divider m-0 font-bold">Scientific coordinator</div>
 					<div class="w-full flex flex-wrap">
 						<p class="text-lg text-center">
-							{country.scientific_coordinator.name || "Coordinator Name"},
-							<a href="mailto:" class="btn-link link-secondary font-semibold"> 
-								{country.scientific_coordinator.email || "coordinator-email@gmail.com"}
+							{country.scientific_coordinator.name || 'Coordinator Name'},
+							<a href="mailto:" class="btn-link link-secondary font-semibold">
+								{country.scientific_coordinator.email || 'coordinator-email@gmail.com'}
 							</a>
 						</p>
 					</div>
