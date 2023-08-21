@@ -63,12 +63,14 @@
 			</li>
 		</ul>
 
-		<a
+		<div class="sm:divider sm:mt-16">
+			<a
 			href="{base}/participate"
-			class="btn btn-block sm:btn-wide btn-lg btn-primary mt-10 self-center"
+			class="btn btn-block sm:btn-wide btn-lg btn-primary mt-10 sm:mt-0 self-center"
 		>
 			Participate!
 		</a>
+		</div>
 	</div>
 </Content>
 
