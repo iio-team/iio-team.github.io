@@ -36,13 +36,13 @@
 			{#if tasks || results || gallery}
 				<div class="flex flex-wrap gap-4">
 					{#if tasks}
-						<a class="grow px-8 btn btn-outline text-lg rounded-lg" href="{base}/competition/tasks/{year}"
+						<a class="grow px-8 btn btn-secondary text-secondary-content text-lg rounded-lg" href="{base}/competition/tasks/{year}"
 							>Tasks</a
 						>
 					{/if}
 					{#if results}
 						<a
-							class="grow px-8 btn btn-outline text-lg rounded-lg"
+							class="grow px-8 btn btn-primary text-primary-content text-lg rounded-lg"
 							href="{base}/competition/results/{year}">Results</a
 						>
 					{/if}

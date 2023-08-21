@@ -41,7 +41,7 @@
 						>
 							<span
 								id={country.name}
-								class="rounded-t-md rounded-b-none badge badge-primary text-neutral-focus badge-sm xs:badge-md absolute -top-px -translate-y-full h-auto"
+								class="rounded-t-md rounded-b-none badge badge-primary text-primary-content badge-sm xs:badge-md absolute -top-px -translate-y-full h-auto"
 							>
 								Leader School / Organization
 							</span>

@@ -59,7 +59,7 @@
 
 		<a
 			href="{base}/participate"
-			class="btn btn-block sm:btn-wide btn-lg btn-outline mt-10 self-center"
+			class="btn btn-block sm:btn-wide btn-lg btn-primary text-primary-content mt-10 self-center"
 		>
 			Participate!
 		</a>
@@ -68,7 +68,7 @@
 
 <style>
 	h2 {
-		font-weight: 500;
+		font-weight: bold;
 		padding-top: 2rem;
 		padding-bottom: 1rem;
 	}
