@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors')
 
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
@@ -18,12 +19,16 @@ export default {
         light: {
           ...require("daisyui/src/theming/themes")["[data-theme=light]"],
           "primary": "#6dc1c3",
-          "secondary": "#595bb4"
+          "secondary": "#595bb4",
+          "primary-content": colors.stone[`900`],
+          "secondary-content": colors.stone[`100`]
         },
         dark: {
           ...require("daisyui/src/theming/themes")["[data-theme=dark]"],
           "primary": "#6dc1c3",
-          "secondary": "#595bb4"
+          "secondary": "#595bb4",
+          "primary-content": colors.stone[`900`],
+          "secondary-content": colors.stone[`100`]
         },
       },
     ],
