@@ -11,7 +11,7 @@
 <Content>
 	
 	<div class="w-full max-w-3xl px-2 text-lg flex flex-col">
-		<Logo maxW="xl" />
+		<div class="w-full flex justify-center"><Logo maxW="xl" /></div>
 		<h2 class="text-2xl sm:divider">About IIOT</h2>
 		<div class="flex flex-col gap-2">
 			<p>
