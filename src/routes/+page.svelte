@@ -8,10 +8,12 @@
 	<title>Home</title>
 </svelte:head>
 
+<div class="w-full flex justify-center bg-base-200 border-b border-base-300 py-8 px-4">
+	<Logo maxW="3xl" />
+</div>
+
 <Content>
-	
 	<div class="w-full max-w-3xl px-2 text-lg flex flex-col">
-		<div class="w-full flex justify-center"><Logo maxW="xl" /></div>
 		<h2 class="text-2xl sm:divider">About IIOT</h2>
 		<div class="flex flex-col gap-2">
 			<p>
@@ -50,11 +52,15 @@
 		</ul>
 		<h2 class="text-2xl sm:divider">How does it work?</h2>
 		<ul class="flex flex-col gap-2">
-			<li>A <span class="font-bold">leader school or organization</span> for each country coordinates the
-				competition: please contact us to become one!</li>
+			<li>
+				A <span class="font-bold">leader school or organization</span> for each country coordinates the
+				competition: please contact us to become one!
+			</li>
 			<li><span class="font-bold">No costs</span> are required to join the project.</li>
-			<li>The international scientific committee provides <span class="font-bold">tasks</span> and
-				<span class="font-bold">technical support</span></li>
+			<li>
+				The international scientific committee provides <span class="font-bold">tasks</span> and
+				<span class="font-bold">technical support</span>
+			</li>
 		</ul>
 
 		<a
@@ -71,5 +77,8 @@
 		font-weight: bold;
 		padding-top: 2rem;
 		padding-bottom: 1rem;
+	}
+	h2:first-of-type {
+		padding-top: 0 !important;
 	}
 </style>
