@@ -6,18 +6,14 @@
             "name": "Istituti di Istruzione Superiore Aldini Valeriani"
         },
         "iiot": "https://sites.google.com/aldini.istruzioneer.it/olimpiadi-informatica-squadre",
-        "national_referent": "",
-        "scientific_coordinator": ""
-    },
-    {
-        "name": "Romania",
-        "school": { 
-            "url": "http://cni.nt.edu.ro/new/",
-            "name": "Colegiul Național de Informatică"
+        "national_referent": {
+            "name": "Nadia Amaroli",
+            "email": "nadia.amaroli@avbo.it"
         },
-        "iiot": "http://cni.nt.edu.ro/ioit/",
-        "national_referent": "",
-        "scientific_coordinator": ""
+        "scientific_coordinator": {
+            "name": "Giorgio Audrito",
+            "email": "giorgio.audrito@gmail.com"
+        }
     },
     {
         "name": "Hungary",
@@ -26,8 +22,30 @@
             "name": "Budapesti Fazekas Mihály Gyakorló Általános Iskola és Gimnázium"
         },
         "iiot": "http://kodkupa.hu/",
-        "national_referent": "",
-        "scientific_coordinator": ""
+        "national_referent": {
+            "name": "László Nikházy",
+            "email": "laszlo.nikhazy@gmail.com"
+        },
+        "scientific_coordinator": {
+            "name": "László Nikházy",
+            "email": "laszlo.nikhazy@gmail.com"
+        }
+    },
+    {
+        "name": "Romania",
+        "school": { 
+            "url": "http://cni.nt.edu.ro/new/",
+            "name": "Colegiul Național de Informatică"
+        },
+        "iiot": "http://cni.nt.edu.ro/ioit/",
+        "national_referent": {
+            "name": "",
+            "email": ""
+        },
+        "scientific_coordinator": {
+            "name": "",
+            "email": ""
+        }
     },
     {
         "name": "Egypt",
@@ -35,8 +53,14 @@
             "url": "https://aast.edu/en/",
             "name": "Arab Academy for Science and Technology Regional Informatics Center"
         },
-        "national_referent": "",
-        "scientific_coordinator": ""
+        "national_referent": {
+            "name": "",
+            "email": ""
+        },
+        "scientific_coordinator": {
+            "name": "",
+            "email": ""
+        }
     },
     {
         "name": "Syria",
@@ -45,7 +69,13 @@
             "name": "Distinction and Creativity Agency"
         },
         "iiot": "https://dca-net.org/",
-        "national_referent": "",
-        "scientific_coordinator": ""
+        "national_referent": {
+            "name": "",
+            "email": ""
+        },
+        "scientific_coordinator": {
+            "name": "",
+            "email": ""
+        }
     }
 ]

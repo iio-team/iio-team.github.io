@@ -41,7 +41,7 @@
 						>
 							<span
 								id={country.name}
-								class="group-hover:bg-[#2e97c4] transition-colors badge badge-sm xs:badge-md absolute -top-px -translate-y-full rounded-b-none rounded-t-lg badge-info h-auto"
+								class="group-hover:bg-[#2e97c4] rounded-t-md rounded-b-none transition-all badge badge-sm xs:badge-md absolute -top-px -translate-y-full badge-info h-auto"
 							>
 								Leader School / Organization
 							</span>
@@ -53,18 +53,25 @@
 							>Competition website
 						</a>
 					{/if}
-					<div class="divider m-2">Contacts</div>
-					<div class="w-full flex flex-wrap justify-betwee">
-						<p class="grow-0 mr-2">National referent:</p>
-						<a href="mailto:" class="btn-link link-secondary font-semibold"
-							>national-referent@gmail.com</a
-						>
+
+					<div class="divider m-0 mt-2 font-bold">National referent</div>
+					<div class="w-full flex flex-wrap">
+						<p class="text-lg text-center">
+							{country.national_referent.name || "Referent Name"},
+							<a href="mailto:" class="btn-link link-secondary font-semibold"> 
+								{country.national_referent.email || "referent-email@gmail.com"}
+							</a>
+						</p>
 					</div>
-					<div class="w-full flex flex-wrap justify-betwee">
-						<p class="grow-0 mr-2">Scientific coordinator:</p>
-						<a href="mailto:" class="btn-link link-secondary font-semibold"
-							>scientific-coordinator@gmail.com</a
-						>
+
+					<div class="divider m-0 font-bold">Scientific coordinator</div>
+					<div class="w-full flex flex-wrap">
+						<p class="text-lg text-center">
+							{country.scientific_coordinator.name || "Coordinator Name"},
+							<a href="mailto:" class="btn-link link-secondary font-semibold"> 
+								{country.scientific_coordinator.email || "coordinator-email@gmail.com"}
+							</a>
+						</p>
 					</div>
 				</div>
 			</div>
