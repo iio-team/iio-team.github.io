@@ -1,7 +1,7 @@
 <script>
 // @ts-nocheck
 
-	export let maxW;
+	export let maxW = "";
 </script>
 
 <!-- PASTE THE SVG HERE -->
