@@ -11,7 +11,7 @@
 </script>
 
 <svelte:head>
-	<title>Archive</title>
+	<title>Editions</title>
 </svelte:head>
 
 <Hero>Past editions of IIOT, tasks and results</Hero>
