@@ -7,10 +7,28 @@
 
 	import { base } from '$app/paths';
 
+	const length = data.images.length;
+
 	let modalImage = data.images[0];
 	function openModal(image) {
 		modalImage = image;
 		document.getElementById('imageModal').showModal();
+	}
+
+	function next() {
+		let index = data.images.indexOf(modalImage);
+		if (index < length - 1) index += 1;
+		else index = 0;
+
+		modalImage = data.images[index];
+	}
+
+	function previous() {
+		let index = data.images.indexOf(modalImage);
+		if (index > 0) index -= 1;
+		else index = length - 1;
+
+		modalImage = data.images[index];
 	}
 </script>
 
@@ -28,11 +46,7 @@
 				class="card card-compact w-full lg:w-72 xl:w-96 shadow-lg overflow-hidden cursor-pointer border border-base-300"
 			>
 				<figure class="w-full h-60 bg-base-200">
-					<img
-						src="{base}/{image.url}"
-						alt={image.name}
-						class="min-h-full object-cover"
-					/>
+					<img src="{base}/{image.url}" alt={image.name} class="min-h-full object-cover" />
 				</figure>
 			</button>
 		{/each}
@@ -42,26 +56,51 @@
 				method="dialog"
 				class="modal-box p-0 w-full h-fit md:w-fit md:h-full max-w-full max-h-[90%] bg-base-300 relative"
 			>
-				<button class="btn btn-square btn-ghost bg-opacity-20 btn-sm h-10 w-10 border-none rounded-2xl rounded-tl-none rounded-br-none absolute top-0 right-0 origin-top-right">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="h-7 w-7 stroke-zinc-100"
-						fill="none"
-						viewBox="0 0 24 24"
-						><path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2.5"
-							d="M6 18L18 6M6 6l12 12"
+				<button class="btn border-none opacity-60 hover:opacity-100 transition-opacity w-9 h-9 min-h-0 btn-square rounded-2xl rounded-tl-none rounded-br-none absolute right-0 top-0 origin-top-right">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 fill-base-content" viewBox="0 0 384 512">
+						<path
+							d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
 						/>
 					</svg>
 				</button>
+
 				<img
 					class="w-full h-auto md:w-auto md:h-full"
 					src="{base}/{modalImage.url}"
-					alt="{modalImage.name}"
+					alt={modalImage.name}
 					loading="lazy"
 				/>
+
+				<div
+					class="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-1/2"
+				>
+					<!-- svelte-ignore a11y-click-events-have-key-events -->
+					<div
+						role="button"
+						tabindex="0"
+						on:click={previous}
+						class="btn border-none opacity-60 hover:opacity-100 transition-opacity btn-square w-9 h-9 min-h-0 rounded-tl-none rounded-bl-none origin-left text-lg"
+					>
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-7 fill-base-content" viewBox="0 0 256 512">
+							<path
+								d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l128-128c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 256c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-128-128z"
+							/>
+						</svg>
+					</div>
+					<!-- svelte-ignore a11y-click-events-have-key-events -->
+					<div
+						role="button"
+						tabindex="0"
+						on:click={next}
+						class="btn border-none opacity-60 hover:opacity-100 transition-opacity btn-square w-9 h-9 min-h-0 rounded-tr-none rounded-br-none origin-right text-lg"
+					>
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-7 fill-base-content" viewBox="0 0 256 512">
+							<path
+								d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"
+							/>
+						</svg>
+					</div>
+				</div>
 			</form>
 			<form method="dialog" class="modal-backdrop">
 				<button />
