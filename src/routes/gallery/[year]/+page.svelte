@@ -10,25 +10,24 @@
 	const length = data.images.length;
 
 	let modalImage = data.images[0];
+	let modalIndex = 0;
 	function openModal(image) {
 		modalImage = image;
+		modalIndex = data.images.indexOf(image);
 		document.getElementById('imageModal').showModal();
 	}
 
 	function next() {
-		let index = data.images.indexOf(modalImage);
-		if (index < length - 1) index += 1;
-		else index = 0;
+		modalIndex = (modalIndex + 1) % length;
 
-		modalImage = data.images[index];
+		modalImage = data.images[modalIndex];
 	}
 
 	function previous() {
-		let index = data.images.indexOf(modalImage);
-		if (index > 0) index -= 1;
-		else index = length - 1;
+		modalIndex = modalIndex - 1;
+		if (modalIndex < 0) modalIndex += length;
 
-		modalImage = data.images[index];
+		modalImage = data.images[modalIndex];
 	}
 </script>
 
@@ -71,12 +70,14 @@
 					</svg>
 				</button>
 
-				<img
-					class="w-full h-auto md:w-auto md:h-full"
-					src="{base}/{modalImage.url}"
-					alt={modalImage.name}
-					loading="lazy"
-				/>
+				{#key modalIndex}
+					<img
+						class="w-full h-auto md:w-auto md:h-full"
+						src="{base}/{modalImage.url}"
+						alt={modalImage.name}
+						loading="lazy"
+					/>
+				{/key}
 
 				<div
 					class="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-1/2"
@@ -125,3 +126,4 @@
 		</dialog>
 	</div>
 </Content>
+  
