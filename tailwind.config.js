@@ -32,7 +32,7 @@ export default {
           "secondary": "#595bb4",
           "secondary-focus": "#3f4181",
           "primary-content": colors.stone[`900`],
-          "secondary-content": colors.stone[`100`]
+          "secondary-content": colors.stone[`200`]
         },
       },
     ],
