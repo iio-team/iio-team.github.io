@@ -1,7 +1,6 @@
 <script>
 	import Hero from '$lib/components/page/Hero.svelte';
 	import Content from '$lib/components/page/Content.svelte';
-	import Calendar from './Calendar.svelte';
 	import Date from './Date.svelte';
 </script>
 
