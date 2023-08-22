@@ -19,14 +19,12 @@
 
 	function next() {
 		modalIndex = (modalIndex + 1) % length;
-
 		modalImage = data.images[modalIndex];
 	}
 
 	function previous() {
 		modalIndex = modalIndex - 1;
 		if (modalIndex < 0) modalIndex += length;
-
 		modalImage = data.images[modalIndex];
 	}
 </script>
@@ -70,14 +68,12 @@
 					</svg>
 				</button>
 
-				{#key modalIndex}
 					<img
 						class="w-full h-auto md:w-auto md:h-full"
 						src="{base}/{modalImage.url}"
 						alt={modalImage.name}
 						loading="lazy"
 					/>
-				{/key}
 
 				<div
 					class="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-1/2"
