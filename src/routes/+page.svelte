@@ -8,7 +8,7 @@
 	<title>Home</title>
 </svelte:head>
 
-<div class="w-full flex justify-center bg-base-200 border-b border-base-300 py-8 px-4">
+<div class="w-full flex justify-center bg-base-200 border-b border-base-300 shadow-sm z-10 py-8 px-4">
 	<Logo maxW="3xl" />
 </div>
 
