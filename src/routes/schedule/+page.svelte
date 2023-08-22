@@ -13,7 +13,7 @@
 
 <Content>
 	<div class="card max-w-xl w-full bg-base-200 shadow-xl">
-		<div class="card-body text-center gap-6">
+		<div class="card-body text-center gap-4">
 			<Date>
 				<h2 slot="title">1st qualifying round</h2>
 				<p slot="date">13 November 2023</p>

@@ -3,7 +3,7 @@
 </script>
 
 <div class="flex flex-col gap-2">
-    <div class="text-xl divider">
+    <div class="text-xl font-bold divider">
         <slot name="title"></slot>
     </div>
     <div class="flex justify-center gap-4">
