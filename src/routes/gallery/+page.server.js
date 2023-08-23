@@ -8,21 +8,21 @@ export async function load() {
 
 	let galleries = [];
 
+	let name = '';
 	folders.forEach(folder => {
 		const imagesDirectory = path.join(process.cwd(), `static/images/gallery/${folder}`);
-		let files = fs.readdirSync(imagesDirectory);
-		files = files.filter(name => name != "webp");
+		let file = fs.readdirSync(imagesDirectory).filter(name => name != "webp")[0];
 
-		const image = files[0].replaceAll(' ', '%20'); // filenames with spaces cause some problems;
+		name = file.slice(0, file.lastIndexOf('.'));
 		galleries.push({
 			year: folder,
-			coverFile: image,
-			coverName: image.slice(0, image.lastIndexOf(".")),
+			coverFile: file,
+			coverName: name,
+			webp: name.replaceAll(' ', '%20') + '.webp',
 			title: folder
 		})
 	})
 	galleries = galleries.sort().reverse();
-
 
 	return { galleries };
 };

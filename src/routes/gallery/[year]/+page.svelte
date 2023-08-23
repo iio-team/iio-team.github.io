@@ -46,7 +46,7 @@
 					<source
 						class="min-h-full object-cover"
 						type="image/webp"
-						srcset="{base}/images/gallery/{data.year}/webp/{image.name}.webp"
+						srcset="{base}/images/gallery/{data.year}/webp/{image.webp}"
 					/>
 					<img
 						src="{base}/images/gallery/{data.year}/{image.file}"
@@ -80,7 +80,7 @@
 				<picture>
 					<source
 						type="image/webp"
-						srcset="{base}/images/gallery/{data.year}/webp/{modalImage.name}.webp"
+						srcset="{base}/images/gallery/{data.year}/webp/{modalImage.webp}"
 					/>
 					<img
 						class="w-full h-auto md:w-auto md:h-full object-cover"

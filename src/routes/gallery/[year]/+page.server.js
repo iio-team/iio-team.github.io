@@ -11,12 +11,14 @@ export async function load({ params }) {
     files = files.filter(name => name != "webp");
 
     const images = [];
+    let name = '';
     files.forEach(file => {
-        file = file.replaceAll(' ', '%20'); // filenames with spaces cause some problems
+        name = file.slice(0, file.lastIndexOf('.'));
         images.push(    
             {
                 file: file,
-                name: file.slice(0, file.lastIndexOf("."))
+                name: name,
+                webp: name.replaceAll(' ', '%20') + '.webp'
             }
         );
     })
