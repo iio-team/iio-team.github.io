@@ -2,6 +2,8 @@
 	import Hero from '$lib/components/page/Hero.svelte';
 	import Content from '$lib/components/page/Content.svelte';
 	import Date from './Date.svelte';
+
+	throw new Error("505");
 </script>
 
 <svelte:head>
