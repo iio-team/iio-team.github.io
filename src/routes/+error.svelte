@@ -3,19 +3,22 @@
 
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
-	import Content from '$lib/components/page/Content.svelte';
 	import { error } from '@sveltejs/kit';
-	import { binding_callbacks } from 'svelte/internal';
 
 	var today = new Date();
 	var time = today.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 </script>
 
-<div class="w-full grow max-w-xl flex flex-col gap-4 p-4 pt-12">
-	<h2 class="card-title self-center text-7xl md:text-8xl font-bold">
-		{$page.status}
-	</h2>
-	<div class="divider m-0" />
+<div class="w-full grow max-w-xl flex flex-col gap-8 px-4 pb-8 pt-12">
+	<div class="card-title self-center flex flex-col w-full">
+		<h2 class="text-7xl font-bold">
+			{$page.status}
+		</h2>
+
+		<div class="divider m-0" />
+		<h3 class="self-center text-3xl">{$page.error.message}</h3>
+	</div>
+
 	<div class="chat chat-start">
 		<div class="chat-image avatar">
 			<svg xmlns="http://www.w3.org/2000/svg" class="w-10 fill-base-content" viewBox="0 0 512 512"
@@ -31,13 +34,14 @@
 			{#if $page.status == 404}
 				This is not the page you are looking for.
 			{:else if $page.status == 500}
-				Internal server error. Try refreshing the page or go back.
+				Something went wrong, try refreshing the page or come back later.
 			{:else}
-				{$page.error.message}
+				An unexpected error occurred. Please try again later.
 			{/if}
 		</div>
 	</div>
-	<div class="card-actions flex-wrap gap-4 grow items-center justify-center py-8">
+
+	<div class="card-actions flex-wrap gap-4 grow items-center justify-center">
 		<button onclick="history.back()" class="btn btn-secondary rounded-full"> Go back </button>
 		<a href="{base}/" class="btn btn-primary rounded-full"> Return home </a>
 	</div>
