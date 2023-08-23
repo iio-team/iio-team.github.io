@@ -15,21 +15,27 @@
 <Hero>Gallery</Hero>
 
 <Content>
-	<div class="grid w-full lg:w-fit grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
+	<div class="grid w-full lg:w-fit grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 		{#each data.galleries as gallery}
 			<a
 				href="{base}/gallery/{gallery.year}"
 				class="group card card-compact w-full lg:w-72 xl:w-96 bg-base-300 shadow-md overflow-hidden border border-base-300"
 			>
-				<figure class="w-full h-56 bg-base-200">
+				<picture class="w-full h-56 bg-base-200">
+					<source
+						type="image/webp"
+						srcset="{base}/images/gallery/{gallery.year}/webp/{gallery.coverName}.webp"
+					/>
 					<img
-						src="{base}/{gallery.coverUrl}"
+						src="{base}/images/gallery/{gallery.year}/{gallery.coverFile}"
 						class="min-h-full object-cover"
-						alt=""
+						alt={gallery.coverName}
 						loading="lazy"
 					/>
-				</figure>
-				<div class="card-body bg-base-300 w-full h-14 transition-all group-hover:-translate-y-2 justify-center">
+				</picture>
+				<div
+					class="card-body bg-base-300 w-full h-14 transition-all group-hover:-translate-y-2 justify-center"
+				>
 					<h2 class="card-title text-xl text-base-content divider my-0">{gallery.title}</h2>
 				</div>
 			</a>

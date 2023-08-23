@@ -42,9 +42,18 @@
 				on:click={openModal(image)}
 				class="card card-compact w-full lg:w-72 xl:w-96 shadow-lg overflow-hidden cursor-pointer border border-base-300"
 			>
-				<figure class="w-full h-60 bg-base-200">
-					<img src="{base}/{image.url}" alt={image.name} class="min-h-full object-cover" />
-				</figure>
+				<picture class="w-full h-60 bg-base-200">
+					<source
+						class="min-h-full object-cover"
+						type="image/webp"
+						srcset="{base}/images/gallery/{data.year}/webp/{image.name}.webp"
+					/>
+					<img
+						src="{base}/images/gallery/{data.year}/{image.file}"
+						alt={image.name}
+						class="min-h-full object-cover"
+					/>
+				</picture>
 			</button>
 		{/each}
 
@@ -68,12 +77,18 @@
 					</svg>
 				</button>
 
+				<picture>
+					<source
+						type="image/webp"
+						srcset="{base}/images/gallery/{data.year}/webp/{modalImage.name}.webp"
+					/>
 					<img
 						class="w-full h-auto md:w-auto md:h-full object-cover"
-						src="{base}/{modalImage.url}"
+						src="{base}/images/gallery/{data.year}/{modalImage.file}"
 						alt={modalImage.name}
 						loading="lazy"
 					/>
+				</picture>
 
 				<div
 					class="absolute md:btn-group left-0 right-0 flex justify-between md:justify-center top-1/2 -translate-y-1/2 md:top-auto md:bottom-2 md:translate-y-0"
@@ -96,7 +111,9 @@
 							/>
 						</svg>
 					</div>
-					<div class="w-9 h-9 hidden md:flex bg-base-200 opacity-60 justify-center items-center font-bold">
+					<div
+						class="w-9 h-9 hidden md:flex bg-base-200 opacity-60 justify-center items-center font-bold"
+					>
 						{modalIndex + 1}
 					</div>
 					<!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -125,4 +142,3 @@
 		</dialog>
 	</div>
 </Content>
-  
