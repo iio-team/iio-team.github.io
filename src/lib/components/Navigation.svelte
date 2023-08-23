@@ -48,7 +48,7 @@
 			
 			<picture>
 				<source media="(min-width: 1024px)" srcset="{base}/images/logo/logo-simple.svg">
-				<img src="{base}/images/logo/logo-letters.svg" alt="logo" class="h-7 xs:h-9 lg:h-14">
+				<img src="{base}/images/logo/logo-letters.svg" alt="logo" class="h-8 lg:h-14">
 			</picture>
 		</a>
 	</div>
