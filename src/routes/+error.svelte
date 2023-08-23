@@ -9,7 +9,7 @@
 	var time = today.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 </script>
 
-<div class="w-full grow max-w-xl flex flex-col gap-8 px-4 pb-8 pt-12">
+<div class="w-full grow max-w-2xl flex flex-col gap-8 px-4 pb-8 pt-12">
 	<div class="card-title self-center flex flex-col w-full">
 		<h2 class="text-7xl font-bold">
 			{$page.status}
