@@ -19,7 +19,7 @@
 		{#each data.galleries as gallery}
 			<a
 				href="{base}/gallery/{gallery.year}"
-				class="card card-compact w-full lg:w-72 xl:w-96 bg-base-300 shadow-lg overflow-hidden border border-base-300"
+				class="group card card-compact w-full lg:w-72 xl:w-96 bg-base-300 shadow-lg overflow-hidden border border-base-300"
 			>
 				<figure class="w-full h-56 bg-base-200">
 					<img
@@ -29,18 +29,10 @@
 						loading="lazy"
 					/>
 				</figure>
-				<div class="card-body bg-base-300 w-full h-14 transition-all justify-center">
-					<h2 class="card-title text-xl text-base-content">{gallery.title}</h2>
+				<div class="card-body bg-base-300 w-full h-14 transition-all group-hover:-translate-y-2 justify-center">
+					<h2 class="card-title text-xl text-base-content divider my-0">{gallery.title}</h2>
 				</div>
 			</a>
 		{/each}
 	</div>
 </Content>
-
-
-
-<style>
-	.card:hover .card-body {
-		transform: translateY(-0.5rem);
-	}
-</style>
