@@ -14,7 +14,7 @@
 	function openModal(image) {
 		modalImage = image;
 		modalIndex = data.images.indexOf(image);
-		document.getElementById('imageModal').showModal();
+		document.getElementById('imageModal')?.showModal();
 	}
 
 	function next() {
@@ -51,7 +51,7 @@
 		<dialog id="imageModal" class="modal p-4 bg-black bg-opacity-60 backdrop-blur-md">
 			<form
 				method="dialog"
-				class="modal-box p-0 w-full h-fit md:w-fit md:h-full max-w-full max-h-[90%] bg-base-300 relative"
+				class="modal-box p-0 overflow-hidden w-full h-fit md:w-fit md:h-full max-w-full max-h-[90%] bg-base-300 relative"
 			>
 				<button
 					class="btn border-none opacity-60 hover:opacity-100 transition-opacity w-9 h-9 min-h-0 btn-square rounded-2xl rounded-tl-none rounded-br-none absolute right-0 top-0 origin-top-right md:right-2 md:top-2 md:origin-center md:rounded-full"
@@ -69,7 +69,7 @@
 				</button>
 
 					<img
-						class="w-full h-auto md:w-auto md:h-full"
+						class="w-full h-auto md:w-auto md:h-full object-cover"
 						src="{base}/{modalImage.url}"
 						alt={modalImage.name}
 						loading="lazy"
