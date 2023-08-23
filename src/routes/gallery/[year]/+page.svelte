@@ -54,7 +54,7 @@
 				class="modal-box p-0 w-full h-fit md:w-fit md:h-full max-w-full max-h-[90%] bg-base-300 relative"
 			>
 				<button
-					class="btn border-none opacity-60 hover:opacity-100 transition-opacity w-9 h-9 min-h-0 btn-square rounded-2xl rounded-tl-none rounded-br-none absolute right-0 top-0 origin-top-right"
+					class="btn border-none opacity-60 hover:opacity-100 transition-opacity w-9 h-9 min-h-0 btn-square rounded-2xl rounded-tl-none rounded-br-none absolute right-0 top-0 origin-top-right md:right-1 md:top-1 md:origin-center md:rounded-full"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -76,14 +76,14 @@
 					/>
 
 				<div
-					class="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-1/2"
+					class="absolute md:btn-group left-0 right-0 flex justify-between md:justify-center top-1/2 -translate-y-1/2 md:top-auto md:bottom-1 md:translate-y-0"
 				>
 					<!-- svelte-ignore a11y-click-events-have-key-events -->
 					<div
 						role="button"
 						tabindex="0"
 						on:click={previous}
-						class="btn border-none opacity-60 hover:opacity-100 transition-opacity btn-square w-9 h-9 min-h-0 rounded-tl-none rounded-bl-none origin-left text-lg"
+						class="btn border-none opacity-60 hover:opacity-100 transition-opacity btn-square w-9 h-9 min-h-0 rounded-l-none origin-left md:origin-right text-lg"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -96,12 +96,15 @@
 							/>
 						</svg>
 					</div>
+					<div class="w-9 h-9 hidden md:flex bg-base-200 opacity-60 justify-center items-center font-bold">
+						{modalIndex + 1}
+					</div>
 					<!-- svelte-ignore a11y-click-events-have-key-events -->
 					<div
 						role="button"
 						tabindex="0"
 						on:click={next}
-						class="btn border-none opacity-60 hover:opacity-100 transition-opacity btn-square w-9 h-9 min-h-0 rounded-tr-none rounded-br-none origin-right text-lg"
+						class="btn border-none opacity-60 hover:opacity-100 transition-opacity btn-square w-9 h-9 min-h-0 rounded-r-none origin-right md:origin-left text-lg"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
