@@ -24,7 +24,7 @@
 					<div class="card-actions items-stretch gap-4">
 						<a
 							class="text-lg normal-case h-auto px-4 py-2 btn btn-secondary grow w-fit"
-							href="{base}/tasks/2023/{task.id}/english.pdf"
+							href="{base}/tasks/2023/{task.id}.pdf"
 							target="_blank"
 						>
 							<img class="w-6" src="{base}/images/pdf.png" alt="pdf" />
