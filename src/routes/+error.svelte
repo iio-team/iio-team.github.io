@@ -3,7 +3,6 @@
 
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
-	import { error } from '@sveltejs/kit';
 
 	var today = new Date();
 	var time = today.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
