@@ -17,7 +17,7 @@
 <Hero>Past editions of IIOT, tasks and results</Hero>
 
 <Content>
-	<div class="join join-vertical w-full max-w-2xl shadow-lg rounded-2xl">
+	<div class="join join-vertical w-full max-w-2xl shadow-md rounded-2xl">
 		<!-- Use the `year` property -->
 		<!-- optional: To display a flag, use the `flag="filename"` property (svg files inside images/flags) -->
 		<AccordionItem year="2023" flag="Egypt">

@@ -20,7 +20,7 @@
 	<div class="flex flex-col items-center w-full max-w-2xl gap-8">
 		{#each data.countries as country}
 			<div
-				class="card md:card-side min-w-fit w-full justify-center gap-8 bg-base-200 shadow-lg border border-base-300"
+				class="card md:card-side min-w-fit w-full justify-center gap-8 bg-base-200 shadow-md border border-base-300"
 			>
 				<figure
 					class="md:flex-col-reverse min-w-fit justify-start items-start md:gap-4 p-8 pb-4 md:pb-8 md:pr-0"

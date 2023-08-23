@@ -2,7 +2,7 @@
     import Calendar from "./Calendar.svelte";
 </script>
 
-<div class="card card-compact flex flex-col bg-base-200">
+<div class="card card-compact flex flex-col bg-base-200 shadow-md">
     <div class="card-body gap-2 sm:gap-0">
         <div class="text-xl font-bold sm:divider mt-0 sm:mt-2">
             <slot name="title"></slot>
