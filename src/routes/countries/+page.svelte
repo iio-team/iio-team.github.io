@@ -60,7 +60,7 @@
 					<div class="w-full flex flex-wrap">
 						<p class="text-lg text-center">
 							{country.national_referent.name || 'Referent Name'},
-							<a href="mailto:" class="btn-link link-secondary font-semibold">
+							<a href="mailto:{country.national_referent.email || ''}" class="btn-link link-secondary font-semibold">
 								{country.national_referent.email || 'referent-email@gmail.com'}
 							</a>
 						</p>
@@ -70,7 +70,7 @@
 					<div class="w-full flex flex-wrap">
 						<p class="text-lg text-center">
 							{country.scientific_coordinator.name || 'Coordinator Name'},
-							<a href="mailto:" class="btn-link link-secondary font-semibold">
+							<a href="mailto:{country.scientific_coordinator.email || ''}" class="btn-link link-secondary font-semibold">
 								{country.scientific_coordinator.email || 'coordinator-email@gmail.com'}
 							</a>
 						</p>
