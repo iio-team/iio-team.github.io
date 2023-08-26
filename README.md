@@ -3,40 +3,100 @@
 
 This is the official website of the International Informatics Olympiad in Teams.
 
-## Deployment
-
-To deploy this project on github pages run
-
-```bash
-  npm run deploy
-```
-
-
 ## Run Locally
 
-To run the project locally, run:
-
+Clone the project:
 ```bash
   git clone https://github.com/iio-team/iio-team.github.io
 ```
 
+Install dependencies:
 ```bash
   cd iio-team.github.io
 ```
-
 ```bash
   npm install
 ```
+
+Run the project locally:
 
 ```bash
   npm run dev
 ```
 
 
+## Deployment
+
+A Google Drive API key is **required** for deployment purposes, for more information see the [Environment Variables](#environment-variables) section.
+
+To deploy on github pages, run:
+
+```
+  npm run deploy
+```
+
+
+## Environment Variables
+
+The tasks page uses the [Google Drive API](https://developers.google.com/drive/api) to get the download links of the zip files for each task. 
+
+The `API_KEY` variable should be stored in a `.env` file in the root folder. 
+
+Either create and use your own API key, or ask one of the authors for theirs.
+
+
+## Update Tasks
+
+The data for the tasks pages is stored in the `tasks.json` file in the `src/lib/json-data` folder. For the correct json structure, see the data of the previous years.
+
+The *Statement* `.pdf` files should be stored in the `static/tasks/<year>` folder. 
+
+> The name of the `.pdf` file is **required** to match the `id` parameter of the task in the `tasks.json` file.
+
+The *Solutions and test data* `.zip` files should be stored in a google drive folder. The `FOLDER_ID` variable is the the ID of this google drive folder, which you can find like this:
+
+`drive.google.com/drive/folders/<FOLDER_ID>`
+
+> The name of the `.zip` file is **required** to match the `id` parameter of the task in the `tasks.json` file.
+## Update Results
+
+The data for the results pages is stored in the `results.json` file in the `src/lib/json-data` folder.
+
+Create the results table in Excel, then use an [Excel to JSON converter](https://tableconvert.com/excel-to-json) to convert it into an **Array of Object** format. Check out the data of the previous years in the `results.json` file for the required format. (On the linked site, choose the *Array of Object* option for the JSON format).
+
+If you want to display the awarded medals, create a column named `Award`. There are three available values in this column: `gold`, `silver` and `bronze`. If the team didn't get any award, leave the corresponding cell empty.
+## Update Countries
+
+The data for the countries page is stored in the `countries.json` file in the `src/lib/json-data` folder.
+
+For creating a new country, just use one of the existing countries in the `countries.json` file as a template.
+
+Each country has a `.svg` flag file, which is stored in the `static/images/flags` folder. For new countries, please create or download an `.svg` file of the countries flag and place it in there. [Wikimedia: SVG flags of countries](https://commons.wikimedia.org/wiki/Category:SVG_flags_by_country)
+
+> The name of the `.svg` file is **required** to match the `name` parameter of the country in the `countries.json` file.
+## Update Gallery
+
+Creating a new  gallery is really simple. Just create a new folder in the `static/images/gallery` folder and put the pictures inside this new folder. The name of the folder should be the year of the gallery (for example: `2024`).
+
+I recommend creating a folder named `webp` inside this `<year>` folder and converting all of the pictures to a compressed webp format with a tool like [AnyWebP](https://anywebp.com/) and place them in there, so that browsers which support this format can have a much more optimised load time.
+## Update Editions
+
+To update the Editions (Archive) page, navigate to the `src/routes/editions/+page.svelte` file and create a new `<AccordionItem>` component where the others are.
+
+Write the location of the competition or etc. inside the `<p slot="title">` element.
+
+The parameters of the `<AccordionItem>` tag are:
+| Parameter | Description |
+| :- | :- |
+| `year` |  **Required**. The year of the competition. |
+| `flag` |  The name of the country's `.svg` flag. |
+
 ## Authors
 
-- [@TkcsHnr](https://www.github.com/TkcsHnr)
-- [@niklaci](https://www.github.com/niklaci)
+| Github | Email |
+| :- | :- |
+| [@TkcsHnr](https://www.github.com/TkcsHnr) | [tkcshnr@gmail.com](mailto:tkcshnr@gmail.com) |
+| [@niklaci](https://www.github.com/niklaci) | [laszlo.nikhazy@gmail.com](mailto:laszlo.nikhazy@gmail.com) |
 
 ## Color Reference
 
