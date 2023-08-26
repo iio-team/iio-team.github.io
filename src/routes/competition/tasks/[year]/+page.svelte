@@ -16,7 +16,7 @@
 <Hero>IIOT International Final {data.year} Tasks</Hero>
 
 <Content>
-	<div class="grid w-fit grid-cols-1 md:grid-cols-2 gap-8">
+	<div class="grid w-fit grid-cols-1 md:grid-cols-2 gap-6">
 		{#each data.tasks as task}
 			<div class="card bg-base-200 shadow-md border border-base-300">
 				<div class="card-body gap-4 p-8">

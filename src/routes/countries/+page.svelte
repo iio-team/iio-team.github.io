@@ -17,7 +17,7 @@
 	<p class="px-2 text-lg text-center max-w-4xl">
 		Here's the list of the participating countries and their websites.
 	</p>
-	<div class="flex flex-col items-center w-full max-w-2xl gap-8">
+	<div class="flex flex-col items-center w-full max-w-2xl gap-6">
 		{#each data.countries as country}
 			<div
 				class="card md:card-side min-w-fit w-full justify-center gap-8 bg-base-200 shadow-md border border-base-300"
