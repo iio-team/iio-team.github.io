@@ -31,7 +31,7 @@
 							Statement
 						</a>
 						<a
-							class="text-lg normal-case h-auto px-4 py-2 btn btn-neutral grow w-fit"
+							class="text-lg normal-case h-auto px-4 py-2 btn btn-secondary grow w-fit"
 							href="{data.zipMap[`${task.id}`]}"
 							download
 						>
