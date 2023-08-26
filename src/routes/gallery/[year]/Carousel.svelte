@@ -62,16 +62,12 @@
 
 		{#if firstOpened}
 			<picture>
-				<source
-					type="image/webp"
-					srcset="{base}/images/gallery/{data.year}/webp/{modalImage.webp}"
-				/>
 				<img
 					on:load={() => (visible = true)}
 					class="w-full h-auto md:w-auto md:h-full object-cover transition-opacity {visible
 						? ''
 						: 'opacity-0'}"
-					src="{base}/images/gallery/{data.year}/{modalImage.file}"
+					src="{base}/images/gallery/{data.year}/{modalImage.name}"
 					alt={modalImage.name}
 					loading="lazy"
 				/>

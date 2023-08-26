@@ -18,16 +18,11 @@
 			class="loading loading-lg loading-spinner text-secondary absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
 		/>
 	{/if}
-
-	<source
-		type="image/webp"
-		srcset="{base}/images/gallery/{year}/webp/{image.webp},"
-	/>
 	<img
 		bind:this={img}
 		on:load={() => (visible = true)}
 		class="min-h-full object-cover transition-opacity {visible ? '' : 'opacity-0'}"
-		src="{base}/images/gallery/{year}/{image.file}"
+		src="{base}/images/gallery/{year}/{image.name}"
 		alt={image.name}
 		loading="lazy"
 	/>

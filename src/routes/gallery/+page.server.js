@@ -8,18 +8,14 @@ export async function load() {
 
 	let galleries = [];
 
-	let name = '';
 	folders.forEach(folder => {
 		const imagesDirectory = path.join(process.cwd(), `static/images/gallery/${folder}`);
-		let file = fs.readdirSync(imagesDirectory).filter(name => name != "webp")[0];
+		let file = fs.readdirSync(imagesDirectory)[0];
 
-		name = file.slice(0, file.lastIndexOf('.'));
 		galleries.push({
 			year: folder,
 			image: {
-				file,
-				name,
-				webp: name.replaceAll(' ', '%20') + '.webp',
+				name: file
 			},
 			title: folder
 		})

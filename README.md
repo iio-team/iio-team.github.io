@@ -85,8 +85,6 @@ Each country has a `.svg` flag file, which is stored in the `static/images/flags
 
 Creating a new  gallery is really simple. Just create a new folder in the `static/images/gallery` folder and put the pictures inside this new folder. The name of the folder should be the year of the gallery (for example: `2024`).
 
-I recommend creating a folder named `webp` inside this `<year>` folder and converting all of the pictures to a compressed webp format with a tool like [AnyWebP](https://anywebp.com/) and place them in there, so that browsers which support this format can have a much more optimised load time.
-
 
 ## Update Editions
 
