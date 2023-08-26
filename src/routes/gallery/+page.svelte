@@ -26,7 +26,9 @@
 				<div
 					class="card-body bg-base-300 w-full h-14 transition-all group-hover:-translate-y-2 justify-center"
 				>
-					<h2 class="card-title text-xl text-base-content divider my-0">{gallery.title}</h2>
+					<h2 class="card-title text-xl text-base-content font-bold divider my-0">
+						{gallery.title}
+					</h2>	
 				</div>
 			</a>
 		{/each}
