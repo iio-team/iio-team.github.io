@@ -38,12 +38,12 @@
 				<div class="card-body w-full md:items-start gap-4 p-8 pt-0 md:pt-8 md:pl-0">
 					{#if country.school}
 						<a
-							class="relative h-auto py-2 box-border btn btn-neutral text-lg w-full normal-case flex-col"
+							class="group relative h-auto py-2 box-border border-none btn btn-neutral text-lg w-full normal-case flex-col"
 							href={country.school.url}
 						>
 							<span
 								id={country.name}
-								class="rounded-t-md rounded-b-none badge badge-primary badge-sm xs:badge-md absolute -top-px -translate-y-full h-auto"
+								class="group-hover:bg-primary-focus border-none rounded-t-md rounded-b-none badge badge-primary badge-sm xs:badge-md absolute top-0 -translate-y-full h-auto"
 							>
 								Leader School / Organization
 							</span>
@@ -51,7 +51,7 @@
 						</a>
 					{/if}
 					{#if country.iiot}
-						<a class="h-auto py-2 btn btn-outline text-lg w-full normal-case" href={country.iiot}
+						<a class="h-auto py-2 btn btn-secondary text-lg w-full normal-case" href={country.iiot}
 							>Competition website
 						</a>
 					{/if}
