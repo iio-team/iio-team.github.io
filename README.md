@@ -91,6 +91,10 @@ The parameters of the `<AccordionItem>` tag are:
 | `year` |  **Required**. The year of the competition. |
 | `flag` |  The name of the country's `.svg` flag. |
 
+## Documents
+
+The documents that are linked on the site such as the *Regulations.pdf* etc. are in the `static/documents` folder, replace them there if needed.
+
 ## Authors
 
 | Github | Email |
