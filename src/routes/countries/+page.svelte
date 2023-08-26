@@ -3,7 +3,7 @@
 	import Hero from '$lib/components/page/Hero.svelte';
 	import Content from '$lib/components/page/Content.svelte';
 
-	import { base } from '$app/paths';
+	import Flag from './Flag.svelte';
 
 	export let data;
 </script>
@@ -16,7 +16,7 @@
 <Content>
 	<p class="px-2 text-lg text-center max-w-4xl">
 		Here's the list of the participating countries and their websites.
-	</p>	
+	</p>
 	<div class="flex flex-col items-center w-full max-w-2xl gap-8">
 		{#each data.countries as country}
 			<div
@@ -29,11 +29,9 @@
 					<div
 						class="divider divider-horizontal before:rounded-t-full after:rounded-b-full md:hidden"
 					/>
-					<img
-						class="w-20 md:w-32 rounded-md md:rounded-lg"
-						src="{base}/images/flags/{country.name}.svg"
-						alt="flag of {country.name}"
-					/>
+					<div class="h-fit relative">
+						<Flag country={country} />
+					</div>
 				</figure>
 				<div class="card-body w-full md:items-start gap-4 p-8 pt-0 md:pt-8 md:pl-0">
 					{#if country.school}
@@ -60,7 +58,10 @@
 					<div class="w-full flex flex-wrap">
 						<p class="text-lg text-center">
 							{country.national_referent.name || 'Referent Name'},
-							<a href="mailto:{country.national_referent.email || ''}" class="btn-link link-secondary font-semibold">
+							<a
+								href="mailto:{country.national_referent.email || ''}"
+								class="btn-link link-secondary font-semibold"
+							>
 								{country.national_referent.email || 'referent-email@gmail.com'}
 							</a>
 						</p>
@@ -70,7 +71,10 @@
 					<div class="w-full flex flex-wrap">
 						<p class="text-lg text-center">
 							{country.scientific_coordinator.name || 'Coordinator Name'},
-							<a href="mailto:{country.scientific_coordinator.email || ''}" class="btn-link link-secondary font-semibold">
+							<a
+								href="mailto:{country.scientific_coordinator.email || ''}"
+								class="btn-link link-secondary font-semibold"
+							>
 								{country.scientific_coordinator.email || 'coordinator-email@gmail.com'}
 							</a>
 						</p>
