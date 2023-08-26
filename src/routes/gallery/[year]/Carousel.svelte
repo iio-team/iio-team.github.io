@@ -9,6 +9,8 @@
 	let modalImage;
 	let firstOpened;
 
+    let visible = false;
+
 	export function open(image) {
 		firstOpened = true;
 		modalIndex = data.images.indexOf(image);
@@ -18,10 +20,12 @@
 
 	let length = data.images.length;
 	function next() {
+        visible = false;
 		modalIndex = (modalIndex + 1) % length;
 		modalImage = data.images[modalIndex];
 	}
 	function previous() {
+        visible = false;
 		modalIndex = modalIndex - 1;
 		if (modalIndex < 0) modalIndex += length;
 		modalImage = data.images[modalIndex];
@@ -46,7 +50,7 @@
 		class="modal-box p-0 overflow-hidden w-full h-fit md:w-fit md:h-full max-w-full max-h-[90%] bg-base-300 relative"
 	>
 		<button
-			class="btn border-none opacity-60 hover:opacity-100 transition-opacity w-9 h-9 min-h-0 btn-square rounded-2xl rounded-tl-none rounded-br-none absolute right-0 top-0 origin-top-right md:right-2 md:top-2 md:origin-center md:rounded-full"
+			class="z-50 btn border-none opacity-60 hover:opacity-100 transition-opacity w-9 h-9 min-h-0 btn-square rounded-2xl rounded-tl-none rounded-br-none absolute right-0 top-0 origin-top-right md:right-2 md:top-2 md:origin-center md:rounded-full"
 		>
 			<svg xmlns="http://www.w3.org/2000/svg" class="h-6 fill-base-content" viewBox="0 0 384 512">
 				<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -63,7 +67,10 @@
 					srcset="{base}/images/gallery/{data.year}/webp/{modalImage.webp}"
 				/>
 				<img
-					class="w-full h-auto md:w-auto md:h-full object-cover"
+                    on:load={() => visible = true}
+                    class:opacity-0={!visible}
+                    class:opacity-100={visible}
+					class="w-full h-auto md:w-auto md:h-full object-cover transition-opacity"
 					src="{base}/images/gallery/{data.year}/{modalImage.file}"
 					alt={modalImage.name}
 					loading="lazy"
@@ -72,7 +79,7 @@
 		{/if}
 
 		<div
-			class="absolute md:btn-group left-0 right-0 flex justify-between md:justify-center top-1/2 -translate-y-1/2 md:top-auto md:bottom-2 md:translate-y-0"
+			class="absolute z-50 md:btn-group left-0 right-0 flex justify-between md:justify-center top-1/2 -translate-y-1/2 md:top-auto md:bottom-2 md:translate-y-0"
 		>
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<div
