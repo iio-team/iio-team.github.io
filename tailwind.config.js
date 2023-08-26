@@ -22,8 +22,8 @@ export default {
           "primary-focus": "#508e90",
           "secondary": "#595bb4",
           "secondary-focus": "#3f4181",
-          "primary-content": colors.stone[`800`],
-          "secondary-content": colors.stone[`200`]
+          "primary-content": colors.neutral[`800`],
+          "secondary-content": colors.neutral[`200`]
         },
         dark: {
           ...require("daisyui/src/theming/themes")["[data-theme=dark]"],
@@ -31,8 +31,8 @@ export default {
           "primary-focus": "#508e90",
           "secondary": "#595bb4",
           "secondary-focus": "#3f4181",
-          "primary-content": colors.stone[`800`],
-          "secondary-content": colors.stone[`200`]
+          "primary-content": colors.neutral[`800`],
+          "secondary-content": colors.neutral[`200`]
         },
       },
     ],
