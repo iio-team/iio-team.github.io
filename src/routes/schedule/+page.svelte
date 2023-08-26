@@ -11,7 +11,7 @@
 <Hero>Schedule</Hero>
 
 <Content>
-	<div class="max-w-xl w-full flex flex-col px-2 text-center gap-4">
+	<div class="max-w-xl w-full flex flex-col text-center gap-4">
 		<Date>
 			<h2 slot="title">1st qualifying round</h2>
 			<p slot="date">13 November 2023</p>
