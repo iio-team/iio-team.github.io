@@ -17,11 +17,11 @@
 <Hero>{data.year} Photos</Hero>
 
 <Content>
-	<div class="grid w-full lg:w-fit grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+	<div class="grid w-full lg:w-fit grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
 		{#each data.images as image}
 			<button
 				on:click={carousel.open(image)}
-				class="card card-compact w-full lg:w-72 xl:w-96 shadow-lg overflow-hidden cursor-pointer border border-base-300"
+				class="card card-compact w-full lg:w-96 shadow-lg overflow-hidden cursor-pointer border border-base-300"
 			>
 				<Picture year={data.year} image={image} />
 			</button>
