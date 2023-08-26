@@ -4,6 +4,7 @@
 	import Content from '$lib/components/page/Content.svelte';
 
 	import { base } from '$app/paths';
+	import Picture from './Picture.svelte';
 
 	export let data;
 </script>
@@ -21,18 +22,7 @@
 				href="{base}/gallery/{gallery.year}"
 				class="group card card-compact w-full lg:w-72 xl:w-96 bg-base-300 shadow-md overflow-hidden border border-base-300"
 			>
-				<picture class="w-full h-56 bg-base-200 overflow-hidden">
-					<source
-						type="image/webp"
-						srcset="{base}/images/gallery/{gallery.year}/webp/{gallery.webp}"
-					/>
-					<img
-						src="{base}/images/gallery/{gallery.year}/{gallery.coverFile}"
-						class="min-h-full object-cover"
-						alt={gallery.coverName}
-						loading="lazy"
-					/>
-				</picture>
+				<Picture year={gallery.year} image={gallery.image} />
 				<div
 					class="card-body bg-base-300 w-full h-14 transition-all group-hover:-translate-y-2 justify-center"
 				>

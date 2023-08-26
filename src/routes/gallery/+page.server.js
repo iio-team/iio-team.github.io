@@ -16,9 +16,11 @@ export async function load() {
 		name = file.slice(0, file.lastIndexOf('.'));
 		galleries.push({
 			year: folder,
-			coverFile: file,
-			coverName: name,
-			webp: name.replaceAll(' ', '%20') + '.webp',
+			image: {
+				file,
+				name,
+				webp: name.replaceAll(' ', '%20') + '.webp',
+			},
 			title: folder
 		})
 	})

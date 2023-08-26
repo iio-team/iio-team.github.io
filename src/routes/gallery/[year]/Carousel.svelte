@@ -43,7 +43,7 @@
 	id="modal"
 	bind:this={modal}
     on:keydown={handleArrows}
-	class="modal p-4 bg-black bg-opacity-60 backdrop-blur-md"
+	class="modal p-2 bg-black bg-opacity-60 backdrop-blur-md"
 >
 	<form
 		method="dialog"
@@ -68,9 +68,7 @@
 				/>
 				<img
                     on:load={() => visible = true}
-                    class:opacity-0={!visible}
-                    class:opacity-100={visible}
-					class="w-full h-auto md:w-auto md:h-full object-cover transition-opacity"
+					class="w-full h-auto md:w-auto md:h-full object-cover transition-opacity {visible ? '' : 'opacity-0'}"
 					src="{base}/images/gallery/{data.year}/{modalImage.file}"
 					alt={modalImage.name}
 					loading="lazy"
