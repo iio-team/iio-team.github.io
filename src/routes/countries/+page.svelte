@@ -30,7 +30,7 @@
 						class="divider divider-horizontal before:rounded-t-full after:rounded-b-full md:hidden"
 					/>
 					<div class="h-fit relative">
-						<Flag country={country} />
+						<Flag {country} />
 					</div>
 				</figure>
 				<div class="card-body w-full md:items-start gap-4 p-8 pt-0 md:pt-8 md:pl-0">
@@ -54,7 +54,17 @@
 						</a>
 					{/if}
 
-					<div class="divider m-0 mt-2 font-bold">National referent</div>
+					<div class="divider m-0 mt-2 font-bold">
+						<span class="-mr-2">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-5 fill-base-content" viewBox="0 0 512 512">
+								<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+								<path
+									d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+								/>
+							</svg>
+						</span>
+						National referent
+					</div>
 					<div class="w-full flex flex-wrap">
 						<p class="text-lg text-center">
 							{country.national_referent.name || 'Referent Name'},
@@ -67,7 +77,17 @@
 						</p>
 					</div>
 
-					<div class="divider m-0 font-bold">Scientific coordinator</div>
+					<div class="divider m-0 font-bold">
+						<span class="-mr-2">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-5 fill-base-content" viewBox="0 0 512 512">
+								<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+								<path
+									d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+								/>
+							</svg>
+						</span>
+						Scientific coordinator
+					</div>
 					<div class="w-full flex flex-wrap">
 						<p class="text-lg text-center">
 							{country.scientific_coordinator.name || 'Coordinator Name'},
