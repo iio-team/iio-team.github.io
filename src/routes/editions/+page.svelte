@@ -14,7 +14,7 @@
 	<title>Editions</title>
 </svelte:head>
 
-<Hero>Past editions of IIOT, tasks and results</Hero>
+<Hero>Past editions of IIOT: tasks, results and photos</Hero>
 
 <Content>
 	<div class="join join-vertical w-full max-w-2xl shadow-md rounded-2xl">
