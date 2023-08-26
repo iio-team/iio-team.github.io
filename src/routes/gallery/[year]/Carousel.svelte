@@ -9,7 +9,7 @@
 	let modalImage;
 	let firstOpened;
 
-    let visible = false;
+	let visible = false;
 
 	export function open(image) {
 		firstOpened = true;
@@ -20,29 +20,29 @@
 
 	let length = data.images.length;
 	function next() {
-        visible = false;
+		visible = false;
 		modalIndex = (modalIndex + 1) % length;
 		modalImage = data.images[modalIndex];
 	}
 	function previous() {
-        visible = false;
+		visible = false;
 		modalIndex = modalIndex - 1;
 		if (modalIndex < 0) modalIndex += length;
 		modalImage = data.images[modalIndex];
 	}
 
-    function handleArrows(e) {
-        //left
-        if(e.keyCode == 37) previous();
-        //right
-        else if(e.keyCode == 39) next();
-    }
+	function handleArrows(e) {
+		//left
+		if (e.keyCode == 37) previous();
+		//right
+		else if (e.keyCode == 39) next();
+	}
 </script>
 
 <dialog
 	id="modal"
 	bind:this={modal}
-    on:keydown={handleArrows}
+	on:keydown={handleArrows}
 	class="modal p-2 bg-black bg-opacity-60 backdrop-blur-md"
 >
 	<form
@@ -67,8 +67,10 @@
 					srcset="{base}/images/gallery/{data.year}/webp/{modalImage.webp}"
 				/>
 				<img
-                    on:load={() => visible = true}
-					class="w-full h-auto md:w-auto md:h-full object-cover transition-opacity {visible ? '' : 'opacity-0'}"
+					on:load={() => (visible = true)}
+					class="w-full h-auto md:w-auto md:h-full object-cover transition-opacity {visible
+						? ''
+						: 'opacity-0'}"
 					src="{base}/images/gallery/{data.year}/{modalImage.file}"
 					alt={modalImage.name}
 					loading="lazy"

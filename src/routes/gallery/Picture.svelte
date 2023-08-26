@@ -8,8 +8,8 @@
 
 	let visible = false;
 
-    let img;
-    onMount(() => visible = img.complete);
+	let img;
+	onMount(() => (visible = img.complete));
 </script>
 
 <picture class="relative w-full h-60 bg-base-200 overflow-hidden">
@@ -20,16 +20,15 @@
 	{/if}
 
 	<source
-		class="min-h-full object-cover"
 		type="image/webp"
-		srcset="{base}/images/gallery/{year}/webp/{image.webp}"
+		srcset="{base}/images/gallery/{year}/webp/{image.webp},"
 	/>
 	<img
-        bind:this={img}
-		on:load={() => visible = true}
+		bind:this={img}
+		on:load={() => (visible = true)}
 		class="min-h-full object-cover transition-opacity {visible ? '' : 'opacity-0'}"
 		src="{base}/images/gallery/{year}/{image.file}"
 		alt={image.name}
-        loading="lazy"
+		loading="lazy"
 	/>
 </picture>

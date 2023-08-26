@@ -5,12 +5,9 @@
 	import Hero from '$lib/components/page/Hero.svelte';
 	import Content from '$lib/components/page/Content.svelte';
 	import Carousel from './Carousel.svelte';
-	import { base } from '$app/paths';
 	import Picture from '../Picture.svelte';
 
 	let carousel;
-
-	let visible;
 </script>
 
 <svelte:head>
