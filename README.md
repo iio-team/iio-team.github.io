@@ -50,16 +50,6 @@ Either create and use your own API key, or ask one of the [authors](#authors) fo
 
 The data for the tasks pages is stored in the `tasks.json` file in the `src/lib/json-data` folder. For the correct json structure, see the data of the previous years.
 
-The *Statement* `.pdf` files should be stored in the `static/tasks/<year>` folder. 
-
-> The name of the `.pdf` file is **required** to match the `id` parameter of the task in the `tasks.json` file.
-
-The *Solutions and test data* `.zip` files should be stored in a google drive folder. The `FOLDER_ID` variable is the the ID of this google drive folder, which you can find like this:
-
-`drive.google.com/drive/folders/<FOLDER_ID>`
-
-> The name of the `.zip` file is **required** to match the `id` parameter of the task in the `tasks.json` file.
-
 
 ## Update Results
 
