@@ -25,7 +25,6 @@
 		<ul class="p-2">
 			<li><a href="{base}/competition/tasks/2023" class:font-bold={$page.route.id === `${base}/competition/tasks/[year]`} on:click={closeDrawer}>Tasks</a></li>
 			<li><a href="{base}/competition/results/2023" class:font-bold={$page.route.id === `${base}/competition/results/[year]`} on:click={closeDrawer}>Results</a></li>
-			<li><a href="{base}/editions" on:click={closeDrawer}>Archive</a></li>
 			<li></li>
 			<li><a href="{base}/documents/Regulations.pdf" target="_blank" on:click={closeDrawer} class="gap-8 min-w-max">Rules <img class="w-6 ml-auto" src="{base}/images/pdf.png" alt="pdf"/></a></li>
 			<li><a href="{base}/documents/Syllabus.pdf" target="_blank" on:click={closeDrawer} class="gap-8 min-w-max">Syllabus <img class=" w-6 ml-auto" src="{base}/images/pdf.png" alt="pdf"/></a></li>
@@ -34,7 +33,7 @@
 </li>
 <li><a href="{base}/schedule" class:font-bold={$page.route.id === `${base}/schedule`} on:click={closeDrawer}>Schedule</a></li>
 <li><a href="{base}/countries" class:font-bold={$page.route.id === `${base}/countries`} on:click={closeDrawer}>Countries</a></li>
-<li><a href="{base}/editions" class:font-bold={$page.route.id === `${base}/editions`} on:click={closeDrawer}>Editions</a></li>
+<li><a href="{base}/editions" class:font-bold={$page.route.id === `${base}/editions`} on:click={closeDrawer}>Past editions</a></li>
 <li><a href="{base}/gallery" class:font-bold={$page.route.id?.includes(`${base}/gallery`)} on:click={closeDrawer}>Gallery</a></li>
 <li><a href="{base}/participate" class:font-bold={$page.route.id === `${base}/participate`} on:click={closeDrawer}>Participate</a></li>
 
