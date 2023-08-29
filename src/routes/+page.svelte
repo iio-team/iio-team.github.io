@@ -8,14 +8,14 @@
 	<title>Home</title>
 </svelte:head>
 
-<div class="w-full flex justify-center bg-base-200 border-b-[1.5px] border-base-300 shadow-sm z-10 py-8 px-4">
+<div class="w-full flex justify-center bg-base-200 border-b-[1.5px] border-base-300 shadow-sm z-10 py-8 px-6">
 	<Logo maxW="3xl" />
 </div>
 
 <Content>
-	<div class="w-full max-w-3xl px-2 text-lg flex flex-col">
+	<div class="w-full max-w-3xl text-lg flex flex-col px-2">
 		<h2 class="text-2xl sm:divider">About IIOT</h2>
-		<div class="flex flex-col gap-2">
+		<div class="flex flex-col gap-2 text-justify">
 			<p>
 				The IIOT is a young project which aims to be just like the
 				<a href="https://ioinformatics.org/" class="btn-link link-secondary">International Olympiad in Informatics</a>,
@@ -27,7 +27,7 @@
 			</p>
 		</div>
 		<h2 class="text-2xl sm:divider">Why in teams?</h2>
-		<ul class="flex flex-col gap-2">
+		<ul class="flex flex-col gap-2 ">
 			<li>Teamwork is a requirement in the <span class="font-bold">labor market</span></li>
 			<li>Encourages mutual <span class="font-bold">support and learning</span></li>
 			<li>
@@ -51,7 +51,7 @@
 			</li>
 		</ul>
 		<h2 class="text-2xl sm:divider">How does it work?</h2>
-		<ul class="flex flex-col gap-2">
+		<ul class="flex flex-col gap-2 text-justify">
 			<li>
 				A <span class="font-bold">leader school or organization</span> for each country coordinates the
 				competition: please contact us to become one!
