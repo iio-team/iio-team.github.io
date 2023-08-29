@@ -2,6 +2,7 @@
 	import Hero from '$lib/components/page/Hero.svelte';
 	import Content from '$lib/components/page/Content.svelte';
 	import Date from './Date.svelte';
+	import Description from '$lib/components/page/Description.svelte';
 </script>
 
 <svelte:head>
@@ -11,6 +12,10 @@
 <Hero>Schedule</Hero>
 
 <Content>
+	<Description>
+		Here is the schedule for the Italian, Romanian and Hungarian qualifiers. Each regular member can
+		have its <span class="font-bold">own schedule</span> for their national competition.
+	</Description>
 	<div class="max-w-xl w-full flex flex-col text-center gap-4">
 		<Date>
 			<h2 slot="title">1st qualifying round</h2>

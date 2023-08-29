@@ -11,10 +11,10 @@
 </script>
 
 <svelte:head>
-	<title>Editions</title>
+	<title>Past editions</title>
 </svelte:head>
 
-<Hero>Past editions of IIOT: tasks, results and photos</Hero>
+<Hero>Past editions of IIOT</Hero>
 
 <Content>
 	<div class="join join-vertical w-full max-w-2xl shadow-md rounded-2xl">
