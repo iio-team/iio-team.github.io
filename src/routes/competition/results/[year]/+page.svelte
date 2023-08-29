@@ -16,8 +16,8 @@
 <Hero>IIOT International Final {data.year} Results</Hero>
 
 <Content>
-	<div class="overflow-x-auto w-full lg:max-w-[80%] rounded-2xl">
-		<table class="table w-fit mx-auto table-sm lg:table-md rounded-2xl bg-base-200 ">
+	<div class="overflow-x-auto w-full lg:max-w-[80%] rounded-box">
+		<table class="table w-fit mx-auto table-sm lg:table-md rounded-box bg-base-200 ">
 			<thead>
 				<tr>
 					{#each data.headers as th}

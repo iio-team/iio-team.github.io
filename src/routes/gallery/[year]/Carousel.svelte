@@ -47,10 +47,10 @@
 >
 	<form
 		method="dialog"
-		class="modal-box p-0 overflow-hidden w-full h-fit md:w-fit md:h-full max-w-full max-h-[90%] bg-base-300 relative"
+		class="modal-box p-0 overflow-hidden w-full h-fit md:w-fit md:h-full max-w-full max-h-[90%] bg-base-300 relative rounded-2xl"
 	>
 		<button
-			class="z-50 btn border-none opacity-60 hover:opacity-100 transition-opacity w-9 h-9 min-h-0 btn-square rounded-2xl rounded-tl-none rounded-br-none absolute right-0 top-0 origin-top-right md:right-2 md:top-2 md:origin-center md:rounded-full"
+			class="z-50 btn border-none opacity-60 hover:opacity-100 transition-opacity w-9 h-9 min-h-0 btn-square rounded-btn rounded-tl-none rounded-br-none absolute right-0 top-0 origin-top-right md:right-2 md:top-2 md:origin-center md:rounded-full"
 		>
 			<svg xmlns="http://www.w3.org/2000/svg" class="h-6 fill-base-content" viewBox="0 0 384 512">
 				<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->

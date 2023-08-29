@@ -17,7 +17,7 @@
 	let gallery = $galleries.includes(year);
 </script>
 
-<div class="join join-vertical w-full max-w-2xl rounded-2xl">
+<div class="join join-vertical w-full max-w-2xl">
 	<div class:collapse-arrow="{tasks || results || gallery}" class="collapse join-item bg-base-200 border border-base-300">
 		<input type="radio" name="my-accordion-4" />
 		<div class="collapse-title text-xl font-medium flex gap-6 items-center h-fit">
