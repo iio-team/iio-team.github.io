@@ -16,22 +16,6 @@
         }
     },
     {
-        "name": "Hungary",
-        "school": {
-            "url": "https://fazekas.hu/",
-            "name": "Budapesti Fazekas Mihály Gyakorló Általános Iskola és Gimnázium"
-        },
-        "iiot": "http://kodkupa.hu/",
-        "national_referent": {
-            "name": "László Nikházy",
-            "email": "laszlo.nikhazy@gmail.com"
-        },
-        "scientific_coordinator": {
-            "name": "László Nikházy",
-            "email": "laszlo.nikhazy@gmail.com"
-        }
-    },
-    {
         "name": "Romania",
         "school": { 
             "url": "http://cni.nt.edu.ro/new/",
@@ -60,6 +44,22 @@
         "scientific_coordinator": {
             "name": "",
             "email": ""
+        }
+    },
+    {
+        "name": "Hungary",
+        "school": {
+            "url": "https://fazekas.hu/",
+            "name": "Budapesti Fazekas Mihály Gyakorló Általános Iskola és Gimnázium"
+        },
+        "iiot": "http://kodkupa.hu/",
+        "national_referent": {
+            "name": "László Nikházy",
+            "email": "laszlo.nikhazy@gmail.com"
+        },
+        "scientific_coordinator": {
+            "name": "László Nikházy",
+            "email": "laszlo.nikhazy@gmail.com"
         }
     },
     {
