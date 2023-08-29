@@ -6,7 +6,7 @@
 </script>
 
 <div class="card card-c bg-base-200 shadow-md border border-base-300">
-	<div class="card-body gap-4 p-8">
+	<div class="card-body gap-4">
 		<h2 class="card-title text-xl">{task.name} ({task.id})</h2>
 		<div class="card-actions items-stretch gap-4 grid grid-cols-1 sm:grid-cols-2">
 			<a
