@@ -28,22 +28,11 @@ Run the project locally:
 
 ## Deployment
 
-A Google Drive API key is **required** for deployment purposes, for more information see the [Environment Variables](#environment-variables) section.
-
 To deploy on github pages, run:
 
 ```
   npm run deploy
 ```
-
-
-## Environment Variables
-
-The tasks page uses the [Google Drive API](https://developers.google.com/drive/api) to get the download links of the zip files for each task. 
-
-The `API_KEY` variable should be stored in a `.env` file in the root folder. 
-
-Either create and use your own API key, or ask one of the [authors](#authors) for theirs.
 
 
 ## Update Tasks
