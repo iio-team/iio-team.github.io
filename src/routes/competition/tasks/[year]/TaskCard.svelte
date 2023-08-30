@@ -10,7 +10,7 @@
 		<h2 class="card-title text-xl">{task.name} ({task.id})</h2>
 		<div class="card-actions items-stretch gap-4 grid grid-cols-1 sm:grid-cols-2">
 			<a
-				class="text-lg normal-case h-auto px-4 py-2 btn btn-neutral col-span-1 sm:col-span-2"
+				class="text-lg normal-case h-auto px-4 py-2 btn btn-neutral col-span-1 sm:col-span-2 {task.statement ? '' : 'btn-disabled opacity-75'}"
 				href={task.statement}
 				target="_blank"
 			>
@@ -27,7 +27,7 @@
 				Statement
 			</a>
 			<a
-				class="text-lg normal-case h-auto px-4 py-2 btn btn-primary col-span-1"
+				class="text-lg normal-case h-auto px-4 py-2 btn btn-primary col-span-1 {task.solutions ? '' : 'btn-disabled opacity-75'}"
 				href={task.solutions}
 				target="_blank"
 			>
@@ -44,7 +44,7 @@
 				Solutions
 			</a>
 			<a
-				class="text-lg normal-case h-auto px-4 py-2 btn btn-secondary col-span-1"
+				class="text-lg normal-case h-auto px-4 py-2 btn btn-secondary col-span-1 {task.testcases ? '' : 'btn-disabled opacity-75'}"
 				href={task.testcases}
 				target="_blank"
 			>

@@ -4,65 +4,65 @@
             {
                 "id": "abc",
                 "name": "Distributing Hat",
-                "statement": "https://drive.google.com/file/d/1-q7Ua4u72tdDhtuYqa5P97ASxHpBIHTA/view?usp=drive_link",
-                "solutions": "https://drive.google.com/drive/folders/1XNo3rL5xiYWyFogzvGpaJ2QdGXWg9tUZ?usp=drive_link",
-                "testcases": "https://drive.google.com/drive/folders/1Og1aS2TZacyeZLDspOWGZjuG6lfE9lax?usp=drive_link"
+                "statement": "https://drive.google.com/file/d/1GNX44Qxxc_mn_cTH1-gjTL9o6domyJR4/view?usp=drive_link",
+                "solutions": "https://drive.google.com/drive/folders/1upZJvklTScrQdElbPDDHJ-h0Z7n_pIYl?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1RmZqvmzw4dbpmHk_ZSLAmIg2oR6ghSY7?usp=drive_link"
             },
             {
                 "id": "binge",
                 "name": "Binge Watching",
-                "statement": "https://drive.google.com/file/d/1xKc6cF8DOUlrj4eLI0P0_1pYCHDtjHHU/view?usp=drive_link",
-                "solutions": "https://drive.google.com/drive/folders/1UKnmMpOKptVPN03fRDNmhS6T-4ModL5G?usp=drive_link",
-                "testcases": "https://drive.google.com/drive/folders/17X9zFBC1mOOnkHb4kU0fKHGd44OQuZEf?usp=drive_link"
+                "statement": "https://drive.google.com/file/d/1KAmVYvFoD6rb2miasTC7urDtKw9QFayt/view?usp=drive_link",
+                "solutions": "https://drive.google.com/drive/folders/14Fd2Hkg8dVTlnCX_8r8LFOShC1Kh2Cyg?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/16wgM-e-HfSn7x4E34jQsDrKxjLzA-LuQ?usp=drive_link"
             },
             {
                 "id": "cipher",
                 "name": "Cyclic Vigenere Cipher",
-                "statement": "https://drive.google.com/file/d/1Uz0bT8qC60pIyGFFGIhtsMNIuXLqDmcX/view?usp=drive_link",
-                "solutions": "https://drive.google.com/drive/folders/1FqONsaHrSqYcmWEaNFyCqb12CVt0_WL8?usp=drive_link",
-                "testcases": "https://drive.google.com/drive/folders/18QXotkAIgMFgEPBwj8zydpg_0dSkKuK8?usp=drive_link"
+                "statement": "https://drive.google.com/file/d/1yg7UjkaJ76V6uJyckdNdPWpxIcCMkWqs/view?usp=drive_link",
+                "solutions": "https://drive.google.com/drive/folders/1TgUQcxD8wRYLOjiPsPH4wLRdVRkq1ptk?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1WaYSIHYXFsA3Hza_SpAsiEcC_k41uO2u?usp=drive_link"
             },
             {
                 "id": "fence",
                 "name": "Problem Fence",
-                "statement": "https://drive.google.com/file/d/18N2PU71rUzjn_8jfj6h1XZ9ThzuCmHus/view?usp=drive_link",
-                "solutions": "https://drive.google.com/drive/folders/1ScVYmoSi43EpPfYNbgO7hWLaiVHgyuxE?usp=drive_link",
-                "testcases": "https://drive.google.com/drive/folders/1Ng14TMFbobVBLps9aOiG4J6YAwKrpNh_?usp=drive_link"
+                "statement": "https://drive.google.com/file/d/1f26Px1tx9QP49_1AkjoHhG2hR3Dit3zO/view?usp=drive_link",
+                "solutions": "https://drive.google.com/drive/folders/1YhytEtAwJZ4xH6vWlBOc7yisdHHlXlDS?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1tG2090b7BGzeNP_iz3CgQeiHnWWQ9Znk?usp=drive_link"
             },
             {
                 "id": "ktree",
                 "name": "Rank Queries on a Tree",
-                "statement": "https://drive.google.com/file/d/1M9CQT1seuuIfr1UVhJva27EFY9TsGeMk/view?usp=drive_link",
-                "solutions": "https://drive.google.com/drive/folders/1D1UAFidzpReu7rmUU6ett4Yd-aS275sj?usp=drive_link",
-                "testcases": "https://drive.google.com/drive/folders/1qfTHUDr0E2X9b8RRJ7w6k8tgZZaYalql?usp=drive_link"
+                "statement": "https://drive.google.com/file/d/11lsX4SzBJ0E90OCfvHQAIiwTY80O6pOx/view?usp=drive_link",
+                "solutions": "https://drive.google.com/drive/folders/1L6F0Er_ktESuL2i06j3JV66w2-38a6Sg?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1vEhTNc8II_G5tPDoq1ARiyLtmOeN_-Et?usp=drive_link"
             },
             {
                 "id": "matgame",
                 "name": "Game on a Matrix",
-                "statement": "https://drive.google.com/file/d/1IdpFKBeDofFmc7ZMyWHiLA7ZBh2A-z4s/view?usp=drive_link",
-                "solutions": "https://drive.google.com/drive/folders/1SlescqbwnDFj1KSC3JIrVQkhiyUYEKGl?usp=drive_link",
-                "testcases": "https://drive.google.com/drive/folders/1mcldGXi2KSDK4ouyJ9jyjNDrxzcbi9-8?usp=drive_link"
+                "statement": "https://drive.google.com/file/d/1Yi59cswMN2PPUQPgdzbVyKPGE4xx3zHJ/view?usp=drive_link",
+                "solutions": "https://drive.google.com/drive/folders/10FhoUfb_v150u2E-RXW54Jhqcy5BfVoq?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1BKo3OQk3sNNFcQdYZDMWvQ9Ua-0GAlOH?usp=drive_link"
             },
             {
                 "id": "publictransport",
                 "name": "Public Transport",
-                "statement": "https://drive.google.com/file/d/1QfB-f3gmsZBm4L54p5VmsMgK0idVKB8_/view?usp=drive_link",
-                "solutions": "https://drive.google.com/drive/folders/1bA_B0tJOXAx-DzCng3f1jLjyk6xmNmwa?usp=drive_link",
-                "testcases": "https://drive.google.com/drive/folders/1MZwnFdAPbjoEetG46m1ug11f3S3EuIRz?usp=drive_link"
+                "statement": "https://drive.google.com/file/d/1WH3Yl8BY_Zcic5ZNK7rG8ErP3EqCfxp-/view?usp=drive_link",
+                "solutions": "https://drive.google.com/drive/folders/1v9u7nJPViHMWrqhNKDIh7z5997iW42Lu?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1RWsK5ZsvzUoWZZN5_C9cP4y99CVATEAW?usp=drive_link"
             },
             {
                 "id": "tetris",
                 "name": "Winning Tetris",
-                "statement": "https://drive.google.com/file/d/19sAbzOBkuH0b3ILVxOiiMqjdL7tMy6P-/view?usp=drive_link",
-                "solutions": "https://drive.google.com/drive/folders/1A0Bw4ZJj7cWLw12WD8mvnr_t9-utptoS?usp=drive_link",
-                "testcases": "https://drive.google.com/drive/folders/1FzxNvOoRQx3GqL7YW1gz8SltQZMJKtEV?usp=drive_link"
+                "statement": "https://drive.google.com/file/d/1UuCucfbo8g-u810el2tBOhfJ0qTvkEjz/view?usp=drive_link",
+                "solutions": "https://drive.google.com/drive/folders/1uKY5j0ogRoYQGntbsSQbuzglg5D5K1_k?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1NvOd83jNecnFfgQvELWePg9QppUQX6K7?usp=drive_link"
             },
             {
                 "id": "tourdetree",
                 "name": "Tour de Treeland",
-                "statement": "https://drive.google.com/file/d/1eIxvkr68x8ONQ11IJaRtqhQnh8OoL2ND/view?usp=drive_link",
-                "solutions": "https://drive.google.com/drive/folders/1ftVPoLb24qxk8XeDH9WGeMCIdZdS8ruX?usp=drive_link",
-                "testcases": "https://drive.google.com/drive/folders/1DMgMRw6mr963roiNId9ldxxpCH_Tfkwp?usp=drive_link"
+                "statement": "https://drive.google.com/file/d/18KggOLByYQ-dLgoPAAiCbQgb4bwibO7h/view?usp=drive_link",
+                "solutions": "https://drive.google.com/drive/folders/17fbSRX33p0_OoxbEBARjlXIRaIjHcDdB?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/15glNMA_ykgQJ3n9FsWQWJ5VrRPtQPsnQ?usp=drive_link"
             }
         ]
     },
@@ -71,51 +71,51 @@
             {
                 "id": "discount",
                 "name": "Discount Optimisation",
-                "statement": "",
-                "solutions": "",
-                "testcases": ""
+                "statement": "https://drive.google.com/file/d/1RC7TF-AzeQypTq-OH0iCnpY2VypKBmKN/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1RntQAeOXgD1AflpQ9QSgsJ3GIo5RdRK6/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1ge3EPy6qKPIFhhya6jFYDxNkEq9Luul0?usp=drive_link"
             },
             {
                 "id": "glass",
                 "name": "Glassworks",
-                "statement": "",
-                "solutions": "",
-                "testcases": ""
+                "statement": "https://drive.google.com/file/d/1txprOA2zQchF9RGSxHO6bNKQlTQUyAve/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1zaAL1YLJUyJHqH6BGMhp4m_1FrhMF2b8/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1ba5hff2c2MzAv5NVvIHIRIgZYuQ0LH7l?usp=drive_link"
             },
             {
                 "id": "icecream",
                 "name": "Best Ice Cream Flavours",
-                "statement": "",
-                "solutions": "",
-                "testcases": ""
+                "statement": "https://drive.google.com/file/d/1MHWJrQQR-iruXgKkqnOWwMC50NyVdhy8/view?usp=drive_link",
+                "solutions": "https://drive.google.com/drive/folders/1Wngraer73syf2j8w4VtXZ3pYQGR7-lcm?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1hWP9wnkPnGPhCzW6LWOhhkXVkYCpw00A?usp=drive_link"
             },
             {
                 "id": "nostar",
                 "name": "Connect the Dots",
-                "statement": "",
-                "solutions": "",
-                "testcases": ""
+                "statement": "https://drive.google.com/file/d/1SIl_-aLM-iD6EJsoB1j1MPhxYhEWKlGB/view?usp=drive_link",
+                "solutions": "https://drive.google.com/drive/folders/1xtgUrFlxDkS6ges_sXxYfFvzZ8noKGY6?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1W0TQ8tuI7cNtCZbPPfHGkC1ew_PixzJL?usp=drive_link"
             },
             {
                 "id": "picnic",
                 "name": "Picnic's Table",
-                "statement": "",
-                "solutions": "",
-                "testcases": ""
+                "statement": "https://drive.google.com/file/d/1TACaAQpv179q0I5yAulPt3Bqqo9krfA4/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1l8MVcr8fV5X0DVZJyLZC1tZvM5hTpBko/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1THXzM3J_OEIZUX2e7GhFZhKnHoPjbtfI?usp=drive_link"
             },
             {
                 "id": "plagiarism",
                 "name": "Plagiarism",
-                "statement": "",
-                "solutions": "",
-                "testcases": ""
+                "statement": "https://drive.google.com/file/d/1wwlh0MbCAaG8Twv9BOGu8Zfh7SPGH_io/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1bdYsL_M80aduoyTdFG-bTB6pdPR92XMb/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1vCUueEz3l6SRc-nMBdAyZg-lYuVRfWZS?usp=drive_link"
             },
             {
                 "id": "stonks",
                 "name": "Big Stonks",
-                "statement": "",
-                "solutions": "",
-                "testcases": ""
+                "statement": "https://drive.google.com/file/d/1N5OnfMTqN1Q7eOz4aZsZ4yshJX4n-ZsD/view?usp=drive_link",
+                "solutions": "https://drive.google.com/drive/folders/1J4tFLXCF3sUGCFB5JF7q3LYQl2ac6GKH?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1QvgwE2MK4CDsuqIlWYi1lJOXWT3Ghzhs?usp=drive_link"
             }
         ]
     },
@@ -124,58 +124,58 @@
             {
                 "id": "chimneys",
                 "name": "Chimney Service",
-                "statement": "",
-                "solutions": "",
+                "statement": "https://drive.google.com/file/d/1Rfh46GiVV7aAj7Y0AI7zIVj3sSXpjMZQ/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1xFBJPYPiiCceba16AKCJly-NRAHq7b36/view?usp=drive_link",
                 "testcases": "" 
             },
             {
                 "id": "morse",
                 "name": "All the Emojis!",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1hjUGsw8eNpNGRPQhgcHtTHtuxHyRf16X/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1no86k5B63uW5HeftZYHraOYD-96QShPg/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1EYB4bltO-GaefaGs2qKDPrZDKDkUFpUo?usp=drive_link" 
             },
             {
                 "id": "run",
                 "name": "Marathon Training",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1fsasdUr1PVNrxdiBjhK_Wa8S5Rd1p0CW/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/11v0UqRIn910JBzlvSWvDKkovMMPTb9xG/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1VRt7tgjGpvl2P-eEFbkef_AdcEU7UBd5?usp=drive_link" 
             },
             {
                 "id": "selection",
                 "name": "Multiselect",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1cubK_k94ZQNuSgZzvKK5eRuYBE-5tlu1/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/14wZA1_z2b9s8qRM7ijMsDjTmAuTg8zhU/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/168FmVK4zo6osyD7LVOX1Lvh1L3F7lWXH?usp=drive_link" 
             },
             {
                 "id": "tasks",
                 "name": "Map of Tasks",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1c_zgv9q8IvF8CQz0AWdfSvuKOQ6mUrVk/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/14wPsTWvcLMYWDji6wIeEwZ7FW9Ac5VQM/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1TLJsTOcDKcD5RfnWwxaV3jHFHjto8kgI?usp=drive_link" 
             },
             {
                 "id": "trap",
                 "name": "Musical Fight",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1ku2Zqn-AyfHBol5PiLBLsk8PjY9OFdrQ/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1YauYAz6aABHRgjou0X7Yeq34P__A1aQM/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1H7Ty1ucl8vjBQZQsrA-BCtHP7-v0yRMw?usp=drive_link" 
             },
             {
                 "id": "vsmovies",
                 "name": "VS-Movies Group",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1437h29K0rt9MIUrZUY1nRqcDsLu12JOA/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1gBwp42BhBUfxkgY3ioFlJJlV2pEYz-DT/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1iqHQrBxrtZnck0XR18MnHYhDYZPzEnV5?usp=drive_link" 
             },
             {
                 "id": "weakhash",
                 "name": "Weak Hash Function",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1Whw__WwDdmtEGL8ebe3HfdINuWEtDTD0/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1InVLIDncaO235uACauenz0xjfkPC97DN/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1oFIY_h4wCwQ0JL4Nz5n405x6j0RffJOi?usp=drive_link" 
             }
         ]
     },
@@ -184,102 +184,102 @@
             {
                 "id": "dreamteam",
                 "name": "DreamTeam Selection",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1B5ssXr5CeEgPaltrEAPKtxj_sSiO_BI1/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1FEpz_FHODOHAZQvrr3-XqU3YRAZFjCbt/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/17vN9SF3KmKXDPeMf22HDt8dRG31N3DTX?usp=drive_link" 
             },
             {
                 "id": "laser",
                 "name": "Intrusion Detection System",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1Hv6xiC8vO8HORjhl9YnkJQ6T5sh6Sylf/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/14EwjpBlUyI1WdR-xhZsQ5V1HsrVpzJrU/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1PDZE0iIFKSgjppnYfolpBXVjxSDnfiJZ?usp=drive_link" 
             },
             {
                 "id": "manhole",
                 "name": "City Flooding",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1w7Us1oaXfgUpz8T90GjFg1x-nq4vcGKe/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1s85XwUvIoEEEzNIStA2-H3gZVAxee1OK/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/182RH_hWEWE27Caxy-TlxxEfjbcjpwL5I?usp=drive_link" 
             },
             {
                 "id": "neighborly",
                 "name": "Friendly Note",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1oyBOfTQpimSO0S7loldK6JksCK44n7nB/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1cgRnzketerWzsAqiRW-nilI6KzJK_LSC/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1-0-0jI8B_CfZbZV8DbFYlH7fD-0ipaVS?usp=drive_link" 
             },
             {
                 "id": "paintings",
                 "name": "Moiving Paintings",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1G7LSuvYPqWAy6rRQIoT4XzP4JbsuZNM4/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1tTflQLNqro7yxyIAwmTGAphjAV8KTrSX/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1Dr-jqrGrcSVnh8fGT-z_l0dLn9LScpMZ?usp=drive_link" 
             },
             {
                 "id": "proxies",
                 "name": "Masters and Slaves",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1nBMyZErIuq-r9VK62OYi53Dka5n7sTow/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1whlPPsOVXgtQbisadqiJ1llIbEJ8jOsI/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/116-BpdrDcPyDKDa3uDhS7BNL8HFEJIT6?usp=drive_link" 
             },
             {
                 "id": "spam",
                 "name": "Science Against Spam",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1yAXK0LPUloe_0AUcyCRozQZLncddhjit/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1r1WvHJsut5vr-mGThphhc0PpXU_gm3_M/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1aag6hntJacXG1d1OKlBAGbFoGIGnlXaB?usp=drive_link" 
             }
         ],
         "practice_tasks": [
             {
                 "id": "antibiotics",
                 "name": "Treatment Planning",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1LPKiU4pn9LMyrydz9ScYUekpIjj7UrX5/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1w8vgrPK-hPTHTLHMyRrq_9XpJiWvrDoM/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1JG9yDYhk_syjcKQWXHDeY74-hJncWoBR?usp=drive_link" 
             },
             {
                 "id": "arena2",
                 "name": "Capture the Flag",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1Xue97jvGQ3RUN8lToNzmSMVlfefxqiU8/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1ztQlY-G7XG_TTZOnTNSVefEkzLlj6jFh/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1mouYG_2f8bfR5tHSZpie--NECBpDUW2o?usp=drive_link" 
             },
             {
                 "id": "chores",
                 "name": "Boring Chores",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/15iVg9BeVAwj8KjgRhYeX7dPCx_Qx5paj/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1DjoFpZLnjyhc5jRxpEX32-TT4E37afQm/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1GDNIZ06ne_d0Lr9JTWU1K-Tb5f6xPv7c?usp=drive_link" 
             },
             {
                 "id": "gitube",
                 "name": "GitUbe Graph",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1sr6XwZDDCZ_D6TxHw7gRsFPNEJPb1C33/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1O0jQuma993ioi2TmkNvGdGaD71Vk8ZUB/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1gzY9xQf057LtIMBhALKJDjdvimu95v2s?usp=drive_link" 
             },
             {
                 "id": "magnamagna",
                 "name": "Winning Strategies",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1BziYYIwUpGJS2YL_vn3D6C7aMY_zA-PY/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1_Ho6docd9caBLI4xpSjjE-YzftVg92Od/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1ZI_5-POMrkXyIlD-0o9-zNqQvLx_H8hj?usp=drive_link" 
             },
             {
                 "id": "mode",
                 "name": "Fickle Trends",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1VI8UGx_B3sxB7RG6qqgVOlmU1hORKKr3/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1AoQVFi1o0Ym7kNaJ6rjCa0ETjwRCvRKO/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1G7ZCXeL5jSgNypJb_6-o8JQvSeyp92cp?usp=drive_link" 
             },
             {
                 "id": "rescaling",
                 "name": "Rescaling Sequence",
-                "statement": "",
-                "solutions": "",
-                "testcases": "" 
+                "statement": "https://drive.google.com/file/d/1e-4uNsBfioa6lWixJAAQ9Xo9HuAnqIAU/view?usp=drive_link",
+                "solutions": "https://drive.google.com/file/d/1nQk5dykyKjvQQejMcvNKBmOFjG5iMYOr/view?usp=drive_link",
+                "testcases": "https://drive.google.com/drive/folders/1oouRhF6x4ewf6BsrcSb7C6gDFp6KeKcw?usp=drive_link" 
             }
         ]
     }
