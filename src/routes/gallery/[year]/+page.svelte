@@ -17,7 +17,7 @@
 <Hero>{data.year} Photos</Hero>
 
 <Content>
-	<div class="grid justify-items-center w-fit grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-6">
+	<div class="grid justify-items-center w-fit grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
 		{#each data.images as image}
 			<button
 				on:click={carousel.open(image)}
