@@ -1,11 +1,5 @@
-<script>
-// @ts-nocheck
-
-	export let maxW = "";
-</script>
-
 <!-- PASTE THE SVG HERE -->
-<svg id="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 112" class="w-full max-w-{maxW}">
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 112" class="w-full">
 	<defs>
 		<style>
 			.cls-1 {

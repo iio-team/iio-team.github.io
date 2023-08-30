@@ -9,7 +9,9 @@
 </svelte:head>
 
 <div class="w-full flex justify-center bg-base-200 border-b-[1.5px] border-base-300 shadow-sm z-10 py-6 lg:py-12 px-6">
-	<Logo maxW="3xl" />
+	<div class="max-w-3xl w-full">
+		<Logo />
+	</div>
 </div>
 
 <Content>
