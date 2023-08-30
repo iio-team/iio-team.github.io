@@ -21,7 +21,7 @@
 		{#each data.images as image}
 			<button
 				on:click={carousel.open(image)}
-				class="card card-compact w-full max-w-[22rem] lg:w-[22rem] 2xl:w-[24rem] 2xl:max-w-[24rem] shadow-lg overflow-hidden cursor-pointer border border-base-300"
+				class="card card-compact w-full max-w-[24rem] md:w-[22rem] 2xl:w-[24rem] shadow-lg overflow-hidden cursor-pointer border border-base-300"
 			>
 				<Picture year={data.year} image={image} />
 			</button>

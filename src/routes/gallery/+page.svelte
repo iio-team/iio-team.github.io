@@ -20,7 +20,7 @@
 		{#each data.galleries as gallery}
 			<a
 				href="{base}/gallery/{gallery.year}"
-				class="group card card-compact w-full max-w-[22rem] lg:w-[22rem] 2xl:w-[24rem] 2xl:max-w-[24rem] h-fit bg-base-300 shadow-md overflow-hidden"
+				class="group card card-compact w-full max-w-[24rem] md:w-[22rem] 2xl:w-[24rem] h-fit bg-base-300 shadow-md overflow-hidden"
 			>
 				<Picture year={gallery.year} image={gallery.image} />
 				<div
