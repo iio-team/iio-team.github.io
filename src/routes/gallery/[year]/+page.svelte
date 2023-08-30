@@ -21,7 +21,7 @@
 		{#each data.images as image}
 			<button
 				on:click={carousel.open(image)}
-				class="card card-compact w-full lg:w-96 shadow-lg overflow-hidden cursor-pointer border border-base-300"
+				class="card card-compact w-full lg:w-[22rem] shadow-lg overflow-hidden cursor-pointer border border-base-300"
 			>
 				<Picture year={data.year} image={image} />
 			</button>

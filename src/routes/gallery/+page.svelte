@@ -20,15 +20,15 @@
 		{#each data.galleries as gallery}
 			<a
 				href="{base}/gallery/{gallery.year}"
-				class="group card card-compact w-full lg:w-96 h-fit bg-base-300 shadow-md overflow-hidden"
+				class="group card card-compact w-full lg:w-[22rem] h-fit bg-base-300 shadow-md overflow-hidden"
 			>
 				<Picture year={gallery.year} image={gallery.image} />
 				<div
-					class="card-body bg-base-300 w-full h-14 transition-all group-hover:-translate-y-4 justify-center"
+					class="card-body bg-base-300 w-full h-12 transition-all group-hover:-translate-y-3 justify-center"
 				>
 					<h2 class="card-title text-xl text-base-content font-bold divider !my-0">
 						{gallery.title}
-					</h2>	
+					</h2>
 				</div>
 			</a>
 		{/each}
