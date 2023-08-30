@@ -20,11 +20,11 @@
 		{#each data.galleries as gallery}
 			<a
 				href="{base}/gallery/{gallery.year}"
-				class="group card card-compact w-full max-w-[22rem] lg:max-w-none lg:w-[22rem] h-fit bg-base-300 shadow-md overflow-hidden"
+				class="group card card-compact w-full max-w-[22rem] lg:w-[22rem] 2xl:w-[24rem] 2xl:max-w-[24rem] h-fit bg-base-300 shadow-md overflow-hidden"
 			>
 				<Picture year={gallery.year} image={gallery.image} />
 				<div
-					class="card-body bg-base-300 w-full h-12 transition-all group-hover:-translate-y-3 justify-center"
+					class="card-body bg-base-300 w-full h-12 2xl:h-14 transition-all group-hover:-translate-y-3 justify-center"
 				>
 					<h2 class="card-title text-xl text-base-content font-bold divider !my-0">
 						{gallery.title}

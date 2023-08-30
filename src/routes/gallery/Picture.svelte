@@ -12,7 +12,7 @@
 	onMount(() => (visible = img.complete));
 </script>
 
-<picture class="relative w-full h-56 bg-base-200 overflow-hidden">
+<picture class="relative w-full h-56 2xl:h-60 bg-base-200 overflow-hidden">
 	{#if !visible}
 		<span
 			class="loading loading-lg loading-spinner text-secondary absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"

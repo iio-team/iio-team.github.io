@@ -16,22 +16,8 @@
 <Hero>IIOT International Final {data.year} Tasks</Hero>
 
 <Content>
-	<div class="w-full max-w-4xl flex flex-col gap-8">
-		<!-- <div class="flex gap-4 self-center">
-			<a href="#" class="btn btn-neutral btn-lg">
-				<img class="w-6" src="{base}/images/pdf.png" alt="pdf" />
-				All Statements
-			</a>
-			<a href="#" class="btn btn-primary btn-lg">
-				
-				All Solutions
-			</a>
-			<a href="#" class="btn btn-secondary btn-lg">
-				All Test Cases
-			</a>
-		</div> -->
-		
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+	<div class="w-full max-w-4xl 2xl:max-w-7xl flex flex-col gap-8">
+		<div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-6 w-full">
 			{#each data.contest_tasks as task}
 				<TaskCard {task} />
 			{/each}
@@ -39,7 +25,7 @@
 
 		{#if data.practice_tasks}
 			<h2 class="divider text-2xl font-bold mt-10 xs:px-4">Practice tasks</h2>
-			<div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+			<div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-6 w-full">
 				{#each data.practice_tasks as task}
 					<TaskCard {task} />
 				{/each}
