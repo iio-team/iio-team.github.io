@@ -16,11 +16,11 @@
 <Hero>Gallery</Hero>
 
 <Content>
-	<div class="grid w-full lg:w-fit grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+	<div class="grid justify-items-center w-fit grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
 		{#each data.galleries as gallery}
 			<a
 				href="{base}/gallery/{gallery.year}"
-				class="group card card-compact w-full lg:w-[22rem] h-fit bg-base-300 shadow-md overflow-hidden"
+				class="group card card-compact w-full max-w-[22rem] lg:max-w-none lg:w-[22rem] h-fit bg-base-300 shadow-md overflow-hidden"
 			>
 				<Picture year={gallery.year} image={gallery.image} />
 				<div
