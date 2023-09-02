@@ -42,10 +42,9 @@
 
 	function handleSwipe(e) {
 		console.log(e.detail.direction);
-		if(e.detail.direction == 'left') {
+		if (e.detail.direction == 'left') {
 			next();
-		}
-		else if(e.detail.direction == 'right') {
+		} else if (e.detail.direction == 'right') {
 			previous();
 		}
 	}
@@ -53,13 +52,13 @@
 
 <dialog
 	id="modal"
+	use:swipe
+	on:swipe={handleSwipe}
 	bind:this={modal}
 	on:keydown={handleArrows}
 	class="modal p-2 bg-black bg-opacity-60 backdrop-blur-md"
 >
 	<form
-		use:swipe
-		on:swipe={handleSwipe}
 		method="dialog"
 		class="modal-box p-0 overflow-hidden w-full h-fit md:w-fit md:h-full max-w-full max-h-[90%] bg-base-300 relative rounded-2xl"
 	>
