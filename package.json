@@ -33,6 +33,7 @@
 	"dependencies": {
 		"@sveltejs/adapter-static": "^2.0.2",
 		"gh-pages": "^5.0.0",
+		"svelte-gestures": "^1.5.2",
 		"theme-change": "^2.5.0"
 	}
 }
