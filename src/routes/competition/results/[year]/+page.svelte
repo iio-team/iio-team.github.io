@@ -19,11 +19,11 @@
 <Content>
 	<div class="gap-6 w-full flex-col flex md:hidden">
 		{#each data.rows as row, i}
-			<ResultCard row={row} headers={data.headers} rank={i+1}/>
+			<ResultCard {row} headers={data.headers} rank={i + 1} />
 		{/each}
 	</div>
 
-	<div class="overflow-x-auto w-full xl:max-w-[80%] rounded-box hidden md:block">
+	<div class="overflow-x-auto w-full xl:max-w-[85%] rounded-box hidden md:block">
 		<table class="table w-fit mx-auto table-sm lg:table-md rounded-box bg-base-200">
 			<thead>
 				<tr>
@@ -37,8 +37,7 @@
 					<tr>
 						{#each data.headers as header}
 							<td
-								class:left={['Team', 'Country', 'School'].includes(header)}
-								class:font-bold={header == 'Total'}
+								class="{['Team', 'Country', 'School'].includes(header) ? 'left' : ''}"
 							>
 								{#if header == 'Award' && row.Award && row.Award != ''}
 									<div class="tooltip h-7 cursor-help" data-tip={row.Award}>
@@ -48,6 +47,21 @@
 											alt={row.Award}
 										/>
 									</div>
+								{:else if !['Rank', 'Award', 'Team', 'Country', 'School', 'Total'].includes(header)}
+									<span
+										class="badge
+											{row[`${header}`] == 100
+											? 'badge-success'
+											: row[`${header}`] == 0
+											? 'badge-error'
+											: 'badge-primary'}"
+									>
+										{row[`${header}`]}
+									</span>
+								{:else if header == 'Total'}
+									<span class="badge badge-neutral font-bold">
+										{row[`${header}`]}
+									</span>
 								{:else}
 									{row[`${header}`]}
 								{/if}
