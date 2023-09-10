@@ -54,13 +54,15 @@ Each task object has 5 variables:
 
 The data for the results pages is stored in the `results.json` file in the `src/lib/json-data` folder.
 
-Create the results table in Excel, you can find an example file [here](static/excel/results.xlsx) with the correct format. After that, use an [Excel to JSON converter](https://tableconvert.com/excel-to-json) to convert it into an **Array of Object*** format. 
+Create the results table in Excel, you can find an example file [here](static/excel/results.xlsx) with the correct format. 
+
+If you want to display the awarded medals, create a column named `Award`. There are three available values in this column: `gold`, `silver` and `bronze`. If the team didn't get any award, leave the corresponding cell empty.
+
+After that, use an [Excel to JSON converter](https://tableconvert.com/excel-to-json) to convert it into an **Array of Object*** format. 
 
 *(On the linked site, choose the *Array of Object* option for the JSON format.)
 
 (You can also check the data of the previous years in the `results.json` file for the required final JSON format.)
-
-If you want to display the awarded medals, create a column named `Award`. There are three available values in this column: `gold`, `silver` and `bronze`. If the team didn't get any award, leave the corresponding cell empty.
 
 
 ## Update Countries
