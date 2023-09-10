@@ -23,7 +23,7 @@
 		{/each}
 	</div>
 
-	<div class="overflow-x-auto w-full xl:max-w-[85%] rounded-box hidden md:block">
+	<div class="overflow-x-auto w-full rounded-box hidden md:block">
 		<table class="table w-fit mx-auto table-sm lg:table-md rounded-box bg-base-200">
 			<thead>
 				<tr>
