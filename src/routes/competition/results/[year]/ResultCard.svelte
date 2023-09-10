@@ -1,0 +1,85 @@
+<script>
+	// @ts-nocheck
+
+	import { base } from '$app/paths';
+
+	export let row;
+	export let headers;
+	export let rank = null;
+
+	let flag;
+	function error() {
+		flag.src = `${base}/images/flags/Placeholder.svg`;
+	}
+
+	let open;
+</script>
+
+<div class="card w-full bg-base-200 shadow-md border border-base-300">
+	<div class="card-body p-6 gap-4">
+		<h2 class="card-title flex items-start justify-between gap-4">
+			<span class="font-bold text-3xl">
+				#{row.Rank ? row.Rank : rank}
+			</span>
+			<span class="text-center self-center grow text-2xl">{row.Team}</span>
+			<img
+				bind:this={flag}
+				on:error={error}
+				class="h-9 rounded-md"
+				src="{base}/images/flags/{row.Country}.svg?{Math.random()}"
+				alt={row.Country}
+			/>
+		</h2>
+		<div class="flex flex-wrap gap-2">
+			{#if row.Country}
+				<p class="text-lg w-full">
+					Country:
+					<span class="font-semibold">{row.Country}</span>
+				</p>
+			{/if}
+			{#if row.School}
+				<p class="text-lg w-full">
+					School:
+					<span class="font-semibold normal-case">{row.School}</span>.
+				</p>
+			{/if}
+            {#if row.Total}
+                <p class="text-lg flex items-center gap-2">
+                    Total points:
+                    <span class="badge h-fit w-fit transition-none text-2xl font-bold">
+                        {row.Total}
+                    </span>
+                </p>
+            {/if}
+			{#if row.Award}
+				<p class="text-lg grow-0 flex items-center gap-2">
+					Award:
+					<img src="{base}/images/medals/{row.Award}.png" alt={row.Award} class="h-9" />
+				</p>
+			{/if}
+		</div>
+		<div class="collapse collapse-arrow border border-base-300 bg-base-100">
+			<input type="checkbox" bind:checked={open} />
+			<div class="collapse-title font-medium h-fit text-lg">Points for each task:</div>
+			<div class="collapse-content {open ? 'mt-2' : ''} flex flex-wrap gap-x-4 gap-y-6">
+				{#each headers as header}
+					{#if !['Rank', 'Award', 'Team', 'Country', 'School', 'Total'].includes(header)}
+						<div class="indicator grow">
+							<span
+								class="indicator-item indicator-top indicator-center
+                                badge {row[`${header}`] == 100
+									? 'badge-success'
+									: row[`${header}`] == 0
+									? 'badge-error'
+									: 'badge-primary'}"
+							>
+								{row[`${header}`]}
+							</span>
+							<p class="bg-base-200 p-4 text-center rounded-box">{header}</p>
+						</div>
+					{/if}
+				{/each}
+			</div>
+		</div>
+	</div>
+</div>

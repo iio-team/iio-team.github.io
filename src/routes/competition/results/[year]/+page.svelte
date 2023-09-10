@@ -5,6 +5,7 @@
 	import Content from '$lib/components/page/Content.svelte';
 
 	import { base } from '$app/paths';
+	import ResultCard from './ResultCard.svelte';
 
 	export let data;
 </script>
@@ -16,8 +17,14 @@
 <Hero>IIOT International Final {data.year} Results</Hero>
 
 <Content>
-	<div class="overflow-x-auto w-full lg:max-w-[80%] rounded-box">
-		<table class="table w-fit mx-auto table-sm lg:table-md rounded-box bg-base-200 ">
+	<div class="gap-6 w-full flex-col flex md:hidden">
+		{#each data.rows as row, i}
+			<ResultCard row={row} headers={data.headers} rank={i+1}/>
+		{/each}
+	</div>
+
+	<div class="overflow-x-auto w-full xl:max-w-[80%] rounded-box hidden md:block">
+		<table class="table w-fit mx-auto table-sm lg:table-md rounded-box bg-base-200">
 			<thead>
 				<tr>
 					{#each data.headers as th}
@@ -29,8 +36,10 @@
 				{#each data.rows as row}
 					<tr>
 						{#each data.headers as header}
-							<td class:left={['Team','Country','School'].includes(header)}
-								class:font-bold={header == 'Total'}>
+							<td
+								class:left={['Team', 'Country', 'School'].includes(header)}
+								class:font-bold={header == 'Total'}
+							>
 								{#if header == 'Award' && row.Award && row.Award != ''}
 									<div class="tooltip h-7 cursor-help" data-tip={row.Award}>
 										<img
