@@ -21,7 +21,7 @@
 			<span class="font-bold text-2xl">
 				#{row.Rank ? row.Rank : rank}
 			</span>
-			<span class="text-center self-center grow text-xl">{row.Team}</span>
+			<span class="text-center grow text-xl">{row.Team}</span>
 			<img
 				bind:this={flag}
 				on:error={error}
