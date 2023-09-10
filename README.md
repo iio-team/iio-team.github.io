@@ -39,6 +39,16 @@ To deploy on github pages, run:
 
 The data for the tasks pages is stored in the `tasks.json` file in the `src/lib/json-data` folder. For the correct json structure, see the data of the previous years.
 
+Each task object has 5 variables:
+
+| Variable | Description |
+| -        |        -    |
+| `id`     | The short name of the task |
+| `name`   | The full name of the task |
+| `statement` | Link to the statement pdf file (Google Drive) |
+| `solutions` | Link to the solution(s) file/folder (Google Drive) |
+| `testcases` | Link to the testcases folder (Google Drive) |
+
 
 ## Update Results
 
