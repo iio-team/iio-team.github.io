@@ -44,7 +44,7 @@
 				</p>
 			{/if}
             {#if row.Total}
-                <p class="text-lg flex items-center gap-2">
+                <p class="text-lg flex items-center gap-1">
                     Total points:
                     <span class="badge h-fit w-fit transition-none text-2xl font-bold">
                         {row.Total}
@@ -52,13 +52,13 @@
                 </p>
             {/if}
 			{#if row.Award}
-				<p class="text-lg grow-0 flex items-center gap-2">
+				<p class="text-lg grow-0 flex items-center gap-1">
 					Award:
 					<img src="{base}/images/medals/{row.Award}.png" alt={row.Award} class="h-9" />
 				</p>
 			{/if}
 		</div>
-		<div class="collapse collapse-arrow border border-base-300 bg-base-100">
+		<div class="collapse collapse-arrow bg-base-300">
 			<input type="checkbox" bind:checked={open} />
 			<div class="collapse-title font-medium h-fit text-lg">Points for each task:</div>
 			<div class="collapse-content {open ? 'mt-2' : ''} flex flex-wrap gap-x-4 gap-y-6">
