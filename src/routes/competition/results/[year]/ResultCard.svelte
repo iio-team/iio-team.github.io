@@ -44,9 +44,9 @@
 				</p>
 			{/if}
             {#if row.Total}
-                <p class="text-lg flex items-center gap-1">
+                <p class="text-lg flex items-center gap-2">
                     Total points:
-                    <span class="badge h-fit w-fit transition-none text-2xl font-bold">
+                    <span class="badge badge-neutral h-fit w-fit transition-none text-2xl font-bold">
                         {row.Total}
                     </span>
                 </p>
