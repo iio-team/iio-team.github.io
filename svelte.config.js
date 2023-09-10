@@ -7,7 +7,10 @@ const config = {
 		adapter: adapter(),
 		paths: {
             base: process.env.NODE_ENV === 'production' ? '/iio-team.github.io' : '',
-        }
+        },
+		prerender: {
+			handleHttpError: 'warn'
+		}
 	},
 	preprocess: vitePreprocess()
 };
