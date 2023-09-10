@@ -5,7 +5,6 @@
 	"scripts": {
 		"dev": "vite dev --host",
 		"build": "vite build && echo iio.team > build/CNAME",
-		"postbuild": "move build/404/index.html build/404.html",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
