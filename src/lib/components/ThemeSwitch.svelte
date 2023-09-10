@@ -9,7 +9,7 @@
 		themeChange(false);
 		// 👆 false parameter is required for svelte
 
-		darkMode = document.documentElement.getAttribute("data-theme") == 'dark';
+		darkMode = document.documentElement.dataset.theme == 'dark';
 	});
 </script>
 

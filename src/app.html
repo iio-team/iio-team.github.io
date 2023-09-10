@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light" class="bg-base-300 m-0 p-0 h-full w-full">
+<html lang="en" class="bg-base-300 m-0 p-0 h-full w-full">
 
 <head>
 	<meta charset="utf-8" />
@@ -10,7 +10,7 @@
 
 <body data-sveltekit-preload-data="hover" class="m-0 p-0 w-full h-full">
 	<script>
-		const theme = localStorage.getItem('theme') || 'dark';
+		const theme = localStorage.getItem('theme') || 'light';
 		document.documentElement.dataset.theme = theme;
 	</script>
 	<div style="display: contents">%sveltekit.body%</div>
