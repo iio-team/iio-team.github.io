@@ -18,14 +18,14 @@
 <div class="card w-full bg-base-200 shadow-md border border-base-300">
 	<div class="card-body p-6 gap-4">
 		<h2 class="card-title flex items-start justify-between gap-4">
-			<span class="font-bold text-3xl">
+			<span class="font-bold text-2xl">
 				#{row.Rank ? row.Rank : rank}
 			</span>
-			<span class="text-center self-center grow text-2xl">{row.Team}</span>
+			<span class="text-center self-center grow text-xl">{row.Team}</span>
 			<img
 				bind:this={flag}
 				on:error={error}
-				class="h-9 rounded-md"
+				class="h-8 rounded-md"
 				src="{base}/images/flags/{row.Country}.svg?{Math.random()}"
 				alt={row.Country}
 			/>
@@ -46,7 +46,7 @@
             {#if row.Total}
                 <p class="text-lg flex items-center gap-2">
                     Total points:
-                    <span class="badge badge-neutral h-fit w-fit transition-none text-2xl font-bold">
+                    <span class="badge badge-neutral h-fit w-fit transition-none text-lg font-bold">
                         {row.Total}
                     </span>
                 </p>
