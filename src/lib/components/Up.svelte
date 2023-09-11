@@ -22,7 +22,7 @@
 <button
 	on:click={scrollTop}
     class:hidden
-	class="z-50 fixed top-2 h-10 w-10 min-h-0 mx-auto btn btn-circle btn-ghost opacity-75 lg:!hidden"
+	class="z-50 fixed top-2 h-10 w-10 min-h-0 mx-auto btn btn-circle btn-ghost lg:!hidden"
 >
 	<svg xmlns="http://www.w3.org/2000/svg" class="h-6 fill-base-content" viewBox="0 0 448 512"
 		><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path
