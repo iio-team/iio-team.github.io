@@ -1,12 +1,10 @@
 <script>
 	// @ts-nocheck
-	import { base } from '$app/paths';
-
 	export let task;
 </script>
 
-<div class="card card-c bg-base-200 shadow-md border border-base-300">
-	<div class="card-body gap-4">
+<div id="{task.id}" class="card card-c bg-base-200 shadow-md border border-base-300 scroll-m-4 lg:scroll-m-[7.5rem]">
+	<div class="card-body p-6 gap-4">
 		<h2 class="card-title text-xl">{task.name} ({task.id})</h2>
 		<div class="card-actions items-stretch gap-4 grid grid-cols-1 sm:grid-cols-2">
 			<a

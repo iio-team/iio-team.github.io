@@ -1,5 +1,6 @@
 // @ts-nocheck
 import results from '$lib/json-data/results.json';
+import tasks from '$lib/json-data/tasks.json';
 
 export async function load({ params }) {
     const year = params.year;
@@ -11,5 +12,7 @@ export async function load({ params }) {
     const rows = results[`${year}`];
     const headers = Object.keys(rows[0]);
 
-    return { headers, rows, year };
+    const hasTasks = tasks[`${year}`] ? true : false;
+
+    return { headers, rows, year, hasTasks };
 };
