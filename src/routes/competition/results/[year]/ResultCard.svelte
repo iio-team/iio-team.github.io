@@ -76,7 +76,7 @@
 								{header}
 							</a>
 						{:else}
-							<div class="h-12 flex justify-center items-center bg-base-200 rounded-btn indicator grow normal-case">
+							<div class="h-12 px-4 flex justify-center items-center bg-base-200 rounded-btn indicator grow normal-case">
 								<Score score={row[`${header}`]} />
 								{header}
 							</div>
