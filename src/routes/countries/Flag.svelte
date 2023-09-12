@@ -7,7 +7,7 @@
 
     let img;
     function error() {
-        img.src =`${base}/images/flags/Placeholder.svg`;
+        img.src =`${base}/images/flags/.svg`;
     }
 </script>
 

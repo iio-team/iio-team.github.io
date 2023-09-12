@@ -12,7 +12,7 @@
 
 	let flag;
 	function error() {
-		flag.src = `${base}/images/flags/Placeholder.svg`;
+		flag.src = `${base}/images/flags/.svg`;
 	}
 
 	let open;
