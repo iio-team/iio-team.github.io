@@ -1,7 +1,6 @@
 <script>
 	// @ts-nocheck
 
-    import { page } from '$app/stores';
 	import { base } from '$app/paths';
 
 	var today = new Date();
@@ -9,15 +8,15 @@
 </script>
 
 <svelte:head>
-	<title>{$page.status} - {$page.error.message}</title>
+	<title>404 - Not Found</title>
 </svelte:head>
 
 <div class="w-full grow max-w-2xl flex flex-col gap-8 px-4 pb-8 pt-12">
 	<div class="card-title self-center flex flex-col w-full">
-		<h2 class="text-7xl font-bold">{$page.status}</h2>
+		<h2 class="text-7xl font-bold">404</h2>
 
 		<div class="divider m-0" />
-		<h3 class="self-center text-3xl">{$page.error.message}</h3>
+		<h3 class="self-center text-3xl">Page Not Found</h3>
 	</div>
 
 	<div class="chat chat-start">
@@ -31,13 +30,7 @@
 		<div class="chat-header">
 			<time class="text-sm opacity-75 ml-1">{time}</time>
 		</div>
-		<div class="chat-bubble chat-bubble-error">
-            {#if $page.status == 404}
-                This is not the page you are looking for.
-            {:else}
-                An unexpected error happened. Try refreshing the page or come back later.
-            {/if}
-        </div>
+		<div class="chat-bubble chat-bubble-error">This is not the page you are looking for.</div>
 	</div>
 
 	<div class="card-actions flex-wrap gap-4 grow items-center justify-center">

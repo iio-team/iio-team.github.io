@@ -2,20 +2,20 @@
 	import { onMount } from 'svelte';
 	import { themeChange } from 'theme-change';
 
-	$: darkMode = true;
+	let darkMode = false;
 
 	// NOTE: the element that is using one of the theme attributes must be in the DOM on mount
 	onMount(() => {
 		themeChange(false);
 		// 👆 false parameter is required for svelte
 
-		darkMode = document.documentElement.getAttribute("data-theme") == 'dark';
+		darkMode = document.documentElement.dataset.theme == 'dark';
 	});
 </script>
 
 <label class="btn btn-ghost btn-circle swap swap-rotate">
 	<!-- this hidden checkbox controls the state -->
-	<input type="checkbox" checked={darkMode} data-toggle-theme="dark,light" />
+	<input type="checkbox" bind:checked={darkMode} data-toggle-theme="dark,light" />
 
 	<!-- sun icon -->
 	<svg class="swap-on fill-current w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"

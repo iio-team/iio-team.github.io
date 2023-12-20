@@ -11,9 +11,9 @@
             "fence": 100,
             "ktree": 100,
             "matgame": 100,
-            "public transport": 100,
+            "publictransport": 100,
             "tetris": 100,
-            "tour de tree": 100,
+            "tourdetree": 100,
             "Total": 900
         },
         {
@@ -27,9 +27,9 @@
             "fence": 100,
             "ktree": 82,
             "matgame": 85,
-            "public transport": 100,
+            "publictransport": 100,
             "tetris": 100,
-            "tour de tree": 100,
+            "tourdetree": 100,
             "Total": 801
         },
         {
@@ -43,9 +43,9 @@
             "fence": 100,
             "ktree": 100,
             "matgame": 40,
-            "public transport": 29,
+            "publictransport": 29,
             "tetris": 100,
-            "tour de tree": 100,
+            "tourdetree": 100,
             "Total": 703
         },
         {
@@ -59,9 +59,9 @@
             "fence": 100,
             "ktree": 100,
             "matgame": 85,
-            "public transport": 48,
+            "publictransport": 48,
             "tetris": 100,
-            "tour de tree": 100,
+            "tourdetree": 100,
             "Total": 687
         },
         {
@@ -75,9 +75,9 @@
             "fence": 100,
             "ktree": 100,
             "matgame": 0,
-            "public transport": 0,
+            "publictransport": 0,
             "tetris": 100,
-            "tour de tree": 100,
+            "tourdetree": 100,
             "Total": 634
         },
         {
@@ -91,9 +91,9 @@
             "fence": 100,
             "ktree": 82,
             "matgame": 40,
-            "public transport": 29,
+            "publictransport": 29,
             "tetris": 100,
-            "tour de tree": 100,
+            "tourdetree": 100,
             "Total": 605
         },
         {
@@ -107,9 +107,9 @@
             "fence": 100,
             "ktree": 24,
             "matgame": 85,
-            "public transport": 29,
+            "publictransport": 29,
             "tetris": 100,
-            "tour de tree": 100,
+            "tourdetree": 100,
             "Total": 592
         },
         {
@@ -123,9 +123,9 @@
             "fence": 100,
             "ktree": 82,
             "matgame": 0,
-            "public transport": 100,
+            "publictransport": 100,
             "tetris": 100,
-            "tour de tree": 100,
+            "tourdetree": 100,
             "Total": 576
         },
         {
@@ -139,9 +139,9 @@
             "fence": 100,
             "ktree": 8,
             "matgame": 85,
-            "public transport": 0,
+            "publictransport": 0,
             "tetris": 100,
-            "tour de tree": 100,
+            "tourdetree": 100,
             "Total": 547
         },
         {
@@ -155,9 +155,9 @@
             "fence": 100,
             "ktree": 36,
             "matgame": 40,
-            "public transport": 0,
+            "publictransport": 0,
             "tetris": 100,
-            "tour de tree": 100,
+            "tourdetree": 100,
             "Total": 510
         },
         {
@@ -171,9 +171,9 @@
             "fence": 100,
             "ktree": 0,
             "matgame": 40,
-            "public transport": 29,
+            "publictransport": 29,
             "tetris": 100,
-            "tour de tree": 100,
+            "tourdetree": 100,
             "Total": 475
         },
         {
@@ -187,9 +187,9 @@
             "fence": 100,
             "ktree": 70,
             "matgame": 10,
-            "public transport": 0,
+            "publictransport": 0,
             "tetris": 100,
-            "tour de tree": 100,
+            "tourdetree": 100,
             "Total": 396
         },
         {
@@ -203,9 +203,9 @@
             "fence": 0,
             "ktree": 0,
             "matgame": 0,
-            "public transport": 0,
+            "publictransport": 0,
             "tetris": 100,
-            "tour de tree": 0,
+            "tourdetree": 0,
             "Total": 160
         }
     ],
@@ -335,7 +335,7 @@
             "Award": "bronze",
             "Team": "In Italy, Are there pistachios?",
             "School": "Basel al Assad High School for Advanced Students",
-            "Country": "Syrian Arab Republic",
+            "Country": "Syria",
             "discount": 0,
             "glass": 40,
             "icecream": 0,
@@ -442,7 +442,7 @@
             "Award": "gold",
             "Team": "Broscutele",
             "School": "International Computer High School Of Bucharest, Bucharest",
-            "Country": "România",
+            "Country": "Romania",
             "chimneys": 42,
             "morse": 100,
             "run": 100,
@@ -458,7 +458,7 @@
             "Award": "silver",
             "Team": "Albatros321",
             "School": "\"Colegiul NațIonal \"\"Emil Racoviță\"\" , Cluj-Napoca\"",
-            "Country": "România",
+            "Country": "Romania",
             "chimneys": 18.28,
             "morse": 100,
             "run": 100,
@@ -560,7 +560,7 @@
             "run": 63,
             "selection": 0,
             "tasks": 9,
-            "trap": 100,
+            "trap": 100,    
             "vsmovies": 100,
             "weakhash": 81,
             "Total": 4642
@@ -570,7 +570,7 @@
             "Award": "",
             "Team": "CombatantiiBFR",
             "School": "Colegiul National De Informatica, Piatra Neamt",
-            "Country": "România",
+            "Country": "Romania",
             "chimneys": 0,
             "morse": 100,
             "run": 100,
@@ -600,7 +600,7 @@
         {
             "Rank": 11,
             "Award": "",
-            "Team": "IR team 2",
+            "Team": "IR Team2",
             "School": "Mathhome Of Tehran(Rooyesh Andishmand Farda), Tehran",
             "Country": "Iran",
             "chimneys": 0,
@@ -649,7 +649,7 @@
     "2019": [
         {
             "Award": "gold",
-            "Team ": "MARI_ANONIMI",
+            "Team": "MARI_ANONIMI",
             "Country": "Romania",
             "prizes": 3000,
             "holiday ride": 3500,
@@ -662,7 +662,7 @@
         },
         {
             "Award": "silver",
-            "Team ": "GCODES",
+            "Team": "GCODES",
             "Country": "Romania",
             "prizes": 3000,
             "holiday ride": 3600,
@@ -675,7 +675,7 @@
         },
         {
             "Award": "",
-            "Team ": "NUMANUMATEI",
+            "Team": "NUMANUMATEI",
             "Country": "",
             "prizes": 3000,
             "holiday ride": 2200,
@@ -688,7 +688,7 @@
         },
         {
             "Award": "bronze",
-            "Team ": "ARACHIDI VELOCI",
+            "Team": "ARACHIDI VELOCI",
             "Country": "Italy",
             "prizes": 3000,
             "holiday ride": 800,
@@ -701,7 +701,7 @@
         },
         {
             "Award": "",
-            "Team ": "PIONEERS",
+            "Team": "PIONEERS",
             "Country": "",
             "prizes": 3000,
             "holiday ride": 900,
@@ -714,7 +714,7 @@
         },
         {
             "Award": "",
-            "Team ": "LSFOLIGNO2",
+            "Team": "LSFOLIGNO2",
             "Country": "",
             "prizes": 3000,
             "holiday ride": 700,
@@ -727,7 +727,7 @@
         },
         {
             "Award": "",
-            "Team ": "TEAM1517",
+            "Team": "TEAM1517",
             "Country": "",
             "prizes": 0,
             "holiday ride": 0,

@@ -13,7 +13,7 @@
 <Hero>Participate</Hero>
 
 <Content>
-	<div class="w-full max-w-3xl px-2 text-lg flex flex-col">
+	<div class="w-full max-w-4xl px-2 text-lg flex flex-col">
 		<div class="chat chat-start">
 			<p class="chat-bubble chat-bubble-primary">
 				Joining the IIOT is really simple.

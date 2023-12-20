@@ -1,10 +1,10 @@
 <script>
 	// @ts-nocheck
-
+	import { base } from '$app/paths';
 	import Hero from '$lib/components/page/Hero.svelte';
 	import Content from '$lib/components/page/Content.svelte';
 
-	import { base } from '$app/paths';
+	import TaskCard from './TaskCard.svelte';
 
 	export let data;
 </script>
@@ -16,31 +16,20 @@
 <Hero>IIOT International Final {data.year} Tasks</Hero>
 
 <Content>
-	<div class="grid w-fit grid-cols-1 md:grid-cols-2 gap-8">
-		{#each data.tasks as task}
-			<div class="card bg-base-200 shadow-md border border-base-300">
-				<div class="card-body gap-4 p-8">
-					<h2 class="card-title text-xl">{task.name} ({task.id})</h2>
-					<div class="card-actions items-stretch gap-4">
-						<a
-							class="text-lg normal-case h-auto px-4 py-2 btn btn-primary grow w-fit"
-							href="{base}/tasks/2023/{task.id}.pdf"
-							target="_blank"
-						>
-							<img class="w-6" src="{base}/images/pdf.png" alt="pdf" />
-							Statement
-						</a>
-						<a
-							class="text-lg normal-case h-auto px-4 py-2 btn btn-neutral grow w-fit"
-							href="{data.zipMap[`${task.id}`]}"
-							download
-						>
-							<img class="w-6" src="{base}/images/zip.png" alt="zip" />
-							Solutions and test data
-						</a>
-					</div>
-				</div>
+	<div class="w-full max-w-4xl 2xl:max-w-7xl flex flex-col gap-8">
+		<div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-6 w-full">
+			{#each data.contest_tasks as task}
+				<TaskCard {task} />
+			{/each}
+		</div>
+
+		{#if data.practice_tasks}
+			<h2 class="divider text-2xl font-bold mt-10 xs:px-4">Practice tasks</h2>
+			<div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-6 w-full">
+				{#each data.practice_tasks as task}
+					<TaskCard {task} />
+				{/each}
 			</div>
-		{/each}
+		{/if}
 	</div>
 </Content>
