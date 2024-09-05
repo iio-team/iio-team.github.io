@@ -13,8 +13,9 @@
 
 <Content>
 	<Description>
-		Here is the schedule for the Italian, Romanian and Hungarian qualifiers. Each regular member can
-		have its <span class="font-bold">own schedule</span> for their national competition.
+		<p>The International final of IIOT 2024 will be held as a hybrid (onsite and online) contest from May 10th to 13th in Damascus, Syria. Detailed information and the schedule of those days can be found on the <a class="btn-link link-secondary" href="https://www.iiot2024.sy">website</a> of the final.</p>
+		<p>Below is the schedule for the Italian, Romanian and Hungarian qualifiers. Each regular member can
+		have its <span class="font-bold">own schedule</span> for their national competition.</p>
 	</Description>
 	<div class="max-w-xl w-full flex flex-col text-center gap-4">
 		<Date>
@@ -39,7 +40,7 @@
 		</Date>
 		<Date>
 			<h2 slot="title">International finals</h2>
-			<p slot="date">May, 2024</p>
+			<p slot="date">10-13 May, 2024</p>
 		</Date>
 	</div>
 </Content>
