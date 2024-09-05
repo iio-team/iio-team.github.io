@@ -10,9 +10,13 @@ export async function load({ params }) {
     }
 
     const rows = results[`${year}`];
-    const headers = Object.keys(rows[0]);
-
+    
     const hasTasks = tasks[`${year}`] ? true : false;
+    
+    const main_rows = rows['main'];
+    let guest_rows = rows['guest'];
+    
+    const headers = Object.keys(main_rows[0]);
 
-    return { headers, rows, year, hasTasks };
+    return { headers, main_rows, guest_rows, year, hasTasks };
 };

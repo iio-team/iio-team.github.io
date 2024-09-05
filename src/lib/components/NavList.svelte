@@ -34,7 +34,7 @@
 			</li>
 			<li>
 				<a
-					href="{base}/competition/results/2023"
+					href="{base}/competition/results/2024"
 					class:font-bold={$page.route.id === `${base}/competition/results/[year]`}
 					on:click={closeDrawer}>Results</a
 				>
