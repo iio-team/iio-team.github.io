@@ -77,5 +77,21 @@
             "name": "Ammar Alnahhas",
             "email": "ammcom255@gmail.com"
         }
+    },
+       {
+        "name": "United States of America",
+        "school": {
+            "url": "https://www.usiot.net",
+            "name": "United States of America Informatics Olympiad in Teams"
+        },
+        "iiot": "https://www.usiot.net",
+        "national_referent": {
+            "name": "Dylan Karpf",
+            "email": "director@usiot.net"
+        },
+        "scientific_coordinator": {
+            "name": "Dylan Karpf",
+            "email": "director@usiot.net"
+        }
     }
 ]
