@@ -13,7 +13,8 @@
 
 <Content>
 	<Description>
-		<p>The International Final of IIOT 2025 will be held from May 30th to June 3rd in Budapest, Hungary. The website of that event is: <a href="https://iiot2025.hu/">https://iiot2025.hu/</a></p>
+		<p>The International Final of IIOT 2025 will be held from May 30th to June 3rd in Budapest, Hungary.
+		The website of that event is: <a href="https://iiot2025.hu/" class="btn-link link-secondary font-bold">https://iiot2025.hu/</a></p>
 		<p>Below is the schedule for the Italian, Romanian and Hungarian qualifiers. Each regular member can
 		have its <span class="font-bold">own schedule</span> for their national competition.</p>
 	</Description>
