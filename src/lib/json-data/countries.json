@@ -78,7 +78,7 @@
             "email": "ammcom255@gmail.com"
         }
     },
-       {
+    {
         "name": "USA",
         "school": {
             "url": "https://www.usiot.net",
@@ -92,6 +92,22 @@
         "scientific_coordinator": {
             "name": "Dylan Karpf",
             "email": "director@usiot.net"
+        }
+    },
+    {
+        "name": "Bulgaria",
+        "school": {
+            "url": "https://infos.infosbg.com/",
+            "name": "Bulgarian National Informatics Committee"
+        },
+        "iiot": "https://infos.infosbg.com/nationals/IIOT?lang=en",
+        "national_referent": {
+            "name": "Iliyan Yordanov",
+            "email": "iliyan.yordanov98@gmail.com"
+        },
+        "scientific_coordinator": {
+            "name": "Dobrin Bashev",
+            "email": "dobrin.bashev@gmail.com"
         }
     }
 ]
