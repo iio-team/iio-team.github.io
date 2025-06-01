@@ -18,7 +18,7 @@
 		<slot />
 	</main>
 
-	<footer class="footer gap-6 footer-center p-10 bg-base-300 text-base-content">
+	<footer class="footer gap-4 footer-center p-10 bg-base-300 text-base-content">
 		<div class="flex flex-wrap justify-center gap-2">
 			<div class="join gap-[0.5px]">
 				<a
