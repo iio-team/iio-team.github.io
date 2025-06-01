@@ -111,7 +111,7 @@ The documents that are linked on the site such as the *Regulations.pdf* etc. are
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| IIOT logo turquoise | ![#6dc1c3](https://via.placeholder.com/10/6dc1c3?text=+) #6dc1c3 |
-| IIOT logo purple | ![#f8f8f8](https://via.placeholder.com/10/595bb4?text=+) #595bb4 |
-| IIOT logo grey | ![#00b48a](https://via.placeholder.com/10/a3a3a3?text=+) #a3a3a3 |
+| IIOT logo turquoise | ![#6dc1c3](https://placehold.co/15x15/6dc1c3/6dc1c3.png) `#6dc1c3` |
+| IIOT logo purple | ![#f8f8f8](https://placehold.co/15x15/595bb4/595bb4.png) `#595bb4` |
+| IIOT logo grey | ![#00b48a](https://placehold.co/15x15/a3a3a3/a3a3a3.png) `#a3a3a3` |
 
