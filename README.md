@@ -58,6 +58,8 @@ Create the results table in Excel, you can find an example file [here](static/ex
 
 If you want to display the awarded medals, create a column named `Award`. There are three available values in this column: `gold`, `silver` and `bronze`. If the team didn't get any award, leave the corresponding cell empty.
 
+The rest of the columns should be `Rank`, `Team`, `School`, `Country`, `Total`, and each of the task column headers with lowercase initial letter.
+
 After that, use an [Excel to JSON converter](https://tableconvert.com/excel-to-json) to convert it into an **Array of Object*** format. 
 
 *(On the linked site, choose the *Array of Object* option for the JSON format.)
