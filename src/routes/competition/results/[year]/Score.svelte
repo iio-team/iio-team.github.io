@@ -6,7 +6,7 @@
 
 <span
 	class="indicator-item indicator-top indicator-center badge
-            {score == 100 ? 'badge-success' : score == 0 ? 'badge-error' : 'badge-primary'}"
+            {score == 100 ? 'badge-success' : score == 0 ? 'badge' : 'badge-primary'}"
 >
 	{score}
 </span>

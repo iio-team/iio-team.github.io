@@ -1,5 +1,5 @@
 <script>
-// @ts-nocheck
+	// @ts-nocheck
 
 	import { base } from '$app/paths';
 
@@ -7,21 +7,13 @@
 	export let hasTasks;
 	export let year;
 	export let rows;
-
-	const maxL = 20;
-	function trim(school) {
-		if (school.length <= maxL) {
-			return school;
-		} 
-		return school.substr(0, maxL) + '...';
-	}
 </script>
 
 <div class="overflow-x-auto w-full rounded-box hidden md:block">
 	<table class="table w-fit mx-auto table-sm lg:table-md rounded-box bg-base-200">
 		<thead>
 			{#each headers as th}
-				<th class="whitespace-break-spaces text-xs">
+				<th class="whitespace-break-spaces text-xs text-center">
 					{#if ['Rank', 'Award', 'Team', 'Country', 'School', 'Total'].includes(th)}
 						{th}
 					{:else if hasTasks}
@@ -52,7 +44,7 @@
                                     {row[`${header}`] == 100
 										? 'badge-success'
 										: row[`${header}`] == 0
-										? 'badge-error'
+										? 'badge'
 										: 'badge-primary'}"
 								>
 									{row[`${header}`]}
@@ -62,9 +54,9 @@
 									{row[`${header}`]}
 								</span>
 							{:else if header == 'School'}
-								<div class="tooltip cursor-help" data-tip={row.School}>
-									{trim(row[`${header}`])}
-								</div>
+								<span class="left">
+									{row[`${header}`]}
+								</span>
 							{:else}
 								{row[`${header}`]}
 							{/if}
@@ -77,9 +69,10 @@
 </div>
 
 <style>
-	th, td {
-		padding-left: .5rem !important;
-		padding-right: .5rem !important;
+	th,
+	td {
+		padding-left: 0.5rem !important;
+		padding-right: 0.5rem !important;
 	}
 	tr {
 		border: none;
