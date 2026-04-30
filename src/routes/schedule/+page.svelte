@@ -13,7 +13,7 @@
 
 <Content>
 	<Description>
-		<p>The International Final of IIOT 2026 will take place in Piatra Neamț, Romania, from 24th to 29th May 2026.</p>
+		<p>The International Final of IIOT 2026 will take place in Piatra Neamț, Romania, from 24th to 29th May 2026. The website of that event is: <a href="http://iiot2026.cni.nt.edu.ro/" class="btn-link link-secondary font-bold">iiot2026.cni.nt.edu.ro/</a></p>
 		<p>Below is the schedule for the Italian, Romanian and Hungarian qualifiers. Each regular member can
 		have its <span class="font-bold">own schedule</span> for their national competition.</p>
 	</Description>
