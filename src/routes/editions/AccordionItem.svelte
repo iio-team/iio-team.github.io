@@ -15,6 +15,7 @@
 
 	export let year;
 	export let flag = null;
+	export let website = null;
 
 	let tasks = tasks_file[`${year}`];
 	let results = results_file[`${year}`];
@@ -31,7 +32,7 @@
 </script>
 
 <div
-	class:collapse-arrow={tasks || results || gallery}
+	class:collapse-arrow={tasks || results || gallery || website}
 	class="collapse w-full join-item bg-base-200 border border-base-300"
 >
 	<input bind:checked={active} on:change={(e) => change(e)} type="checkbox" name="accordion" />
@@ -48,8 +49,16 @@
 		<div class="contents text-lg">
 			<slot name="description" />
 		</div>
-		{#if tasks || results || gallery}
+		{#if tasks || results || gallery || website}
 			<div class="flex flex-wrap gap-4">
+				{#if website}
+					<a
+						class="grow px-8 btn btn-accent text-lg rounded-btn"
+						href={website}
+						target="_blank"
+						rel="noopener noreferrer">Website</a
+					>
+				{/if}
 				{#if tasks}
 					<a
 						class="grow px-8 btn btn-secondary text-lg rounded-btn"

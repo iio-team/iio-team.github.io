@@ -20,7 +20,13 @@
 	<div class="join join-vertical w-full max-w-2xl shadow-md rounded-box">
 		<!-- Use the `year` property -->
 		<!-- optional: To display a flag, use the `flag="filename"` property (svg files inside images/flags) -->
-		 <AccordionItem year="2025" flag="Hungary">
+		<!-- optional: To display a website link, use the `website="url"` property -->
+		<AccordionItem year="2026" flag="Romania" website="https://iiot2026.cni.nt.edu.ro/">
+			<p slot="title">
+				Piatra Neamt, Romania
+			</p>
+		</AccordionItem>
+		 <AccordionItem year="2025" flag="Hungary" website="https://iiot2025.hu/">
 			<p slot="title">
 				Budapest, Hungary
 			</p>
@@ -30,12 +36,20 @@
 				Damascus, Syria
 			</p>
 		</AccordionItem>
-		<AccordionItem year="2023" flag="Egypt">
+		<AccordionItem
+			year="2023"
+			flag="Egypt"
+			website="https://sites.google.com/aldini.istruzioneer.it/iiot/previous-editions/2023-edition"
+		>
 			<p slot="title">
 				Port Said, Egypt
 			</p>
 		</AccordionItem>
-		<AccordionItem year="2022" flag="Italy">
+		<AccordionItem
+			year="2022"
+			flag="Italy"
+			website="https://sites.google.com/aldini.istruzioneer.it/iiot/previous-editions/2022-edition"
+		>
 			<p slot="title">
 				Bologna, Italy
 			</p>
